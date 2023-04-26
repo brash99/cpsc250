@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 
 numSims = 10000
-projectedWinPercentage = 0.90
+projectedWinPercentage = 0.82
 gamesRequired = []
 
 for i in range(numSims):

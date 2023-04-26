@@ -10,7 +10,7 @@ currentPercentage = 1.0*currentWins/currentGames
 while (currentPercentage < 0.65):
     randomNumber = random.random()
     if (randomNumber < projectedWinPercentage):
-        currentWins +=1
+        currentWins += 1
     currentGames += 1
     currentPercentage = 1.0*currentWins/currentGames
 
