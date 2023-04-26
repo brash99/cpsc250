@@ -1,24 +1,25 @@
 import random
 import matplotlib.pyplot as plt
 
-currentGames = 2103
-currentWins = 1331
-
-currentPercentage = 1.0*currentWins/currentGames
-projectedWinPercentage = 0.85
-
-numSims = 100
+numSims = 10000
+projectedWinPercentage = 0.90
 gamesRequired = []
 
-while (currentPercentage < 0.65):
-    randomNumber = random.random()
-    if (randomNumber < projectedWinPercentage):
-        currentWins +=1
-    currentGames += 1
+for i in range(numSims):
+
+    currentGames = 2103
+    currentWins = 1331
+
     currentPercentage = 1.0*currentWins/currentGames
 
-gamesRequired.append(currentGames)
+    while (currentPercentage < 0.65):
+        randomNumber = random.random()
+        if (randomNumber < projectedWinPercentage):
+            currentWins +=1
+        currentGames += 1
+        currentPercentage = 1.0*currentWins/currentGames
 
-#print ("Total Games = ",currentGames)
-#print ("Total Wins = ",currentWins)
-#print ("Win Percentage = ",currentPercentage)
+    gamesRequired.append(currentGames)
+
+plt.hist(gamesRequired)
+plt.show()
