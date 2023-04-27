@@ -26,11 +26,14 @@ def required_wins_to_percentage(current_games, current_wins, target_percentage, 
 
     return round(required_wins), round(required_games)
 
-current_games = 2103
-current_wins = 1331
-target_percentage = 0.65
-projected_percentage = 0.82
 
-required_wins, required_games = required_wins_to_percentage(current_games, current_wins, target_percentage, projected_percentage)
+currentGames = 2103
+currentWins = 1331
+targetPercentage = 0.65
+projectedPercentage = 0.82
 
-print(f"You need {required_wins} more wins, out of an additional {required_games} games, to achieve a {target_percentage*100}% win percentage in {current_games+required_games} total games.")
+requiredWins, requiredGames = required_wins_to_percentage(currentGames, currentWins,
+                                                          targetPercentage, projectedPercentage)
+
+print(f"You need {requiredWins} more wins, out of an additional {requiredGames} games, to "
+      f"achieve a {targetPercentage*100}% win percentage in {currentGames+requiredGames} total games.")

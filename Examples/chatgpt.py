@@ -9,10 +9,12 @@ def required_wins_to_percentage(total_games, total_wins, target_percentage):
 
     return round(required_wins - total_wins)
 
-total_games = 100
-total_wins = 25
-target_percentage = 0.70
 
-required_wins = required_wins_to_percentage(total_games, total_wins, target_percentage)
+totalGames = 100
+totalWins = 25
+targetPercentage = 0.70
 
-print(f"You need {required_wins} more wins to achieve a {target_percentage*100}% win percentage in {total_games} games.")
+requiredWins = required_wins_to_percentage(totalGames, totalWins, targetPercentage)
+
+print(f"You need {requiredWins} more wins to achieve a "
+      f"{targetPercentage*100}% win percentage in {totalGames} games.")

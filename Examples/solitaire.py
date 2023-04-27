@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 numSims = 10000
 projectedWinPercentage = 0.82
+
 gamesRequired = []
 
 for i in range(numSims):
@@ -12,10 +13,10 @@ for i in range(numSims):
 
     currentPercentage = 1.0*currentWins/currentGames
 
-    while (currentPercentage < 0.65):
+    while currentPercentage < 0.65:
         randomNumber = random.random()
-        if (randomNumber < projectedWinPercentage):
-            currentWins +=1
+        if randomNumber < projectedWinPercentage:
+            currentWins += 1
         currentGames += 1
         currentPercentage = 1.0*currentWins/currentGames
 
