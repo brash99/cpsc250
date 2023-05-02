@@ -24,7 +24,7 @@ print_strings(s1, s2)
 s1 = "AAaa"
 s2 = "AAaa"
 print_strings(s1, s2)
-# Still optimizing, even with multicharacter strings
+# Still optimizing, even with multi-character strings
 
 s1 = "A"
 s2 = s1
