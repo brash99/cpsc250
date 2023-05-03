@@ -5,7 +5,7 @@ import scipy as sc
 import matplotlib.pyplot as plt
 
 numSims = 10000
-projectedWinPercentage = 0.82
+projectedWinPercentage = 0.86
 
 gamesRequired = []
 
@@ -25,5 +25,5 @@ for i in range(numSims):
 
     gamesRequired.append(currentGames)
 
-plt.hist(gamesRequired)
+plt.hist(gamesRequired,bins=50)
 plt.show()
