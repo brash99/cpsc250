@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/convert_fraction_to_binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/get_binary_representation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683069507083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates">
+      <created>1683251049701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683251049701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
