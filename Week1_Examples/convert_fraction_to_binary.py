@@ -4,10 +4,10 @@ p = 10
 count = 0
 res = ""
 
-while num>0 and count<p:
+while num > 0 and count < p:
     comparison = 2**(-1-count)
-    #print (num,comparison,res)
-    if (num > comparison):
+    # print (num,comparison,res)
+    if num > comparison:
         res = res + "1"
         num = num - comparison
     else:
@@ -15,4 +15,4 @@ while num>0 and count<p:
 
     count = count + 1
 
-print (res)
+print(res)

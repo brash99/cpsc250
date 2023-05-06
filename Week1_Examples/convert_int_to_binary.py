@@ -3,7 +3,7 @@ res = ""
 
 while num > 0:
     digit = num % 2
-    print(num,digit)
+    print(num, digit)
     res = str(digit)+res
     num = int(num/2)
 

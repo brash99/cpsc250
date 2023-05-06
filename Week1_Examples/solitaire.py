@@ -1,7 +1,7 @@
 import random
-import numpy as np
-import pandas as pd
-import scipy as sc
+# import numpy as np
+# import pandas as pd
+# import scipy as sc
 import matplotlib.pyplot as plt
 
 numSims = 10000
@@ -25,5 +25,5 @@ for i in range(numSims):
 
     gamesRequired.append(currentGames)
 
-plt.hist(gamesRequired,bins=50)
+plt.hist(gamesRequired, bins=50)
 plt.show()
