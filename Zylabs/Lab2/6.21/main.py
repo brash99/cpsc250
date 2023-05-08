@@ -8,7 +8,7 @@ def int_to_reverse_binary(num1):
             binary_val += '1'
         num1 = num1 // 2
 
-    return binary_val;
+    return binary_val
 
 
 def string_reverse(input_string): 
@@ -18,6 +18,7 @@ def string_reverse(input_string):
         reverse_input += input_string[i]
     
     return reverse_input
+
 
 if __name__ == '__main__':
     user_input = int(input())
