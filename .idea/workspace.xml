@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +27,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/brash/PycharmProjects/cpsc250&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Week1_Examples"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week1_Examples" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,13 +63,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683743121014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Solitaire plotting">
+      <created>1683823411383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683823411384</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Solitaire plotting">
+      <created>1683824085426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683824085426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Lab 2 solutions" />
     <MESSAGE value="Update Solitaire to add subplots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Solitaire to add subplots" />
+    <MESSAGE value="Update Solitaire plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Solitaire plotting" />
   </component>
 </project>
