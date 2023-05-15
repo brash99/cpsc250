@@ -55,11 +55,11 @@ axs[1][1].title.set_text('Latent Win Percentage')
 # Here is a simple (but wrong!) model of what the latentPercentage distribution
 # should look like
 std = 1.0/math.sqrt(chatgpt_prediction)/2.5
-mu = projectedWinPercentage
+mu = 1.02*projectedWinPercentage
 
 xmin, xmax = plt.xlim()
 x = np.linspace(xmin, xmax, hbins)
-p = numSims/hbins/2.5*norm.pdf(x, mu, std)
+p = numSims/hbins*norm.pdf(x, mu, std)
 axs[1][1].plot(x, p, 'k', linewidth=2)
 
 plt.show()
