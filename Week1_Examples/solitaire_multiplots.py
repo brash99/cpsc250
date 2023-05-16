@@ -77,15 +77,30 @@ axs[1][0].tick_params(axis='x', rotation=90)
 axs[1][0].xaxis.grid(color='gray', linestyle='dashed')
 axs[1][0].yaxis.grid(color='gray', linestyle='dashed')
 
+xpath3 = [2300, 2301, 2302, 2303, 2304, 2305, 2306]
+ypath3 = [1493, 1494, 1495, 1496, 1497, 1498, 1499]
+axs[1][1].plot(xpath3, ypath3, 'm.-')
+xpath4 = [2302, 2303]
+ypath4 = [1496, 1496]
+axs[1][1].plot(xpath4, ypath4, 'm.-')
+xpath5 = [2301, 2302]
+ypath5 = [1495, 1495]
+axs[1][1].plot(xpath5, ypath5, 'm.-')
+xpath6 = [2300, 2301]
+ypath6 = [1494, 1494]
+axs[1][1].plot(xpath6, ypath6, 'm.-')
+
+xpath2 = [2299, 2300, 2301, 2302, 2303]
+ypath2 = [1493, 1494, 1495, 1496, 1497]
+axs[1][1].plot(xpath2, ypath2, 'g.-')
+xpath7 = [2299, 2300]
+ypath7 = [1494, 1494]
+axs[1][1].plot(xpath7, ypath7, 'g.-')
+
 xpath1 = [2298, 2299, 2300]
 ypath1 = [1493, 1494, 1495]
 axs[1][1].plot(xpath1, ypath1, 'r.-')
-xpath2 = [2300, 2301, 2302, 2303]
-ypath2 = [1494, 1495, 1496, 1497]
-axs[1][1].plot(xpath2, ypath2, 'g.-')
-xpath3 = [2303, 2304, 2305, 2306]
-ypath3 = [1496, 1497, 1498, 1499]
-axs[1][1].plot(xpath3, ypath3, 'm.-')
+
 axs[1][1].plot(gamesRequired, gamesWon, 'bo')
 
 x4 = [2297+i for i in range(10)]
