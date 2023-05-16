@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
-numSims = 10000
+numSims = 100000
 projectedWinPercentage = 0.82
 startGames = 2103
 startWins = 1331

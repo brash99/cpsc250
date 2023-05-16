@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 
 numSims = 10000
 projectedWinPercentage = 0.82
-# startGames = 2103
-# startWins = 1331
-startGames = 2230
-startWins = 1433
+startGames = 2103
+startWins = 1331
+# startGames = 2230
+# startWins = 1433
 desiredPercentage = 0.65
-# chatgpt_prediction = 211
-chatgpt_prediction = 118
+chatgpt_prediction = 211
+# chatgpt_prediction = 118
 
 gamesRequired = []
 gamesWon = []
@@ -42,7 +42,7 @@ fig.tight_layout(pad=2.0)
 axs[0][0].plot(gamesRequired, gamesWon, '.')
 axs[0][0].title.set_text('Games Won vs. Games Required')
 
-axs[0][1].plot(gamesRequired, gamesWon, '.')
+axs[0][1].plot(gamesRequired, gamesWon, 'o')
 axs[0][1].title.set_text('First Plot Expanded')
 x_low = 2297
 x_high = 2307
@@ -66,7 +66,7 @@ axs[1][0].plot(xpath2, ypath2, 'g.-')
 xpath3 = [2303, 2304, 2305, 2306]
 ypath3 = [1496, 1497, 1498, 1499]
 axs[1][0].plot(xpath3, ypath3, 'm.-')
-axs[1][0].plot(gamesRequired, gamesWon, 'b.')
+axs[1][0].plot(gamesRequired, gamesWon, 'bo')
 
 axs[1][0].title.set_text('Paths to Victory')
 axs[1][0].set_xlim([x_low, x_high])
@@ -86,7 +86,7 @@ axs[1][1].plot(xpath2, ypath2, 'g.-')
 xpath3 = [2303, 2304, 2305, 2306]
 ypath3 = [1496, 1497, 1498, 1499]
 axs[1][1].plot(xpath3, ypath3, 'm.-')
-axs[1][1].plot(gamesRequired, gamesWon, 'b.')
+axs[1][1].plot(gamesRequired, gamesWon, 'bo')
 
 x4 = [2297+i for i in range(10)]
 y4 = [0.65*x4[i] for i in range(10)]
