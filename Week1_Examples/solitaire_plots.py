@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 
 numSims = 10000
 projectedWinPercentage = 0.82
-# startGames = 2103
-# startWins = 1331
-startGames = 2200
-startWins = 1410
+startGames = 2103
+startWins = 1331
+# startGames = 2230
+# startWins = 1433
 desiredPercentage = 0.65
-#chatgpt_prediction = 211
-chatgpt_prediction = 118
+chatgpt_prediction = 211
+# chatgpt_prediction = 118
 
 gamesRequired = []
 gamesWon = []
@@ -55,11 +55,11 @@ axs[1][1].title.set_text('Latent Win Percentage')
 # Here is a simple (but wrong!) model of what the latentPercentage distribution
 # should look like
 std = 1.0/math.sqrt(chatgpt_prediction)/2.5
-mu = 1.02*projectedWinPercentage
+mu = 1.01*projectedWinPercentage
 
 xmin, xmax = plt.xlim()
 x = np.linspace(xmin, xmax, hbins)
-p = numSims/hbins*norm.pdf(x, mu, std)
+p = numSims/hbins/2.0*norm.pdf(x, mu, std)
 axs[1][1].plot(x, p, 'k', linewidth=2)
 
 plt.show()
