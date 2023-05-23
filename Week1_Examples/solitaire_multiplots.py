@@ -3,14 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 numSims = 10000
-projectedWinPercentage = 0.80
-startGames = 2103
-startWins = 1331
-# startGames = 2200
-# startWins = 1410
+projectedWinPercentage = 0.82
+# startGames = 2103
+# startWins = 1331
+startGames = 2200
+startWins = 1410
 desiredPercentage = 0.65
-chatgpt_prediction = 240
-# chatgpt_prediction = 118
+# chatgpt_prediction = 211
+chatgpt_prediction = 118
 
 gamesRequired = []
 gamesWon = []

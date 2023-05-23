@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/game_of_life.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_7_23,_2_13_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_7_23__2_13_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/chatgpt_solitaire_modified.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/chatgpt_solitaire_modified.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/factorial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +86,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683825174822</updated>
     </task>
-    <task id="LOCAL-00006" summary="Update Solitaire plotting">
-      <created>1684171123591</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1684171123591</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
