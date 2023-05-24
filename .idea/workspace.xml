@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/game_of_life.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/game_of_life.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683825174822</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Solitaire plotting">
+      <created>1684841875812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684841875812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
