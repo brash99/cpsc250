@@ -41,10 +41,10 @@ def initialize_grid(size, type):
                             (14, 4), (14, 5), (14, 6), (14, 10), (14, 11), (14, 12)
                         ]
 
-    # Place the spaceship on the grid
-    for coord in starting_coords:
-        x, y = coord
-        starting_grid[x, y] = 1
+        # Place the coordinates on the grid
+        for coord in starting_coords:
+            x, y = coord
+            starting_grid[x, y] = 1
 
     return starting_grid
 
@@ -82,8 +82,9 @@ def animate_grid(grid):
 
 
 # Example usage
-grid_size = 17
-game_type = 4
-my_grid = initialize_grid(grid_size, game_type)
-animate_grid(my_grid)
+if __name__ == "__main__":
+    grid_size = 100
+    game_type = 0
+    my_grid = initialize_grid(grid_size, game_type)
+    animate_grid(my_grid)
 
