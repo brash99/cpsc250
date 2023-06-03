@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Fix warnings and add comments in solitaire.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
