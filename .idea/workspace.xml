@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Fix warnings and add comments in solitaire.py" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Fix warnings and add comments in solitaire.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Syllabus_Summer_2023.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Syllabus_Summer_2023.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
