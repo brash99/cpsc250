@@ -1,5 +1,6 @@
 num = 0.95
-p = 10
+num_original = num
+p = 23
 
 count = 0
 res = ""
@@ -15,4 +16,5 @@ while num > 0 and count < p:
 
     count = count + 1
 
-print(res)
+# print(num_original, " = ", "0.", res, " in binary.")
+print(f"{num_original} = 0.{res} in binary.")

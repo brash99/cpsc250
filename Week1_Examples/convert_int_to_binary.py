@@ -1,11 +1,11 @@
-num = 13
+num = 11
+num_original = num
 res = ""
 
 while num > 0:
     digit = num % 2
-    print(num, digit)
+    #print(num, digit)
     res = str(digit)+res
     num = int(num/2)
 
-print()
-print(res)
+print(num_original, " = ", res, " in binary.")
