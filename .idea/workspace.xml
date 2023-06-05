@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Fix warnings and add comments in solitaire.py">
+      <change afterPath="$PROJECT_DIR$/Documents/~$llabus_CPSC250_Summer_2023.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_multiplots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/solitaire_plots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

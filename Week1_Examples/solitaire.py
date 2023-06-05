@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 
 # Initial parameters
 numSims = 10000  # how many times we will "simulate" the game playing.
+
+
 projectedWinPercentage = 0.80  # win percentage to be used going forward
 startGames = 2103
 startWins = 1331
-# startGames = 2200  # total number of games played thus far
-# startWins = 1410  # total number of wins thus far
+
 desiredPercentage = 0.65  # target win percentage
-chatgpt_prediction = 211
-# chatgpt_prediction = 118  # what ChatGPT solution estimated for the required number of games
+chatgpt_prediction = 240
 
 # Create some empty lists to store values for each simulation
 gamesRequired = []
@@ -43,10 +43,10 @@ for i in range(numSims):
     # Fill lists with results for this iteration through the loop
     gamesRequired.append(currentGames)
     gamesWon.append(currentWins)
-    finalPercentage.append(currentWins/currentGames)
-    latentPercentage.append((currentWins-startWins)/(currentGames-startGames))
+    finalPercentage.append(currentWins/currentGames) # should be 0.65
+    latentPercentage.append((currentWins-startWins)/(currentGames-startGames)) # should be 0.80
 
 # Number of bins in the histograms
-h_bins = 200
+h_bins = 400
 plt.hist(gamesRequired, bins=h_bins)
 plt.show()

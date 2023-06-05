@@ -5,14 +5,13 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 
 numSims = 10000
+
 projectedWinPercentage = 0.80
 startGames = 2103
 startWins = 1331
-# startGames = 2200
-# startWins = 1410
+
 desiredPercentage = 0.65
 chatgpt_prediction = 240
-# chatgpt_prediction = 118
 
 gamesRequired = []
 gamesWon = []
@@ -42,10 +41,13 @@ hbins = 200
 
 fig, axs = plt.subplots(2, 2)
 fig.tight_layout(pad=2.0)
+
 axs[0][0].hist(gamesRequired, bins=hbins)
 axs[0][0].title.set_text('Total Games Required')
+
 axs[0][1].hist(gamesWon, bins=hbins)
 axs[0][1].title.set_text('Total Games Won')
+
 axs[1][0].hist(finalPercentage, bins=hbins)
 axs[1][0].title.set_text('Overall Win Percentage')
 
