@@ -29,3 +29,7 @@ s1 = "A"
 s2 = s1
 print_strings(s1, s2)
 print('Now, this kinda makes sense, right? Same memory locations\n')
+
+s2 = "B"
+print_strings(s1, s2)
+print('Now, this kinda makes sense, right? Different memory locations\n')

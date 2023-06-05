@@ -56,6 +56,9 @@ employee_info.remove("John")  # Remove specific element ... which one does it re
 print(employee_info)
 print()
 
+# employee_info.sort()  # Note:  you will get an error here ... not all elements of the list are the same type!
+# print(employee_info)
+
 toppings = ['pepperoni', 'sausage', 'mushroom']
 more_toppings = ['onion', 'bacon']
 toppings.extend(more_toppings)  # Add elements from another list, one at a time ... note this is different from append
@@ -76,5 +79,4 @@ print(toppings)  # sort in reverse alphabetical order
 toppings.sort(reverse=True, key=lambda x: len(x))
 print(toppings)  # sort by length of the word, largest to smallest
 
-# employee_info.sort()  # Note:  you will get an error here ... not all elements of the list are the same type!
-# print(employee_info)
+

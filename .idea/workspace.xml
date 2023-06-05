@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Fix warnings and add comments in solitaire.py">
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_hex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/~$llabus_CPSC250_Summer_2023.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_fraction_to_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_fraction_to_binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/list_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/list_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/strings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685983833528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix warnings and add comments in solitaire.py">
+      <created>1685997171026</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685997171026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
