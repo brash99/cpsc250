@@ -56,8 +56,8 @@ employee_info.remove("John")  # Remove specific element ... which one does it re
 print(employee_info)
 print()
 
-# employee_info.sort()  # Note:  you will get an error here ... not all elements of the list are the same type!
-# print(employee_info)
+#employee_info.sort()  # Note:  you will get an error here ... not all elements of the list are the same type!
+#print(employee_info)
 
 toppings = ['pepperoni', 'sausage', 'mushroom']
 more_toppings = ['onion', 'bacon']
