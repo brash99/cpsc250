@@ -21,17 +21,17 @@ if __name__ == '__main__':
     names, states, debts = read_customer_data("CustomerData.csv")
 
     # Step 2: Input debt limit, search phrase, and state
-    debt_limit = int(input())
-    search_phrase = input()
-    st = input()
+    debt_limit = float(input('Enter the debt limit: '))
+    search_phrase = input('Enter the last name phrase: ')
+    st = input('Enter the state to search for: ')
 
     # Step 3: Find highest debt among customers
-    print("U.S. Report")
+    print("U.S. Credit Card Debt Report - E.J. Brash - 6/7/2023")
 
     index_max = 0
-    for n in range(len(names)):
+    for n in range(1,len(names)):
         if debts[n] > debts[index_max]:
-            index = n
+            index_max = n
     print(f"Highest debt: {names[index_max]} with debt = {debts[index_max]}")
     print()
 
@@ -51,6 +51,7 @@ if __name__ == '__main__':
             no_debt += 1
         elif debts[n] > debt_limit:
             count += 1
+
     print(f"Customers with debt over ${debt_limit}: {count}")
     print(f"Customers debt free: {no_debt}")
     print()
