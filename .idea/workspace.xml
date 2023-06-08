@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Updates after class 2">
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/.particulate_matter.csv.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/aqi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/function_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/particulate_matter.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week1_Examples/grade_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/credit_card_debt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/credit_card_debt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686068647168</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updates after class 2">
+      <created>1686162019931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686162019931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updates after class 2">
+      <created>1686164109562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686164109562</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
