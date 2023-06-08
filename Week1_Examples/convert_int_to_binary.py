@@ -1,16 +1,16 @@
 # Using built-in function
-num = 11
+num = 4095
 b = bin(num)
 print(num, " = ", b, " in binary.")
 
 num_original = num
-res = ""
+result = ""
 
 while num > 0:
     digit = num % 2
     num = int(num/2)
     # print(num, digit)
-    res = str(digit)+res
+    result = str(digit)+result
 
 
-print(num_original, " = ", res, " in binary.")
+print(num_original, " = ", result, " in binary.")

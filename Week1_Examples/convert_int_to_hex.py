@@ -1,5 +1,5 @@
-num = 4095
-base = 16
+num = 585974156
+base = 7
 
 num_original = num
 res = ""

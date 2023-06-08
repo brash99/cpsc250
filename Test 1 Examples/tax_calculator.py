@@ -70,7 +70,6 @@ if __name__ == '__main__':
     # Step 2: Calculate AGI
     agi = calc_AGI(wages, interest, unemployment)
 
-
     # Step 3: Calculate Deduction
     deduction = get_deduction(status)
 
