@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Updates after class 2">
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/tax_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/tax_calculator_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/.particulate_matter.csv.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 1 Examples/grade_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 1 Examples/grade_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 1 Examples/tax_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 1 Examples/tax_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_hex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_hex.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week1_Examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test 1 Examples" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -177,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686190199558</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updates after class 2">
+      <created>1686228800532</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686228800532</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updates after class 2">
+      <created>1686228901362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686228901362</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
