@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Updates after class 2">
-      <change beforePath="$PROJECT_DIR$/Test 1 Examples/grade_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 1 Examples/grade_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 1 Examples/tax_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 1 Examples/tax_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_hex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_hex.py" afterDir="false" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Add initial week 2 example codes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/airline.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/airline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686228901362</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updates after class 2">
+      <created>1686237297184</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686237297184</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add initial week 2 example codes">
+      <created>1686312672665</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686312672665</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +218,7 @@
     <MESSAGE value="Update Solitaire plotting" />
     <MESSAGE value="Fix warnings and add comments in solitaire.py" />
     <MESSAGE value="Updates after class 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates after class 2" />
+    <MESSAGE value="Add initial week 2 example codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial week 2 example codes" />
   </component>
 </project>

@@ -22,7 +22,7 @@ class Seat:
 # Main program
 
 # Initialize a list of Seat() objects
-num_seats = 5
+num_seats = 10
 available_seats = []
 for i in range(num_seats):
     available_seats.append(Seat())
@@ -38,12 +38,25 @@ def print_seats(seats):
     print(seat_status_is_empty)
 
 
+# Print the passenger list - only print seats that are NOT empty
 def print_passenger_list(seats):
     global num_seats
     for ii in range(num_seats):
         if not seats[ii].is_empty():
             print(f'{ii}:', end=' ')
             seats[ii].print_seat()
+
+
+# Reserve a seat.  Make sure that seat is empty!
+def reserve_seat(seats):
+    seat_num = int(input('Enter seat num:\n'))
+    if not seats[seat_num].is_empty():
+        print('Seat not empty')
+    else:
+        firstname = input('Enter first name:\n')
+        lastname = input('Enter last name:\n')
+        paid = float(input('Enter amount paid:\n'))
+        seats[seat_num].reserve(firstname, lastname, paid)
 
 
 # Write a menu loop to take commands from the user
@@ -58,17 +71,10 @@ while command != 'q':
     if command == 'p':  # Print seats
         print_seats(available_seats)
     elif command == 'r':  # Reserve a seat
-        seat_num = int(input('Enter seat num:\n'))
-        if not available_seats[seat_num].is_empty():
-            print('Seat not empty')
-        else:
-            firstname = input('Enter first name:\n')
-            lastname = input('Enter last name:\n')
-            paid = float(input('Enter amount paid:\n'))
-            available_seats[seat_num].reserve(firstname, lastname, paid)
+        reserve_seat(available_seats)
     elif command == 'l':  # List passengers
         print_passenger_list(available_seats)
     else:
         print('Invalid command.')
 
-    command = input('Enter command (p/r/q):\n')
+    command = input('Enter command (p/l/r/q):\n')
