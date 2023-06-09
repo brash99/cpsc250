@@ -18,6 +18,14 @@ class Restaurant:
         self.price = price
         self.cuisine = cuisine
 
+    # Define a print_info method, which summarizes object information
+    def __str__(self):
+        return (f'Restaurant Information:\n'
+                f'      Name = {self.name}\n'
+                f'      Rating = {self.rating}\n'
+                f'      Price = {self.price}\n'
+                f'      Cuisine Type = {self.cuisine}')
+
     # Define setter and getter methods for each internal variable of the class
     def set_name(self, user_name):
         self.name = user_name
@@ -43,14 +51,6 @@ class Restaurant:
     def get_cuisine(self):
         return self.cuisine
 
-    # Define a print_info method, which summarizes object information
-    def print_info(self):
-        print(f'Restaurant Information:')
-        print(f'      Name = {self.name}')
-        print(f'      Rating = {self.rating}')
-        print(f'      Price = {self.price}')
-        print(f'      Cuisine Type = {self.cuisine}')
-
 
 if __name__ == "__main__":
 
@@ -70,10 +70,10 @@ if __name__ == "__main__":
     # moes.set_price("**")
 
     # Call the print_info method, to see initial values
-    moes.print_info()
+    print(moes)
 
     panera = Restaurant("Panera", "Soups and Sandwiches", 4, "*****")
     fiveguys = Restaurant("Five Guys", "Burgers", 10, "****")
 
-    panera.print_info()
-    fiveguys.print_info()
+    print(panera)
+    print(fiveguys)
