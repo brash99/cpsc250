@@ -20,7 +20,7 @@ class Time:
         return False
 
     def __sub__(self, other):
-        time_diff = Time(0,0)
+        time_diff = Time(0, 0)
         if self.minutes >= other.minutes:
             time_diff.minutes = self.minutes - other.minutes
             time_diff.hours = self.hours - other.hours
@@ -29,6 +29,7 @@ class Time:
             time_diff.hours = self.hours - other.hours - 1
 
         return time_diff
+
 
 if __name__ == "__main__":
 
