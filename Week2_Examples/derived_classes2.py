@@ -30,7 +30,7 @@ class MotorCycle(MotorVehicle):
         MotorVehicle.__init__(self, name, speed, mpg)
 
     def wheelie(self):
-        print('That is too dangerous.')
+        print(f'On a {self.name}, that is too dangerous.')
 
 
 # Define two motorcycles, specifying all values

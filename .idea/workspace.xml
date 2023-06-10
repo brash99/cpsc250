@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Add initial week 2 example codes">
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/memory_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/memory_test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/restaurant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/time.py" afterDir="false" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 2 updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_classes2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/derived_classes2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686324168227</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Week 2 updates">
+      <created>1686346115251</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346115251</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Week 2 updates">
+      <created>1686407257176</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686407257176</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +248,7 @@
     <MESSAGE value="Fix warnings and add comments in solitaire.py" />
     <MESSAGE value="Updates after class 2" />
     <MESSAGE value="Add initial week 2 example codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial week 2 example codes" />
+    <MESSAGE value="Week 2 updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 updates" />
   </component>
 </project>
