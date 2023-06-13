@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # Note:  these are times on a 24-hour clock, on the same day
     time1 = Time(10, 45)
     time2 = Time(12, 15)
-    time3 = Time(9, 15)
+    time3 = Time(10, 45)
 
     print(f'Time1 = {time1}')
     print(f'Time2 = {time2}')

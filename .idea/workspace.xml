@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 2 updates">
-      <change afterPath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Multiple_Inheritance.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Philosophy_of_Complex_Objects.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Testing_Code_with_Unit_Tests.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/Circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/PlantFlower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/PlantInformation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/circle_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation_winnings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686416483427</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Week 2 updates">
+      <created>1686423851359</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686423851359</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Week 2 updates">
+      <created>1686490021397</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686490021397</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
