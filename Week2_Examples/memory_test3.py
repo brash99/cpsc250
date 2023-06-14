@@ -1,5 +1,5 @@
 import ctypes
-import tracemalloc
+#import tracemalloc
 
 
 class Dog:
@@ -14,8 +14,8 @@ class Cat:
         self.cousin = cousin
 
 
-tracemalloc.start(5)
-time1 = tracemalloc.take_snapshot()
+#tracemalloc.start(5)
+#time1 = tracemalloc.take_snapshot()
 
 bailey = Dog("Bailey")  # create bailey, with no cousins
 misty = Cat("Misty", bailey)  # create misty, assign bailey as her cousin
@@ -37,8 +37,8 @@ print(f"misty's reference count: {ctypes.c_long.from_address(id(misty)).value}")
 
 del misty
 
-time2 = tracemalloc.take_snapshot()
+# time2 = tracemalloc.take_snapshot()
 # stats
-stats = time2.compare_to(time1, "lineno")
-for stat in stats[:3]:
-    print(stat)
+# stats = time2.compare_to(time1, "lineno")
+# for stat in stats[:3]:
+#    print(stat)

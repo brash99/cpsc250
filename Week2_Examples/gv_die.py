@@ -8,7 +8,7 @@ class GVDie:
 
     # Roll the die to get 1 - 6
     def roll(self):
-      self.value = random.randint(1, 6)
+      self.value = random.randint(1, 6)  # random integer between 1 and 6 inclusive.
 
     # Return current die value
     def get_value(self):
