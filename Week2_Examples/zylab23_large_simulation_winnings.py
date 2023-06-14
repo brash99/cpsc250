@@ -20,7 +20,7 @@ initial_credits = int(input())
 die1 = gv_die.GVDie()
 die2 = gv_die.GVDie()
 
-num_sims = 1000
+num_sims = 300
 round_result = []
 credit_result = []
 result_number = []

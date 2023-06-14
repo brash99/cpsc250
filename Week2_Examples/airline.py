@@ -19,15 +19,6 @@ class Seat:
         print(f'{self.first_name} {self.last_name}, Paid: {self.paid:.2f}')
 
 
-# Main program
-
-# Initialize a list of Seat() objects
-num_seats = 10
-available_seats = []
-for i in range(num_seats):
-    available_seats.append(Seat())
-
-
 # Create and print a list of the current seat status (T = Empty, F = Reserved)
 def print_seats(seats):
     global num_seats
@@ -58,6 +49,14 @@ def reserve_seat(seats):
         paid = float(input('Enter amount paid:\n'))
         seats[seat_num].reserve(firstname, lastname, paid)
 
+
+# Main program
+
+# Initialize a list of Seat() objects
+num_seats = 10
+available_seats = []
+for i in range(num_seats):
+    available_seats.append(Seat())
 
 # Write a menu loop to take commands from the user
 #
