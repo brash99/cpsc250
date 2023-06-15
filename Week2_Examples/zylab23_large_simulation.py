@@ -90,16 +90,29 @@ for i in range(num_sims):
     credit_result.append(credit_round)
     result_number.append(result_round)
 
+
+######## Matplotlib ######
+
+# define number of bins in the histogram of rounds per game
 hbins = 100
-# plt.hist(round_result, hbins)
-# plt.yscale('log')
 
-# print(len(result_number))
-# print(result_number)
-# print(credit_result)
+# choose whether to plot the rounds histogram or the credit profile
+choice = 1
 
-for j in range(len(result_number)):
-    if len(result_number[j]) > 3000:
-        plt.plot(result_number[j], credit_result[j])
+if choice == 0:
+    plt.hist(round_result, hbins)
+    plt.yscale('log')  # Choose logarithmic y-scale
+    plt.title("Results for Many Lucky7 Simulations")
+    plt.xlabel("Number of Rounds")
+    plt.ylabel("Frequency")
+elif choice == 1:
+    # plot the credit profile for situations where there were
+    # a large number of rounds (>8000)
+    for j in range(len(result_number)):
+        if len(result_number[j]) > 8000:
+            plt.plot(result_number[j], credit_result[j])
+    plt.title("Lucky 7 Simulations: Sample Credit Profiles")
+    plt.xlabel("Round Number")
+    plt.ylabel("Credits")
 
 plt.show()

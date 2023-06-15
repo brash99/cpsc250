@@ -30,8 +30,15 @@ tw = []
 
 for f in range(len(factors)):
 
-    stop_playing = factors[f]*initial_credits
-    print("Limit: ",stop_playing)
+    # stop playing if the player is "up" by the chosen factor
+    stop_playing_ahead = factors[f]*initial_credits
+    print("Positive Limit: ",stop_playing_ahead)
+
+    # stop playing if the player is "down" by the chosen factor
+    # stop_playing_behind = 0
+    # stop_playing_behind = 50.0
+    stop_playing_behind = initial_credits/factors[f]
+    print("Negative Limit: ", stop_playing_behind)
 
     total_winnings = 0.0
 
@@ -66,15 +73,17 @@ for f in range(len(factors)):
                 credit_round.append(credits)
                 result_count += 1
                 result_round.append(result_count)
-                if credits >= stop_playing:
+                if credits >= stop_playing_ahead:
                     total_winnings += credits
                     quit = True
-
             elif total <= 3 or total == 12:
                 credits -= 1
                 credit_round.append(credits)
                 result_count += 1
                 result_round.append(result_count)
+                if credits <= stop_playing_behind:
+                    total_winnings += credits
+                    quit = True
             else:
                 goal = total
 
@@ -92,6 +101,9 @@ for f in range(len(factors)):
                     credit_round.append(credits)
                     result_count += 1
                     result_round.append(result_count)
+                    if credits <= stop_playing_behind:
+                        total_winnings += credits
+                        quit = True
                 # Player wins one credit
                 elif total == goal:
                     credits += 1
@@ -99,7 +111,7 @@ for f in range(len(factors)):
                     credit_round.append(credits)
                     result_count += 1
                     result_round.append(result_count)
-                    if credits >= stop_playing:
+                    if credits >= stop_playing_ahead:
                         total_winnings += credits
                         quit = True
 
@@ -113,20 +125,10 @@ for f in range(len(factors)):
     print(f'Total Winnings: { total_winnings }')
     tw.append(total_winnings)
 
-    hbins = 100
-
-    # plt.hist(round_result, hbins)
-    # plt.yscale('log')
-
-    # print(len(result_number))
-    # print(result_number)
-    # print(credit_result)
-
-    # for j in range(len(result_number)):
-        # if len(result_number[j]) > 3000:
-            # plt.plot(result_number[j], credit_result[j])
-
     print(factors, tw)
 
 plt.plot(factors, tw, 'r-o')
+plt.title("Lucky7 Simulations:  Total Winnings for Various Stopping Points")
+plt.xlabel("Stopping Factor")
+plt.ylabel("Total Winnings")
 plt.show()

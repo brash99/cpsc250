@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 2 updates">
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/list_removal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_credit_profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation_winnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation_winnings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686709450490</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Week 2 updates">
+      <created>1686744313189</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686744313189</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Week 2 updates">
+      <created>1686773810942</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686773810942</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
