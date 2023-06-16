@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 2 updates">
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_credit_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Derived_Classes.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Derived_Classes.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Inheritance_and_Polymorphism.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Inheritance_and_Polymorphism.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Multiple_Inheritance.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Multiple_Inheritance.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Plant_Information_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Plant_Information_Example.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Testing_Code_with_Unit_Tests.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Testing_Code_with_Unit_Tests.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/Circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/PlantFlower.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/PlantFlower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/PlantInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/PlantInformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/circle_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_classes2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_classes2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_override.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_override.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/multiple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/multiple_mixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/multiple_mixin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation_winnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation_winnings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +55,8 @@
       <recent name="$PROJECT_DIR$/Week1_Examples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LectureNotes/Week3_Lectures" />
+      <recent name="$PROJECT_DIR$/Week3_Examples" />
       <recent name="$PROJECT_DIR$/Test 1 Examples" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -295,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686773810942</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Week 2 updates">
+      <created>1686830733787</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686830733787</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
