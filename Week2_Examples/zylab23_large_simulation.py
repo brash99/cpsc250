@@ -21,9 +21,9 @@ die1 = gv_die.GVDie()
 die2 = gv_die.GVDie()
 
 num_sims = 1000
-round_result = []
-credit_result = []
-result_number = []
+round_result = []  # list of result_round[] lists
+credit_result = []  # list of credit_round[] lists
+result_number = []  # list of rounds (for each simulation)
 
 for i in range(num_sims):
 
@@ -109,7 +109,7 @@ elif choice == 1:
     # plot the credit profile for situations where there were
     # a large number of rounds (>8000)
     for j in range(len(result_number)):
-        if len(result_number[j]) > 8000:
+        if len(result_number[j]) > 11500:
             plt.plot(result_number[j], credit_result[j])
     plt.title("Lucky 7 Simulations: Sample Credit Profiles")
     plt.xlabel("Round Number")
