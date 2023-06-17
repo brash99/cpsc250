@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 2 updates">
-      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Derived_Classes.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Derived_Classes.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Inheritance_and_Polymorphism.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Inheritance_and_Polymorphism.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Multiple_Inheritance.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Multiple_Inheritance.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Plant_Information_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Plant_Information_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LectureNotes/Week2_Lectures/Testing_Code_with_Unit_Tests.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LectureNotes/Week3_Lectures/Testing_Code_with_Unit_Tests.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/PlantFlower.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/PlantFlower.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/PlantInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/PlantInformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/circle_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_classes2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_classes2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/derived_override.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/derived_override.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/multiple_mixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/multiple_mixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/zylab23_large_simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
