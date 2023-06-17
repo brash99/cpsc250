@@ -4,12 +4,18 @@ def fibonacci(n):
     elif n == 1:
         return 1
     else:
-        return fibonacci(n-1)+fibonacci(n-2)
+        t1 = 0
+        t2 = 1
+        for i in range(2,n+1):
+            t3 = t2 + t1
+            t1 = t2
+            t2 = t3
+        return t3
 
 
 if __name__ == "__main__":
 
-    nth_term = 35
+    nth_term = -1
 
     if nth_term % 10 == 0:
         ending = "th"
