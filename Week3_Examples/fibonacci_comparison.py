@@ -36,7 +36,7 @@ def fibonacci_recursive(n):
 
 if __name__ == "__main__":
 
-    nmax = 20000
+    nmax = 40
 
     dec.getcontext().prec = 100
 
