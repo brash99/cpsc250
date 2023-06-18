@@ -36,9 +36,9 @@ def fibonacci_recursive(n):
 
 if __name__ == "__main__":
 
-    nmax = 40
+    nmax = 10000
 
-    dec.getcontext().prec = 100
+    dec.getcontext().prec = 150
 
     one = dec.Decimal(1)
     two = dec.Decimal(2)
@@ -90,13 +90,14 @@ if __name__ == "__main__":
             e3 = time1.stop()
             trecursion.append(e3)
 
-    plt.plot(nplot, tactual)
-    plt.plot(nplot, tformula)
-    plt.plot(nplotr, trecursion)
+    plt.plot(nplot, tactual, label='Direct Loop')
+    plt.plot(nplot, tformula, label='Phi Formula')
+    plt.plot(nplotr, trecursion, label='Recursive Function')
 
     plt.title('Comparison of Different Algorithms for Fibonacci Number Calculation')
     plt.xlabel('Term of Fibonacci Sequence')
     plt.ylabel('Time (s)')
     plt.yscale('log')
+    plt.legend()
 
     plt.show()
