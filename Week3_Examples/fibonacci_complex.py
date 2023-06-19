@@ -37,6 +37,6 @@ if __name__ == '__main__':
     plt.axvline(x=0, c="black", linewidth=0.5)
     plt.axhline(y=0, c="black", linewidth=0.5)
     plt.title("Complex Fibonacci Sequence")
-    plt.xlabel("n")
-    plt.ylabel("f_n")
+    plt.xlabel("Real(f_n)")
+    plt.ylabel("Imag(f_n)")
     plt.show()

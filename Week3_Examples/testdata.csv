@@ -1,0 +1,9 @@
+Temperature,Pollen Count,Error in Temperature,Error in Pollen Count
+30,22,0.5,1
+40,24,0.5,1
+50,27,0.5,1
+60,37,0.5,2
+70,39,0.5,2
+80,45,0.5,4
+90,67,0.5,4
+100,92,0.5,6
