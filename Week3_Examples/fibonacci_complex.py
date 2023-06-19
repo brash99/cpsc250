@@ -10,7 +10,7 @@ def fibonacci_phi(n):
 if __name__ == '__main__':
 
     xlow = 0.0
-    xhigh = -5.1
+    xhigh = 5.1
     npts = 1111
     dx = (xhigh-xlow)/npts
 
