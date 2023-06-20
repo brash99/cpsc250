@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3_Examples/ants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3_Examples/pandas_data_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/basic_data_plotting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/testdata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_comparison.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,35 +313,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687006475273</updated>
     </task>
-    <task id="LOCAL-00037" summary="Week 2 updates">
-      <created>1687112275699</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1687112275699</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Week 2 updates">
-      <created>1687196664724</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1687196664724</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Week 2 updates">
-      <created>1687199716425</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1687199716425</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Week 2 updates">
-      <created>1687215543342</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1687215543342</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

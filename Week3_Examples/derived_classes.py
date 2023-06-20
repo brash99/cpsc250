@@ -56,10 +56,11 @@ item2.display()
 print(f'  Expires: {item2.get_expiration()}')
 
 item3 = Banana()
-item3.set_name('Chiquita')
-item3.set_quantity(50)
-item3.set_expiration('7/4/2023')
-item3.set_color('yellow')
-item3.display()
-print(f'  Expires: {item3.get_expiration()}')
-print(f'  Color: {item3.get_color()}')
+item3.set_name('Chiquita')  # Item class
+item3.set_quantity(50)  # Item class
+item3.set_expiration('7/4/2023')  # Produce class
+item3.set_color('yellow')  # Banana class
+item3.display()  # Item class
+print(f'  Expires: {item3.get_expiration()}')  # Produce class
+print(f'  Color: {item3.get_color()}')  # Banana class
+
