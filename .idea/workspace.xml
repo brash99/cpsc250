@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3_Examples/basic_data_plotting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week3_Examples/testdata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3_Examples/ants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3_Examples/pandas_data_plotting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex_multiplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex_multiplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex_multiplot2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_complex_multiplot2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/basic_data_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/testdata.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687199716425</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Week 2 updates">
+      <created>1687215543342</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1687215543342</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

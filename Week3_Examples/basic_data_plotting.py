@@ -19,7 +19,7 @@ def read_data(filename):
             dx.append(float(row[2]))
             dy.append(float(row[3]))
 
-    return headers, x, y, dy, dy
+    return headers, x, y, dx, dy
 
 
 # Step 3a: Define a quadratic fit function
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     # print(xi, yi, dxi, dyi)
 
     # Step 2: Basic plot of the data with error bars, plot title, and axis labels
-    plt.errorbar(xi, yi, dxi, dyi, 'o', label="Pollen Count Data")
+    plt.errorbar(xi, yi, xerr=dxi, yerr=dyi, fmt='o', label="Pollen Count Data")
     plt.title("Basic Plotting Example")
     plt.xlabel(header_values[0])
     plt.ylabel(header_values[1])
