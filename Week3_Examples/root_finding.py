@@ -6,7 +6,7 @@ def find_root(a, b):
     epsilon = 1.0E-8
     fa = f(a)
     fb = f(b)
-    print(a,b,fa,fb)
+    print(a, b, fa, fb)
     if abs(fa-fb) < epsilon:
         print("Type 1: Found root at x = ", a)
     else:
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     fb = f(b)
 
     if fa*fb > 0:
-        print(a,b,fa,fb)
+        print(a, b, fa, fb)
         print("No root on this interval!!")
     elif fa*fb == 0:
         if fa == 0:
