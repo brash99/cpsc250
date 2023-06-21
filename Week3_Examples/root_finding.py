@@ -6,7 +6,7 @@ def find_root(a, b):
     epsilon = 1.0E-8
     fa = f(a)
     fb = f(b)
-    # print(a,b,fa,fb)
+    print(a,b,fa,fb)
     if abs(fa-fb) < epsilon:
         print("Type 1: Found root at x = ", a)
     else:
