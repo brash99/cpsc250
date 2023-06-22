@@ -6,7 +6,7 @@ def fibonacci(n):
     else:
         t1 = 0
         t2 = 1
-        for i in range(2,n+1):
+        for i in range(2, n+1):
             t3 = t2 + t1
             t1 = t2
             t2 = t3
@@ -15,7 +15,7 @@ def fibonacci(n):
 
 if __name__ == "__main__":
 
-    nth_term = -1
+    nth_term = 1000
 
     if nth_term % 10 == 0:
         ending = "th"

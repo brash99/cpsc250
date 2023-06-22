@@ -9,7 +9,7 @@ def fibonacci(n):
 
 if __name__ == "__main__":
 
-    nth_term = 35
+    nth_term = 10
 
     if nth_term % 10 == 0:
         ending = "th"

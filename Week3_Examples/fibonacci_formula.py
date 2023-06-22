@@ -31,9 +31,9 @@ def fibonacci_phin(n):
 
 if __name__ == "__main__":
 
-    nth_term = 300
+    nth_term = 199
 
-    dec.getcontext().prec = 100
+    dec.getcontext().prec = 100  # select 100 decimal place precision
 
     one = dec.Decimal(1)
     two = dec.Decimal(2)
@@ -44,10 +44,10 @@ if __name__ == "__main__":
 
     phin = (one + five ** onehalf) / two
 
-    print(one)
-    print(two)
-    print(five)
-    print(onehalf)
+    #print(one)
+    #print(two)
+    #print(five)
+    #print(onehalf)
 
     print(phi)
     print(phin)

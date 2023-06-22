@@ -3,7 +3,7 @@ from timer import Timer
 import matplotlib.pyplot as plt
 
 
-def fibonacci(n):
+def fibonacci(n):  # Expect O(n)
     if n == 0:
         return 0
     elif n == 1:
@@ -19,13 +19,13 @@ def fibonacci(n):
         return t3
 
 
-def fibonacci_phi(n):
+def fibonacci_phi(n):  # Expect O(1)
     global phi
     global one, two, five, onehalf
     return round((phi**n-(-one/phi)**n)/five**onehalf)
 
 
-def fibonacci_recursive(n):
+def fibonacci_recursive(n):  # Expect O(e^n)
     if n == 0:
         return 0
     elif n == 1:
