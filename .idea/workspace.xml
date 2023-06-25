@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Week4_Examples/numerical_integration.py" afterDir="false" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/fibonacci_complex_multiplot2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/fibonacci_complex_multiplot2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +46,10 @@
       <recent name="$PROJECT_DIR$/Week1_Examples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/LectureNotes/Week4_Lectures" />
-      <recent name="$PROJECT_DIR$/Week4_Examples" />
       <recent name="$PROJECT_DIR$/Week3_Examples" />
       <recent name="$PROJECT_DIR$/LectureNotes/Week3_Lectures" />
       <recent name="$PROJECT_DIR$/Test 1 Examples" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -312,35 +313,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687006475273</updated>
     </task>
-    <task id="LOCAL-00037" summary="Week 3 updates">
-      <created>1687362977128</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1687362977128</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Week 3 updates">
-      <created>1687447467429</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1687447467429</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Week 3 updates">
-      <created>1687531834334</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1687531834334</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Week 4 updates">
-      <created>1687532042060</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1687532042060</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,8 +325,6 @@
     <MESSAGE value="Updates after class 2" />
     <MESSAGE value="Add initial week 2 example codes" />
     <MESSAGE value="Week 2 updates" />
-    <MESSAGE value="Week 3 updates" />
-    <MESSAGE value="Week 4 updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 4 updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 updates" />
   </component>
 </project>
