@@ -94,7 +94,7 @@ if __name__ == '__main__':
 
     else:
         yfit = expfunction(xfit, *popt)
-        plt.plot(xfit, yfit, 'r--', label=f"Exponential Fit: \ny = ({a:.4f} +/- {da:.4f})e^(({b:.3f} +/- {db:.3f})x) + \n({c:.2f} +/- {dc:.2f})")
+        #plt.plot(xfit, yfit, 'r--', label=f"Exponential Fit: \ny = ({a:.4f} +/- {da:.4f})e^(({b:.3f} +/- {db:.3f})x) + \n({c:.2f} +/- {dc:.2f})")
 
     # Step 4:  Plot the error band
 
@@ -112,7 +112,8 @@ if __name__ == '__main__':
         middle = (upper+lower)/2.0
         plt.plot(xfit, upper, 'g--', label='One Sigma Error Band')
         plt.plot(xfit, lower, 'g--')
-        plt.plot(xfit, middle, 'r--')
+        if fitchoice == 2:
+            plt.plot(xfit, middle, 'r--', label=f"Exponential Fit: \ny = ({a:.4f} +/- {da:.4f})e^(({b:.3f} +/- {db:.3f})x) + \n({c:.2f} +/- {dc:.2f})")
 
     plt.legend()
 
