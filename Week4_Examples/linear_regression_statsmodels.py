@@ -12,7 +12,8 @@ import statsmodels.api as sm
 #       for each data point.
 #
 
-df = pd.DataFrame({'x': [5, 15, 25, 35, 45, 55], 'y': [5, 20, 14, 32, 22, 38]})
+df = pd.DataFrame({'x': [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
+                   'y': [5, 12, 20, 18, 14, 32, 31, 38, 47, 46, 60]} )
 
 print(df['x'])
 print(df['y'])
