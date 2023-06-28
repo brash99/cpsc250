@@ -11,11 +11,11 @@ import matplotlib.pyplot as plt
 #       variables (x_1, x_2, x_3, ...), and the rows correspond to the values of those variables
 #       for each data point.
 #
-x = np.array([5, 15, 25, 35, 45, 55]).reshape((-1, 1))
-y = np.array([5, 20, 14, 32, 22, 38])
+x = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).reshape((-1, 1))
+y = np.array([1.1, 2.1, 2.9, 3.9, 5.1, 5.9, 6.9, 8.05, 9.1, 9.7])
 
-# print(x)
-# print(y)
+print(x)
+print(y)
 
 # Linear Regression Model from scikit-learn
 model = LinearRegression()

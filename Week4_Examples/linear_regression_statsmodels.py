@@ -12,11 +12,10 @@ import statsmodels.api as sm
 #       for each data point.
 #
 
-df = pd.DataFrame({'x': [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
-                   'y': [5, 12, 20, 18, 14, 32, 31, 38, 47, 46, 60]} )
+df = pd.DataFrame({'x': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                   'y': [1.1, 2.1, 2.9, 3.9, 5.1, 5.9, 6.9, 8.05, 9.1, 9.7] } )
 
-print(df['x'])
-print(df['y'])
+print(df)
 
 y = df['y']
 X = df['x']
