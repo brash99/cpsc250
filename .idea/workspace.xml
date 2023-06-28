@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels_multifactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels_multifactor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,14 +333,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687805848087</updated>
     </task>
-    <task id="LOCAL-00040" summary="Week 2 updates">
-      <created>1687808105316</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1687808105316</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
