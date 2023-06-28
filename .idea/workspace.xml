@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" afterDir="false" />
-    </list>
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
