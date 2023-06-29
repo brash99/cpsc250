@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # plt.xscale('log')
     # plt.yscale('log')
 
-    fitchoice = 1
+    fitchoice = 2
 
     if fitchoice == 1:
         # Step 3b:  Fit the data with quadratic

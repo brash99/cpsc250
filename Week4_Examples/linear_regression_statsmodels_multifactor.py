@@ -69,4 +69,9 @@ ax[1][2].plot(advert['Newspaper'], sales_pred3, 'o', label = "Data")  # scatter 
 ax[1][2].set_xlabel('Newspaper Advertising Costs')
 ax[1][2].set_ylabel('Sales vs. TV/Radio Residual')
 
+
+print(model.summary())
+print(model2.summary())
+print(model3.summary())
+
 plt.show()

@@ -37,7 +37,7 @@ if __name__ == '__main__':
     # print(xi, yi, dxi, dyi)
 
     # Step 2: Basic plot of the data with error bars, plot title, and axis labels
-    plt.errorbar(xi, yi, xerr=dxi, yerr=dyi, fmt='o', label="Pollen Count Data")
+    plt.errorbar(xi, yi, xerr=dxi, yerr=dyi, fmt='o', label="Pollen Count Data", capsize=5.0)
     plt.title("Basic Plotting Example")
     plt.xlabel(header_values[0])
     plt.ylabel(header_values[1])
@@ -68,8 +68,8 @@ if __name__ == '__main__':
     print(f'Fit Result: y = ({a:.5f} +/- {da:.5f})x^2 + ({b:.5f} +/- {db:.5f})x + ({c:.5f} +/- {dc:.5f})')
 
     # Step 3d:  Plot the fit result
-    xlow = min(xi) - 10
-    xhigh = max(xi) + 10
+    xlow = min(xi) - 30
+    xhigh = max(xi) + 30
     xfit = np.linspace(xlow, xhigh, 100)
     yfit = fitfunction(xfit,*popt)
 
