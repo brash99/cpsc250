@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
+      <change afterPath="$PROJECT_DIR$/Week1_Examples/probability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels_multifactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels_multifactor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/fibonacci.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/fibonacci.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/brash/PycharmProjects/cpsc250/Week4_Examples&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Week4_Examples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week4_Examples" />
@@ -63,6 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682612334148</updated>
+      <workItem from="1688324910440" duration="232000" />
+      <workItem from="1688325165569" duration="8653000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -351,8 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1687956884053</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Week 4 updates">
+      <created>1688043635926</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1688043635926</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -364,5 +381,8 @@
     <MESSAGE value="Add initial week 2 example codes" />
     <MESSAGE value="Week 2 updates" />
     <option name="LAST_COMMIT_MESSAGE" value="Week 2 updates" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cpsc250$probability.coverage" NAME="probability Coverage Results" MODIFIED="1688782934232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1_Examples" />
   </component>
 </project>
