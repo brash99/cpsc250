@@ -68,8 +68,8 @@ if __name__ == '__main__':
     print(f'Fit Result: y = ({a:.5f} +/- {da:.5f})x^2 + ({b:.5f} +/- {db:.5f})x + ({c:.5f} +/- {dc:.5f})')
 
     # Step 3d:  Plot the fit result
-    xlow = min(xi) - 30
-    xhigh = max(xi) + 30
+    xlow = min(xi) - 10
+    xhigh = max(xi) + 10
     xfit = np.linspace(xlow, xhigh, 100)
     yfit = fitfunction(xfit,*popt)
 
