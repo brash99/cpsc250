@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/convert_int_to_binary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.convert_int_to_base.executor": "Run",
+    "Python.convert_int_to_binary.executor": "Run",
+    "Python.grade_calculator.executor": "Run",
+    "Python.tax_calculator.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -115,7 +118,7 @@
       <workItem from="1688324910440" duration="232000" />
       <workItem from="1688325165569" duration="11439000" />
       <workItem from="1688903054983" duration="730000" />
-      <workItem from="1710004424608" duration="332000" />
+      <workItem from="1710004424608" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
