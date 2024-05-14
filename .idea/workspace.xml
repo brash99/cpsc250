@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/fibonacci.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/fibonacci.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +28,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
   <component name="ProjectId" id="2P16eCZvvvlEZW4NW30cNQrr3G3" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -105,8 +102,7 @@
       <updated>1682612334148</updated>
       <workItem from="1688324910440" duration="232000" />
       <workItem from="1688325165569" duration="11439000" />
-      <workItem from="1688903054983" duration="2481000" />
-      <workItem from="1715690313485" duration="473000" />
+      <workItem from="1688903054983" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -418,15 +414,7 @@
       <option name="project" value="LOCAL" />
       <updated>1688817912491</updated>
     </task>
-    <task id="LOCAL-00045" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1689044253926</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1689044253926</updated>
-    </task>
-    <option name="localTasksCounter" value="46" />
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +433,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Week 4 updates" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cpsc250$basic_data_plotting.coverage" NAME="basic_data_plotting Coverage Results" MODIFIED="1688817468946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$probability.coverage" NAME="probability Coverage Results" MODIFIED="1688783186305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1_Examples" />
+    <SUITE FILE_PATH="coverage/cpsc250$basic_data_plotting.coverage" NAME="basic_data_plotting Coverage Results" MODIFIED="1688817468946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4_Examples" />
   </component>
 </project>

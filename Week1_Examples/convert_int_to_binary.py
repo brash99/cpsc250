@@ -1,8 +1,10 @@
 # Using built-in function
 num = 4095
+num = 34596
 b = bin(num)
-print(num, " = ", b, " in binary.")
+print(f"Built-in Function: {num} = {b} in binary.")
 
+# Using custom function
 num_original = num
 result = ""
 
@@ -12,5 +14,4 @@ while num > 0:
     # print(num, digit)
     result = str(digit)+result
 
-
-print(num_original, " = ", result, " in binary.")
+print(f"Custom Function:   {num_original} = 0b{result} in binary.")
