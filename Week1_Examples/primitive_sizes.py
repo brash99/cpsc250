@@ -13,6 +13,7 @@ myString3 = "ABC"
 
 print("Integer:")
 print(sys.getsizeof(i), "bytes.")
+print(id(i))
 
 print("Boolean:")
 print(sys.getsizeof(tf1), "bytes.")

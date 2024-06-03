@@ -5,6 +5,7 @@ b = 0.1
 c = 0.1
 
 # Here is a dangerous algorithm
+
 print("Algorithm 1:")
 if a+b+c == 0.3:
     print("Sanity")
