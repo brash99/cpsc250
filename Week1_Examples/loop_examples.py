@@ -32,3 +32,57 @@ for i in range(1, numLines+1):
     for j in range(i+1):
         print("*", end="") # Print a star without a newline
     print() # Print a newline
+
+
+# Example 2:
+
+# loop through a specified list
+
+names = ["John", "Paul", "George", "Ringo"]
+
+for name in names:
+    print(name)
+
+# Example 3:
+
+# loop through a specified list, with an index
+
+names = ["John", "Paul", "George", "Ringo"]
+
+for i in range(len(names)):
+    print(i, names[i])
+
+# Example 4:
+
+mylist = [1, 3.14159, "Hello", True]
+
+for item in mylist:
+    print(item)
+
+# Example 5:
+
+age = 1
+
+while age < 21:
+    print("You are", age, "years old - no alcohol for you!")
+    age = age + 1
+
+print("You are", age, "years old - you can drink now!")
+
+# Summary:
+#
+# 1.  The for loop is used to iterate over a sequence
+# (e.g., a list, a string, a range of numbers).  The
+# general format is:
+#
+# for loop_variable in Python_list_sequence:
+
+# 2.  The while loop is used to execute a block of code
+# as long as a condition is true.  The general format is:
+
+# while condition:
+
+# 'condition' is a boolean (i.e. True/False) expression that is evaluated
+# before each iteration of the loop.  If the condition
+# is true, the block of code is executed.  If the condition
+# is false, the loop is exited and the program continues
