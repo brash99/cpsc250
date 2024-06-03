@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print(f'Fit Result: y = ({a:.5f} +/- {da:.5f})x^2 + ({b:.5f} +/- {db:.5f})x + ({c:.5f} +/- {dc:.5f})')
 
     # Step 3d:  Plot the fit result
-    xlow = min(xi) - 10
+    xlow = min(xi) - 30
     xhigh = max(xi) + 10
     xfit = np.linspace(xlow, xhigh, 100)
     yfit = fitfunction(xfit,*popt)
@@ -85,8 +85,11 @@ if __name__ == '__main__':
 
         lower = np.percentile(ysample, 16.0, axis=0)
         upper = np.percentile(ysample, 84.0, axis=0)
-        plt.plot(xfit,upper,'g--', label='One Sigma Error Band')
-        plt.plot(xfit,lower,'g--')
+
+        plt.fill_between(xfit,lower,upper,color='gray',alpha=0.5, label='One Sigma Error Band')
+
+    # set x and y axis limits
+    plt.xlim(0, xhigh)
 
     plt.legend()
     plt.show()

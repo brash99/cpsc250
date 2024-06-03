@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Documents/~$llabus_CPSC250_Summer_2024.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week1_Examples/loop_examples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Syllabus_CPSC250L_Summer_2024.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Syllabus_CPSC250L_Summer_2024.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Syllabus_CPSC250_Summer_2024.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Syllabus_CPSC250_Summer_2024.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1_Examples/floatingpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/floatingpoint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week1_Examples/primitive_sizes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1_Examples/primitive_sizes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +42,12 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.convert_fraction_to_binary.executor": "Run",
     "Python.convert_int_to_base.executor": "Run",
     "Python.convert_int_to_binary.executor": "Run",
     "Python.factorial.executor": "Run",
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
-    "Python.loop_examples.executor": "Run",
     "Python.primitive_sizes.executor": "Run",
     "Python.tax_calculator.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -131,9 +124,7 @@
       <workItem from="1688325165569" duration="11439000" />
       <workItem from="1688903054983" duration="730000" />
       <workItem from="1710004424608" duration="3421000" />
-      <workItem from="1715602630439" duration="2613000" />
-      <workItem from="1716300769652" duration="1213000" />
-      <workItem from="1716545805760" duration="8763000" />
+      <workItem from="1715602630439" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -461,15 +452,7 @@
       <option name="project" value="LOCAL" />
       <updated>1710011015731</updated>
     </task>
-    <task id="LOCAL-00047" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1715620553033</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1715620553033</updated>
-    </task>
-    <option name="localTasksCounter" value="48" />
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
