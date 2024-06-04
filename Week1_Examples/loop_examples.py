@@ -5,13 +5,21 @@
 # Get a number of lines from the user
 # Print (line number + 1) stars on each line
 #
+# So, if the user enters 5, the output should be:
+# **
+# ***
+# ****
+# *****
+# ******
+#
 
 # Get the number of lines from the user
 numLines = int(input("Enter the number of lines: "))
 
 # Loop over the lines
 #
-# The loop variable, i, will go from 1 to numLines, inclusive
+# The loop variable (which will be the line number),
+# i, will go from 1 to numLines, inclusive
 #
 for i in range(1, numLines+1):
     # Print the stars
@@ -31,7 +39,7 @@ for i in range(1, numLines+1):
     # etc.
     for j in range(i+1):
         print("*", end="") # Print a star without a newline
-    print() # Print a newline
+    print()  # Print a newline
 
 
 # Example 2:
