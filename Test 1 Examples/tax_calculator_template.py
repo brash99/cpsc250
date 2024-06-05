@@ -21,7 +21,7 @@ def calc_tax_due(tax, withheld):
 if __name__ == '__main__':
     # Step #1: Input wages, interest, unemployment, status, withheld
 
-    # Step $2: Calculate AGI
+    # Step #2: Calculate AGI
     agi = calc_AGI(wages, interest, unemployment)
     print(f"AGI: ${agi:,}")
 
