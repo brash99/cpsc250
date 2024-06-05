@@ -24,3 +24,13 @@ if __name__ == '__main__':
     # Step $2: Calculate AGI
     agi = calc_AGI(wages, interest, unemployment)
     print(f"AGI: ${agi:,}")
+
+    # Step #3: Calculate deduction
+
+    # Step #4: Calculate taxable income
+
+    # Step #5: Calculate tax
+
+    # Step #6: Calculate tax due
+
+    # Step #7: Print report

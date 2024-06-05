@@ -1,5 +1,10 @@
 # Zybooks 20.13
 
+HOMEWORK_MAX = 800.0
+QUIZZES_MAX = 400.0
+MIDTERM_MAX = 150.0
+FINAL_MAX = 200.0
+
 # Step1: Get the student type
 student_type = input()
 if student_type not in ("UG", "G", "DL"):
@@ -9,7 +14,7 @@ else:
     student_grades = [float(x) for x in input().split()]
 
     # Step 3: Define the total points in each category, and the weights for each student type
-    total_points = (800, 400, 150, 200)
+    total_points = (HOMEWORK_MAX, QUIZZES_MAX, MIDTERM_MAX, FINAL_MAX)
     ug_weights = (0.20, 0.20, 0.30, 0.30)
     g_weights = (0.15, 0.05, 0.35, 0.45)
     dl_weights = (0.05, 0.05, 0.40, 0.50)
