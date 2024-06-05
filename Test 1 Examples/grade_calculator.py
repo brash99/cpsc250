@@ -1,3 +1,5 @@
+# Zybooks 20.13
+
 # Step1: Get the student type
 student_type = input()
 if student_type not in ("UG", "G", "DL"):
@@ -27,7 +29,7 @@ else:
         else:
             final_grade += student_percentages[i] * dl_weights[i]
 
-    # Step 6: Calculate the letter gradee
+    # Step 6: Calculate the letter grades
     if final_grade >= 90:
         letter = 'A'
     elif final_grade >= 80:

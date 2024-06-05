@@ -1,3 +1,5 @@
+# Zybooks 22.13
+
 TEN_PCT = 0.1
 TWELVE_PCT = 0.12
 TWENTY_TWO_PCT = 0.22
@@ -63,28 +65,28 @@ def calc_tax_due(tax, withheld):
 if __name__ == '__main__':
 
     # Step 1: Get input
-    wages, interest, unemployment, status, withheld = [
+    my_wages, my_interest, my_unemployment, my_status, my_withheld = [
         int(val) for val in input().split()
     ]
 
     # Step 2: Calculate AGI
-    agi = calc_AGI(wages, interest, unemployment)
+    my_agi = calc_AGI(my_wages, my_interest, my_unemployment)
 
     # Step 3: Calculate Deduction
-    deduction = get_deduction(status)
+    my_deduction = get_deduction(my_status)
 
     # Step 4: Calculate taxable income
-    taxable = calc_taxable(agi, deduction)
+    my_taxable = calc_taxable(my_agi, my_deduction)
 
     # Step 5: Calculate tax
-    tax = calc_tax(status, taxable)
+    my_tax = calc_tax(my_status, my_taxable)
 
     # Step 6: Calculate tax due
-    due = calc_tax_due(tax, withheld)
+    my_due = calc_tax_due(my_tax, my_withheld)
 
     # Step 7: Print report
-    print(f"AGI: ${agi:,}")
-    print(f"Deduction: ${deduction:,}")
-    print(f"Taxable income: ${taxable:,}")
-    print(f"Federal tax: ${tax:,}")
-    print(f"Tax due: ${due:,}")
+    print(f"AGI: ${my_agi:,}")
+    print(f"Deduction: ${my_deduction:,}")
+    print(f"Taxable income: ${my_taxable:,}")
+    print(f"Federal tax: ${my_tax:,}")
+    print(f"Tax due: ${my_due:,}")
