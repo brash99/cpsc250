@@ -59,6 +59,10 @@ for name in names:
 
 names = ["John", "Paul", "George", "Ringo"]
 
+# len(names) = 4
+# range(4) = [0, 1, 2, 3]
+# i will be 0, 1, 2, 3
+
 for i in range(len(names)):
     print(i, names[i])
 
@@ -66,8 +70,8 @@ for i in range(len(names)):
 
 mylist = [1, 3.14159, "Hello", True]
 
-for item in mylist:
-    print(item)
+for i in mylist:
+    print(i)
 
 # Example 5:
 
@@ -96,3 +100,10 @@ print("You are", age, "years old - you can drink now!")
 # before each iteration of the loop.  If the condition
 # is true, the block of code is executed.  If the condition
 # is false, the loop is exited and the program continues
+
+my_list = ["John", "Paul", "George", "End", "Ringo"]
+
+for item in my_list:
+    if item == "End":
+        break
+    print(item)
