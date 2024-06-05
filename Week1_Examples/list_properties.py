@@ -2,6 +2,9 @@ print("Python list: Basic storage model")
 
 grades = [52, 55, 58, 61, 64]
 
+# len(grades) = 5
+# range(5) = [0, 1, 2, 3, 4]
+# i will be 0, 1, 2, 3, 4
 for i in range(len(grades)):
     address = id(grades[i])
     if i != 0:

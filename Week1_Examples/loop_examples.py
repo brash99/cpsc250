@@ -14,6 +14,8 @@
 #
 
 # Get the number of lines from the user
+#
+# Important!!!! input() returns a string!!!!!!!!
 numLines = int(input("Enter the number of lines: "))
 
 # Loop over the lines
