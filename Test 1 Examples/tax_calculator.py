@@ -7,9 +7,7 @@ TWENTY_FOUR_PCT = 0.24
 
 # Calculate AGI and repair any negative values
 def calc_AGI(wages, interest, unemployment):
-    agi = abs(wages)
-    agi += abs(interest)
-    agi += abs(unemployment)
+    agi = abs(wages) + abs(interest) + abs(unemployment)
     return agi
 
 # Calculate deduction depending on single, dependent or married
@@ -62,12 +60,23 @@ def calc_tax_due(tax, withheld):
     due = tax - withheld
     return due
 
+# Start the main program
 if __name__ == '__main__':
 
-    # Step 1: Get input
-    my_wages, my_interest, my_unemployment, my_status, my_withheld = [
-        int(val) for val in input().split()
-    ]
+    # Step 1: Get input from user
+    #
+    # my_inputs will be a list of integers with 5 elements
+    #
+    # If the input line is "10000 500 1000 1 2000"
+    # my_inputs will be [10000, 500, 1000, 1, 2000]
+    #
+    my_inputs = [int(i) for i in input().split()]
+
+    my_wages = my_inputs[0]
+    my_interest = my_inputs[1]
+    my_unemployment = my_inputs[2]
+    my_status = my_inputs[3]
+    my_withheld = my_inputs[4]
 
     # Step 2: Calculate AGI
     my_agi = calc_AGI(my_wages, my_interest, my_unemployment)
