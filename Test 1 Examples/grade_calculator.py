@@ -48,7 +48,9 @@ else:
 
     # Step 7: Create the output report
     category_names = ('Homework', 'Quizzes', 'Midterm', 'Final Exam')
+
     for i in range(len(student_grades)):
         print(f"{category_names[i]}: {student_percentages[i]:.1f}%")
+
     print(f"{student_type} average: {final_grade:.1f}%")
     print(f"Course grade: {letter}")
