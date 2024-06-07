@@ -59,6 +59,13 @@ if __name__ == '__main__':
     parts = line.split() # parts = ["10", "2", "16"]
     parts_numbers = [int(x) for x in parts] # parts_numbers = [10, 2, 16]
 
+    # Step #4: Make things again
+    # bob and fred are the values of chair and table that are returned
+    # from the make_things function
+
+    bob, fred = make_things(parts_numbers[0], parts_numbers[1], parts_numbers[2])
+    print(f"Chair: {bob}")
+    print(f"Table: {fred}")
 
 
 
