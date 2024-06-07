@@ -32,9 +32,13 @@ if __name__ == '__main__':
     x = float(input())
     y = float(input())
 
-    # Step #2:
-    result = my_weird_function()
+    # Step #1:
+    result = add(x,y)
     print(f"Add: {result}")
+
+    # Step #2:
+    result = my_weird_function(x,y)
+    print(f"Weird Function: {result}")
 
     my_wood = 10
     my_glue = 2
@@ -44,6 +48,8 @@ if __name__ == '__main__':
     # bob and fred are the values of chair and table that are returned
     # from the make_things function
     bob, fred = make_things(my_wood, my_glue, my_nails)
+    print(f"Chair: {bob}")
+    print(f"Table: {fred}")
 
     # what if we have a bunch of numbers on ONE line of input?
     #
