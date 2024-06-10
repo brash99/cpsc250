@@ -15,5 +15,18 @@ if __name__ == "__main__":
     result = add(x,y)
     print(f"Add: {result}")
 
+    # now, both numbers input on the SAME LINE!!!
+    # for example:
+    # 3.14 2.71
+
+    # The multi-step way:
+    # line = input()       # line = "3.14 2.71"
+    # parts = line.split() # parts = ["3.14", "2.71"]
+    # x = float(parts[0])  # x = 3.14
+    # y = float(parts[1])  # y = 2.71
+
+    # List comprehension is a way to create a list in one line
+    x, y = [float(x) for x in input().split()]
+
     result = my_weird_function(x,y)
     print(f"Weird Function: {result}")
