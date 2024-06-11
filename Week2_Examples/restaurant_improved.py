@@ -4,8 +4,33 @@ class Restaurant:
     # whenever one creates a new object of this class
     #
     # In this version, the user must specify the name and cuisine, but the rating and price
-    # are assigned default values.  Note that name, cuisine MUST come before rating,price in the
-    # function parameter list.
+    # are assigned default values.
+    #
+    # Note that name, cuisine (i.e. the ones that the user MUST provide,
+    # MUST come before rating,price in the
+    # function parameter list!!!
+    #
+    # In my opinion, it is best to have
+    # ALL parameters have default values, so that the user can choose
+    # to provide them or not.
+    #
+    # e.g
+    #
+    # def __init__(self, name="none", cuisine="none", rating=-1, price="none"):
+    #       self.name = name
+    #       self.rating = rating
+    #       self.price = price
+    #       self.cuisine = cuisine
+    #
+    # In this way, any of the following statements are valid:
+    #  moes = Restaurant()
+    #  moes = Restaurant("Moe's")
+    #  moes = Restaurant("Moe's", "Mexican")
+    #  moes = Restaurant("Moe's", "Mexican", 7)
+    #  moes = Restaurant("Moe's", "Mexican", 7, "***")
+
+
+
     def __init__(self, name, cuisine, rating=-1, price="none"):
         """
         :param name:  Name of the restaurant (string)
@@ -54,16 +79,16 @@ class Restaurant:
 
 if __name__ == "__main__":
 
-    # help(Restaurant)
+    #help(Restaurant)
 
-    my_name = input()
-    # my_rating = int(input())
-    # my_price = input()
-    my_cuisine = input()
+    my_name = input("Enter the name of the restaurant:")
+    my_rating = int(input("Enter the rating of the restaurant:"))
+    my_price = input("Enter the price of the restaurant:")
+    my_cuisine = input("Enter the cuisine type of the restaurant:")
 
     # Create a new Restaurant object ... this will call the __init__ constructor method
     # of the Restaurant class
-    moes = Restaurant(my_name, my_cuisine)
+    moes = Restaurant(my_name, my_cuisine, my_rating, my_price)
 
     # If we wanted to, we could still use setter methods to set the other values
     # moes.set_rating(6)

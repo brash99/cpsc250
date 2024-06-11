@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Test 1 Examples/HowMainWorks_Version3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test 1 Examples/HowMainWorks_Version1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 1 Examples/HowMainWorks_Version1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/restaurant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/restaurant_improved.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/restaurant_improved.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "Python.list_properties.executor": "Run",
     "Python.loop_examples.executor": "Run",
     "Python.primitive_sizes.executor": "Run",
+    "Python.rectangle.executor": "Run",
     "Python.restaurant.executor": "Run",
     "Python.restaurant_improved.executor": "Run",
     "Python.tax_calculator.executor": "Run",
@@ -149,7 +151,7 @@
       <workItem from="1715602630439" duration="1056000" />
       <workItem from="1717463432785" duration="46196000" />
       <workItem from="1717788791480" duration="238000" />
-      <workItem from="1717789044905" duration="1626000" />
+      <workItem from="1717789044905" duration="10611000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -445,14 +447,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00054" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1717603848673</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1717603848673</updated>
-    </task>
     <task id="LOCAL-00055" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1717604702255</created>
@@ -501,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717773390792</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718023714539</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1718023714539</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

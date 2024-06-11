@@ -6,9 +6,12 @@ def my_weird_function(x,y):
     print("This is the my_weird_function function: ", __name__)
     return x**2/y**2*(x-y+4)
 
+MY_CONSTANT = 3.14159
+
 if __name__ == "__main__":
 
     print("This is the main program: ", __name__)
+
     x = float(input("Type a number:"))
     y = float(input("Type another number:"))
 

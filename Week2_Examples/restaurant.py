@@ -2,17 +2,18 @@ class Restaurant:
     # This is the constructor method -> it gets called by default
     # whenever one creates a new object of this class
     def __init__(self):
-        self.name = "none"
+        print("Here I am in the constructor method of the Restaurant class")
+        self.myname = "none"
         self.rating = -1
         self.price = "none"
         self.cuisine = "none"
 
     # Define setter and getter methods for each internal variable of the class
     def set_name(self, user_name):
-        self.name = user_name
+        self.myname = user_name
 
     def get_name(self):
-        return self.name
+        return self.myname
 
     def set_rating(self, user_rating):
         self.rating = user_rating
@@ -35,7 +36,7 @@ class Restaurant:
     # Define a print_info method, which summarizes object information
     def print_info(self):
         print(f'Restaurant Information:')
-        print(f'      Name = {self.name}')
+        print(f'      Name = {self.myname}')
         print(f'      Rating = {self.rating}')
         print(f'      Price = {self.price}')
         print(f'      Cuisine Type = {self.cuisine}')
