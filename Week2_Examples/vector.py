@@ -1,6 +1,5 @@
 import math
 
-
 class Vector:
     def __init__(self, x=0.0, y=0.0, z=0.0):
         self.x = x
@@ -11,7 +10,7 @@ class Vector:
         return math.sqrt(self.x**2+self.y**2+self.z**2)
 
     def __str__(self):
-        print(f'({self.x}, {self.y}, {self.z})')
+        return (f'({self.x}, {self.y}, {self.z})')
 
     def __mul__(self, other):
         return self.x*other.x + self.y*other.y + self.z*other.z
@@ -27,8 +26,18 @@ if __name__ == "__main__":
     b = Vector(-4.0, 3.0, -0.0)
 
     c = a*b
+    print('Dot product:', c)
 
-    if ((c == 0) and (a == 5)) or (b == 5):
-        print('Failure')
+    if (b == 5.0):
+        print('Magnitude of b is 5.0')
+        print('Everything seems to be working')
+    else:
+        print('Magnitude of b is not 5.0')
+        print('Something is wrong')
 
-    print(c)
+    if (a == math.sqrt(6.0)):
+        print('Magnitude of a is sqrt(6.0)')
+        print('Everything seems to be working')
+    else:
+        print('Magnitude of a is not sqrt(6.0)')
+        print('Something is wrong')
