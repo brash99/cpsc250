@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Week2_Examples/random_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cpsc250.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpsc250.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2_Examples/plotting_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/die_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/die_average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/die_average_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/die_average_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_Examples/random_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_Examples/random_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +64,15 @@
     "Python.books.executor": "Run",
     "Python.convert_int_to_base.executor": "Run",
     "Python.convert_int_to_binary.executor": "Run",
+    "Python.die_average.executor": "Run",
+    "Python.die_average_plot.executor": "Run",
     "Python.factorial.executor": "Run",
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
     "Python.list_properties.executor": "Run",
     "Python.loop_examples.executor": "Run",
+    "Python.plotting_test.executor": "Run",
     "Python.primitive_sizes.executor": "Run",
     "Python.random_test.executor": "Run",
     "Python.rectangle.executor": "Run",
@@ -450,14 +454,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00056" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1717604725145</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1717604725145</updated>
-    </task>
     <task id="LOCAL-00057" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1717690265522</created>
@@ -506,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718191477709</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718283599355</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1718283599355</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
