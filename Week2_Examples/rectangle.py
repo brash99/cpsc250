@@ -1,19 +1,19 @@
 class Rectangle:
 
-    def __init__(self, length=1, width=1):
-        self.length = length
+    def __init__(self, height=1, width=1):
+        self.height = height
         self.width = width
 
     def _get_area(self):
-        return self.length*self.width
+        return self.height*self.width
 
-    def resize(self, new_length):
+    def resize(self, new_height):
         area = self._get_area()
-        self.length = new_length
-        self.width = area/self.length
+        self.height = new_height
+        self.width = area/self.height
 
     def print_rectangle(self):
-        print(f"Length: {self.length:.1f} Width: {self.width:.1f}     Area: {self._get_area():.1f}")
+        print(f"Height: {self.height:.1f} Width: {self.width:.1f}     Area: {self._get_area():.1f}")
 
 
 if __name__ == "__main__":

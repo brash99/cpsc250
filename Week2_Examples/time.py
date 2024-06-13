@@ -29,7 +29,7 @@ class Time:
             time_diff.hours = self.hours - other.hours - 1
 
         return time_diff
-
+    # Class definition ends here
 
 if __name__ == "__main__":
 
@@ -60,3 +60,11 @@ if __name__ == "__main__":
 
     time5 = time3 - time1
     print(f'Time Difference (T3 - T1) = {time5}')
+
+    # __add__ method is not defined, so this will not work
+    # __gt__ method is not defined, so this will not work
+    # __ge__ method is not defined, so this will not work
+    # __le__ method is not defined, so this will not work
+    # __ne__ method is not defined, so this will not work
+    # __mult__ method is not defined, so this will not work
+    # __div__ method is not defined, so this will not work

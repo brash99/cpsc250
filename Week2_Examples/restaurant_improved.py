@@ -31,7 +31,7 @@ class Restaurant:
 
 
 
-    def __init__(self, name, cuisine, rating=-1, price="none"):
+    def __init__(self, name="none", cuisine="none", rating=-1, price="none"):
         """
         :param name:  Name of the restaurant (string)
         :param rating: Rating (1-10, int)
