@@ -51,29 +51,29 @@ def reserve_seat(seats):
 
 
 # Main program
-if __name__ == "__main__":
-    # Initialize a list of Seat() objects
-    num_seats = 10
-    available_seats = []
-    for i in range(num_seats):
-        available_seats.append(Seat())
 
-    # Write a menu loop to take commands from the user
-    #
-    # p = print seat status
-    # l = list all passengers with reservations
-    # r = reserve a seat
-    # q = quit
+# Initialize a list of Seat() objects
+num_seats = 10
+available_seats = []
+for i in range(num_seats):
+    available_seats.append(Seat())
+
+# Write a menu loop to take commands from the user
+#
+# p = print seat status
+# l = list all passengers with reservations
+# r = reserve a seat
+# q = quit
+
+command = input('Enter command (p/l/r/q):\n')
+while command != 'q':
+    if command == 'p':  # Print seats
+        print_seats(available_seats)
+    elif command == 'r':  # Reserve a seat
+        reserve_seat(available_seats)
+    elif command == 'l':  # List passengers
+        print_passenger_list(available_seats)
+    else:
+        print('Invalid command.')
 
     command = input('Enter command (p/l/r/q):\n')
-    while command != 'q':
-        if command == 'p':  # Print seats
-            print_seats(available_seats)
-        elif command == 'r':  # Reserve a seat
-            reserve_seat(available_seats)
-        elif command == 'l':  # List passengers
-            print_passenger_list(available_seats)
-        else:
-            print('Invalid command.')
-
-        command = input('Enter command (p/l/r/q):\n')
