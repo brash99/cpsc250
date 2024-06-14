@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Test2_Solutions/program1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/CPSC_250_Test2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/CPSC_250_Test2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/fancy_car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +60,14 @@
     "Python.HowMainWorks_Version3.executor": "Run",
     "Python.airline.executor": "Run",
     "Python.alexis_example.executor": "Run",
+    "Python.alexis_labs.executor": "Run",
     "Python.books.executor": "Run",
     "Python.convert_int_to_base.executor": "Run",
     "Python.convert_int_to_binary.executor": "Run",
     "Python.die_average.executor": "Run",
     "Python.die_average_plot.executor": "Run",
     "Python.factorial.executor": "Run",
+    "Python.fancy_car.executor": "Run",
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
@@ -87,7 +91,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/brash/cpsc250",
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 2 Examples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +103,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test 2 Examples" />
       <recent name="$PROJECT_DIR$/Week4_Examples" />
       <recent name="$PROJECT_DIR$/Week3_Examples" />
       <recent name="$PROJECT_DIR$/Week2_Examples" />
@@ -455,14 +460,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00058" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1717693275543</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1717693275543</updated>
-    </task>
     <task id="LOCAL-00059" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1717721374916</created>
@@ -511,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718287565883</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718291245190</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1718291245190</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
