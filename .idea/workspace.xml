@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Test 2 Examples/CPSC_250_Test2.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 2 Examples/CPSC_250_Test2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 2 Examples/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/fancy_car_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 2 Examples/fancy_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test 2 Examples/fancy_car.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -68,6 +70,7 @@
     "Python.die_average_plot.executor": "Run",
     "Python.factorial.executor": "Run",
     "Python.fancy_car.executor": "Run",
+    "Python.fancy_car_test.executor": "Run",
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
@@ -144,8 +147,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -165,6 +168,7 @@
       <workItem from="1717463432785" duration="46196000" />
       <workItem from="1717788791480" duration="238000" />
       <workItem from="1717789044905" duration="10611000" />
+      <workItem from="1718366009170" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -460,14 +464,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00059" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1717721374916</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1717721374916</updated>
-    </task>
     <task id="LOCAL-00060" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1717773390792</created>
@@ -516,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718291245190</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718365893997</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1718365893997</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
