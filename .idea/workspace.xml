@@ -5,10 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Test 2 Examples/Morris/p1_test1.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test 2 Examples/Morris/p1_test2.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test 2 Examples/Morris/p1_test3.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test 2 Examples/Morris/test.sh" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Borbidge/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Borbidge/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bowman/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bowman/fancy_car_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bowman/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bryant/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bryant/fancy_car_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Bryant/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Capriotti/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Capriotti/fancy_car_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Capriotti/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/DelCorso/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Knowles/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Knowles/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Lamantia/fancy_carTest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Lamantia/fancy_car_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Lamantia/matrix_multiplicationTest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Miller/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Miller/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Peterson/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Peterson/matrix_multiplication (1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Rockingham/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Rockingham/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Sen/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Sen/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Simon/fancy_car_Joseph_Simon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Simon/fancy_car_test_JS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Simon/matrix_multiplication_Joseph_Simon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Smajic/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Smajic/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Smajic/recpsc250test2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Taggart/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Taggart/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/VanGorder/Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/VanGorder/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/VanGorder/fancy_car_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Washington/Test 2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Watlington/fast_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Watlington/matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/West/fancy_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/West/matrix_multiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 2 Examples/Wetherbee/matrix_multiplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +142,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "test2",
+<<<<<<< Updated upstream
     "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 2 Examples",
+=======
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 2 Examples/DelCorso",
+>>>>>>> Stashed changes
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,11 +158,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< Updated upstream
       <recent name="$PROJECT_DIR$/Test 2 Examples" />
       <recent name="$PROJECT_DIR$/Week4_Examples" />
       <recent name="$PROJECT_DIR$/Week3_Examples" />
       <recent name="$PROJECT_DIR$/Week2_Examples" />
       <recent name="$PROJECT_DIR$/Week1_Examples" />
+=======
+      <recent name="$PROJECT_DIR$/Test 2 Examples/DelCorso" />
+      <recent name="$PROJECT_DIR$/Test 2 Examples/Watlington" />
+      <recent name="$PROJECT_DIR$/Test 2 Examples/Taggart" />
+      <recent name="$PROJECT_DIR$/Test 2 Examples/Simon" />
+      <recent name="$PROJECT_DIR$/Test 2 Examples/VanGorder" />
+>>>>>>> Stashed changes
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_Examples" />
@@ -170,7 +228,11 @@
       <workItem from="1717463432785" duration="46196000" />
       <workItem from="1717788791480" duration="238000" />
       <workItem from="1717789044905" duration="10611000" />
+<<<<<<< Updated upstream
       <workItem from="1718366009170" duration="695000" />
+=======
+      <workItem from="1718366009170" duration="8827000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -466,6 +528,7 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00060" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1717773390792</created>
@@ -482,6 +545,8 @@
       <option name="project" value="LOCAL" />
       <updated>1718023714539</updated>
     </task>
+=======
+>>>>>>> Stashed changes
     <task id="LOCAL-00062" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1718191477708</created>
@@ -522,7 +587,27 @@
       <option name="project" value="LOCAL" />
       <updated>1718365893997</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="67" />
+=======
+    <task id="LOCAL-00067" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718367371219</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1718367371219</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1718377366857</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1718377366857</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
