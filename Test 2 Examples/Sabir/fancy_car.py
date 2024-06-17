@@ -1,13 +1,14 @@
 FULL_TANK = 14
 
 class FancyCar:
-    def __init__(self, make="Old Clunker", mpg=24.0, model ="", odometer = 0, gas_gauge=0, honk_horn= '' ):
+    #def __init__(self, make="Old Clunker", mpg=24.0, model ="", odometer = 0, gas_gauge=0, honk_horn= '' ):
+    def __init__(self, make="Old Clunker", mpg=24.0, model ="", odometer = 0, gas_gauge=0):
         self.mpg = mpg
         self.make = make
         self.model = model
         self.odometer = odometer
         self.gas_gauge = gas_gauge
-        self.honk_horn = honk_horn
+        #self.honk_horn = honk_horn
     # Return car model
     def get_model(self):
         # Update the return statment.

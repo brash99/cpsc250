@@ -14,10 +14,13 @@ def matrix_mult(A, B):
 def main():
     import sys
     input = sys.stdin.read().strip().split('\n')
+    print(input)
 
     A = list(map(int, input[0].strip().split()))
     N = len(A)
     B = []
+    print(A, B, N)
+
     for i in range(1, N+1):
         row = list(map(int,input[i].strip().split()))
         B.append(row)

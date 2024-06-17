@@ -55,7 +55,7 @@ class FancyCar:
             print("Cannot add negative amount of gas")
             return
 
-        self.gas = (self.gas + amount_to_add, FULL_TANK)
+        self.gas = min(self.gas + amount_to_add, FULL_TANK)
 
     # Set boolean variable to True
     def start_engine(self):

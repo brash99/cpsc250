@@ -108,17 +108,17 @@ def test_passed5(test_feedback):
     car.drive(100)
     car.stop_engine()
     car.add_gas(5)
-    if float(car.check_gas_gauge()) < 8.9 or float(car.check_gas_gauge()) > 9.1:
+    if car.check_gas_gauge() < 8.9 or car.check_gas_gauge() > 9.1:
         test_feedback.write(f"car should have 9.0 gallons of gas after adding 5.0 but check_gas_gauge() returned " + str(car.check_gas_gauge()))
         return False
 
     car.add_gas(-5)
-    if float(car.check_gas_gauge()) < 8.9 or float(car.check_gas_gauge()) > 9.1:
+    if car.check_gas_gauge() < 8.9 or car.check_gas_gauge() > 9.1:
         test_feedback.write("gallons of gas should not change after attempting to add -5.0")
         return False
 
     car.add_gas(50)
-    if float(car.check_gas_gauge()) < 13.9 or float(car.check_gas_gauge()) > 14.1:
+    if car.check_gas_gauge() < 13.9 or car.check_gas_gauge() > 14.1:
         test_feedback.write(f"amount of gas should not exceed 14.0 after attempting to add 50.0 but check_gas_gauge() returned {car.check_gas_gauge()}")
         return False
 

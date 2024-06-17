@@ -28,7 +28,7 @@ class FancyCar:
         if max_distance < miles_to_drive:
             self.odometer += miles_to_drive - max_distance
             self.gas_gauge = 0.0
-        elif self.engine and miles_to_drive > 0:
+        elif self.engine_on and miles_to_drive > 0:
             self.odometer += miles_to_drive
             self.gas_gauge -= (miles_to_drive / self.mpg)
 

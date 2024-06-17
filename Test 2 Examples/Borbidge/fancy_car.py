@@ -5,7 +5,7 @@ class FancyCar:
         # Type your code here.
         self.make = make
         self.mpg = mpg
-        return make, mpg  #I'm trying to call both make and mpg back so i can reference them in the main
+        #return make, mpg  #I'm trying to call both make and mpg back so i can reference them in the main
     # Return car model
     def get_model(self, model):
         self.model = model

@@ -51,7 +51,10 @@ generic2.info()
 
 
 choice = input('Select scooter (s) or dirtbike (d): ')
-bike = scooter if (choice == 's') else dirtbike
+if (choice == 's'):
+    bike = scooter
+else:
+    bike = dirtbike
 
 menu = '\nSelect add fuel(f), go(g), wheelie(w), quit(q): '
 command = input(menu)

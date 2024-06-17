@@ -6,10 +6,14 @@ matrixC = []
 
 # read input
 data = input().strip().split('\n')
+print(data)
 
 # read first line,(suggested code from pycharm)
 matrixA = list(map(int, data[0].strip().split()))
 N= len(matrixA)
+
+print(matrixA)
+print(N)
 
 # read next lines for Maxtrix b
 

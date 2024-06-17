@@ -31,14 +31,8 @@ def multiply_matricies():
 def main(): #here defines the actual code that will be used
     if read_input():
         multiply_matricies() #calling back the above function under main
-<<<<<<< Updated upstream
         print(' '.join(map(str, matrixC))) #was unsure of how to get the formatting here, so used OpenAI assistance
 
 if __name__ == '__main__':
     main()  #calling back the built in python main fuction
-=======
-        print(''.join(map(str, matrixC))) #was unsure of how to get the formatting here, so used OpenAI assistance
 
-if __name__ == '__main__':
-    main()  #calling back the built in python main fuction
->>>>>>> Stashed changes

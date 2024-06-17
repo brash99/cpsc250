@@ -23,5 +23,6 @@ def matrix_multiplication():
 
     print(' '.join(map(str, C)))
 
-
+if __name__=="__main__":
+    matrix_multiplication()
 
