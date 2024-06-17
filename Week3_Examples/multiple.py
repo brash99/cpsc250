@@ -19,17 +19,19 @@ class Mammal:
         print('Mammal: blinking ...')
 
 
-class Bat(Winged, Mammal):
+class Bat(Mammal, Winged):
 
     def __init__(self, wingspan):
         Winged.__init__(self, wingspan)
 
 
-dracula = Bat(10.30)
+if __name__== '__main__':
 
-dracula.breathe()
-dracula.breathe()
-dracula.give_birth()
-dracula.flap_wings()
-dracula.breathe()
-dracula.blink()
+    dracula = Bat(10.30)
+
+    dracula.breathe()
+    dracula.breathe()
+    dracula.give_birth()
+    dracula.flap_wings()
+    dracula.breathe()
+    dracula.blink() # Which blink method is called? Winged or Mammal?

@@ -49,9 +49,9 @@ class FlyingCar(TransportMode, FlyingMixin, DrivingMixin):
         # ...
         self.drive(distance / 2)
 
+if __name__ == '__main__':
+    s = SemiTruck('MacTruck', 85, 'Frozen beans')
+    f = FlyingCar('Jetson35K', 325, 15000)
 
-s = SemiTruck('MacTruck', 85, 'Frozen beans')
-f = FlyingCar('Jetson35K', 325, 15000)
-
-s.go(100)
-f.go(100)
+    s.go(100)
+    f.go(100)
