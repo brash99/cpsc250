@@ -15,22 +15,19 @@
 # from file.py import my_function ... this is how to import a function from a file
 
 from PlantFlower import Plant, Flower
-
-def print_list(garden):
-    for i in range(len(garden)):
-        print(f'Plant {i + 1} Information:')
-        garden[i].print_info()
-        print()
+from PlantInformation_Functions import print_list
 
 if __name__ == "__main__":
 
-    my_garden = [] # Create an empty list to store the plants and flowers
+    my_garden = []  # Create an empty list to store the plants and flowers
 
-    user_string = input() # Get the first line of input
+    user_string = input()  # Get the first line of input
 
-    while user_string != '-1': # Continue until the user enters -1
+    while user_string != '-1':  # Continue until the user enters -1
+
+        # ------------------------------------------------------------------------
         # Process the line of input
-        line_elements = user_string.split() # Split the line into list of strings
+        line_elements = user_string.split()  # Split the line into list of strings
 
         # Extract the plant type, plant name, and plant cost (first three elements)
         # from the list of strings
@@ -54,9 +51,8 @@ if __name__ == "__main__":
             my_flower = Flower(plant_name, plant_cost, is_annual, color_of_flowers)
             my_garden.append(my_flower)
 
-        user_string = input() # Get the next line of input
+        # ------------------------------------------------------------------------
 
-
-    # End of while loop:  I now have a my_garden list of plant and flower objects
+        user_string = input()  # Get the next line of input
 
     print_list(my_garden)
