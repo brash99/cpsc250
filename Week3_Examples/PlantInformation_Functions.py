@@ -7,7 +7,7 @@ def print_list(garden):
         print()
 
 def read_plant_input():
-    my_garden = []  # Create an empty list to store the plants and flowers
+    garden = []  # Create an empty list to store the plants and flowers
 
     user_string = input()  # Get the first line of input
 
@@ -29,7 +29,7 @@ def read_plant_input():
         if plant_type == 'plant':
             # If the plant type is a plant, create a plant object (we have all the info)
             my_plant = Plant(plant_name, plant_cost)
-            my_garden.append(my_plant)
+            garden.append(my_plant)
         elif plant_type == 'flower':
             # If the plant type is a flower, extract the remaining two elements
             # from the list of strings
@@ -37,10 +37,10 @@ def read_plant_input():
             color_of_flowers = line_elements[4]
             # Create a flower object (we now have all the info)
             my_flower = Flower(plant_name, plant_cost, is_annual, color_of_flowers)
-            my_garden.append(my_flower)
+            garden.append(my_flower)
 
         # ------------------------------------------------------------------------
 
         user_string = input()  # Get the next line of input
 
-    return my_garden
+    return garden

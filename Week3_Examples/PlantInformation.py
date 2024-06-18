@@ -14,7 +14,6 @@
 #                                          we need
 # from file.py import my_function ... this is how to import a function from a file
 
-from PlantFlower import Plant, Flower
 from PlantInformation_Functions import print_list, read_plant_input
 
 if __name__ == "__main__":
