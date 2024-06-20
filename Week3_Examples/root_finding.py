@@ -3,22 +3,22 @@ def f(x):
 
 
 def find_root(a, b):
-    epsilon = 1.0E-8
+    epsilon = 1.0E-8 # tolerance for finding the root
     fa = f(a)
     fb = f(b)
     print(a, b, fa, fb)
     if abs(fa-fb) < epsilon:
-        print("Type 1: Found root at x = ", a)
+        print("Type 1: Found root at x = ", a) # ending condition!!!!!!!!
     else:
         c = (a+b)/2.0
         fc = f(c)
         if fc == 0.0:
-            print("Type 2: Found root at x = ", c)
+            print("Type 2: Found root at x = ", c) # second ending condition!!!!
         else:
             if fa*fc < 0.0:
-                find_root(a, c)
+                find_root(a, c) # recursive call ... first half
             else:
-                find_root(c, b)
+                find_root(c, b) # recursive call ... second half
 
 
 if __name__ == "__main__":
@@ -28,6 +28,7 @@ if __name__ == "__main__":
     fa = f(a)
     fb = f(b)
 
+    # Pre-checks
     if fa*fb > 0:
         print(a, b, fa, fb)
         print("No root on this interval!!")

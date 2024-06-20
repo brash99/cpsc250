@@ -1,5 +1,6 @@
 class Winged:
     def __init__(self, wingspan):
+        print('Winged: __init__ called ...')
         self.wingspan = wingspan
 
     def flap_wings(self):
@@ -10,6 +11,10 @@ class Winged:
 
 
 class Mammal:
+
+    def __init__(self):
+        print('Mammal: __init__ called ...')
+
     def breathe(self):
         print('Breathing ...')
 
@@ -22,6 +27,7 @@ class Mammal:
 class Bat(Mammal, Winged):
 
     def __init__(self, wingspan):
+        Mammal.__init__(self)
         Winged.__init__(self, wingspan)
 
 
