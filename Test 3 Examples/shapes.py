@@ -1,75 +1,11 @@
 class Shape:
-
-    def __init__(self, sides):
-        self.number_of_sides = sides
-
-    def calculate_area(self):
-        pass
-
-    def calculate_perimeter(self):
-        pass
-
-    def set_number_of_sides(self, sides):
-        self.number_of_sides = sides
-
-    def get_number_of_sides(self):
-        return self.number_of_sides
-
+    pass
 
 class Rectangle(Shape):
-
-    def __init__(self, sides, length, width):
-        super().__init__(sides)
-        self.length = length
-        self.width = width
-
-    def calculate_area(self):
-        return self.length * self.width
-
-    def calculate_perimeter(self):
-        return 2 * (self.length + self.width)
-
-    def set_width(self, width):
-        self.width = width
-
-    def set_length(self, length):
-        self.length = length
-
-    def get_width(self):
-        return self.width
-
-    def get_length(self):
-        return self.length
-
-    def __eq__(self, other):
-        return self.length==other.length and self.width==other.width
-
-    def __str__(self):
-        return f'A rectangle has {self.number_of_sides} sides | Area = {self.calculate_area()} | Perimeter = {self.calculate_perimeter()}'
+    pass
 
 class Circle(Shape):
-
-    def __init__(self, sides, radius):
-        super().__init__(sides)
-        self.radius = radius
-
-    def calculate_area(self):
-        return 3.14159265 * self.radius**2
-
-    def calculate_perimeter(self):
-        return 2 * 3.14159265 * self.radius
-
-    def set_radius(self, radius):
-        self.radius = radius
-
-    def get_radius(self):
-        return self.radius
-
-    def __eq__(self, other):
-        return self.radius==other.radius
-
-    def __str__(self):
-        return f'A circle has {self.number_of_sides} side | Area = {self.calculate_area():.2f} | Perimeter = {self.calculate_perimeter():.2f}'
+    pass
 
 if __name__ == '__main__':
     rectangle = Rectangle(4, 4.1, 2.3)
