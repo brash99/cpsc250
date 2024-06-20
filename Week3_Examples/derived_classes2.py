@@ -40,8 +40,31 @@ dirtbike = MotorCycle('KX450F', 80, 25)
 # Define some vehicles, specifying only the name ... note which
 # default values are used :)
 harley = MotorCycle('Harley Davidson')
+
+# What are the default values for the harley object?
+#
+# name "Harley Davidson"
+# speed 55
+# mpg 25
+# fuel_gal 0 (from MotorVehicle)
+
 generic = MotorVehicle('PeopleCarrier')
+
+# What are the default values for the generic object?
+#
+# name "PeopleCarrier"
+# speed 80
+# mpg 40
+# fuel_gal 0
+
+
 generic2 = TransportMode('MovingThing')
+
+# What are the default values for the generic2 object?
+#
+# name "MovingThing"
+# speed 75
+
 
 scooter.info()
 dirtbike.info()
