@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Borbidge/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Borbidge/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Capriotti/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Capriotti/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Knowles/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Knowles/vehicle_colection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/VanGorder/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/VanGorder/vehiclecollection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Washington/Exam3, P2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Washington/Exam3,P1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Watlington/shapes (1)complete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Watlington/vehicle_collection_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Lamantia/shapesTest3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Lamantia/vehicle_collectionTest3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Simon/Shapes_Joseph_Simon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Simon/vehicle_collection_Joseph_Simon.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Peterson/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Peterson/vehicle_collection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +97,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "test2",
-    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 3 Examples/Watlington",
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 3 Examples/Peterson",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,11 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Peterson" />
       <recent name="$PROJECT_DIR$/Test 3 Examples/Watlington" />
       <recent name="$PROJECT_DIR$/Test 3 Examples/Knowles" />
       <recent name="$PROJECT_DIR$/Test 3 Examples/Washington" />
       <recent name="$PROJECT_DIR$/Test 3 Examples/Borbidge" />
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Capriotti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_Examples" />
@@ -486,14 +467,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00061" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1718023714539</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1718023714539</updated>
-    </task>
     <task id="LOCAL-00062" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1718191477708</created>
@@ -542,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719055041544</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1719062985583</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719062985583</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
