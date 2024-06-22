@@ -3,8 +3,8 @@ Grading Borbidge
 
 tests run: 20
 errors: 0
-failures: 6
-success: 14
+failures: 2
+success: 18
 skipped: 0
 Vehicle 1: Information:
    Vehicle Make: Vespa
@@ -21,12 +21,34 @@ Vehicle 4: Information:
    Value: 200
 =========== Finished ====================
 =========================================
+Grading Bowman
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: false
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+=========== Finished ====================
+=========================================
 Grading Bryant
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 Enter vehicle information (type 'done' to finish):
 Vehicle 1 Information:
@@ -52,8 +74,8 @@ Grading Capriotti
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 Enter vehicle type (vehicle, car, or truck), make, and value, separated by spaces.
 If the vehicle is a car or truck, also enter model and year, also separated by spaces.
@@ -86,8 +108,8 @@ Grading DelCorso
 
 tests run: 20
 errors: 1
-failures: 2
-success: 17
+failures: 0
+success: 19
 skipped: 0
 =========== Finished ====================
 =========================================
@@ -95,8 +117,8 @@ Grading Knowles
 
 tests run: 20
 errors: 1
-failures: 2
-success: 17
+failures: 0
+success: 19
 skipped: 0
 =========== Finished ====================
 =========================================
@@ -104,8 +126,8 @@ Grading Lamantia
 
 tests run: 20
 errors: 1
-failures: 0
-success: 19
+failures: 2
+success: 17
 skipped: 0
 Vehicle Information:
 Vehicle Make: Vespa
@@ -130,8 +152,8 @@ Grading Miller
 
 tests run: 20
 errors: 1
-failures: 2
-success: 17
+failures: 0
+success: 19
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
@@ -156,8 +178,8 @@ Grading Morris
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
@@ -182,8 +204,8 @@ Grading Peterson
 
 tests run: 20
 errors: 4
-failures: 3
-success: 13
+failures: 0
+success: 16
 skipped: 0
 =========== Finished ====================
 =========================================
@@ -191,17 +213,17 @@ Grading Prado
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 =========== Finished ====================
 =========================================
 Grading Rockingham
 
 tests run: 20
-errors: 2
-failures: 4
-success: 14
+errors: 4
+failures: 0
+success: 16
 skipped: 0
 Enter the vehicle info, or 'done' to quit:
 Vehicle 1 Information:
@@ -227,8 +249,8 @@ Grading Sabir
 
 tests run: 20
 errors: 2
-failures: 8
-success: 10
+failures: 4
+success: 14
 skipped: 0
 Add InputAdd InputAdd InputAdd InputAdd InputVehicle 1 Information:
     Vehicle Make: Vespa
@@ -253,8 +275,8 @@ Grading Sen
 
 tests run: 20
 errors: 3
-failures: 2
-success: 15
+failures: 0
+success: 17
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
@@ -283,8 +305,8 @@ Grading Simon
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Vehicle 1 Information:
 	Vehicle Make: Vespa
@@ -309,8 +331,8 @@ Grading Smajic
 
 tests run: 20
 errors: 0
-failures: 4
-success: 16
+failures: 0
+success: 20
 skipped: 0
 Vehicle 1 Information:
  Vehicle Make: Vespa
@@ -331,8 +353,8 @@ Grading Taggart
 
 tests run: 20
 errors: 4
-failures: 4
-success: 12
+failures: 0
+success: 16
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
@@ -357,8 +379,8 @@ Grading VanGorder
 
 tests run: 20
 errors: 1
-failures: 7
-success: 12
+failures: 3
+success: 16
 skipped: 0
 Vehicle 1 Information: 
    Vehicle Make: Vespa
@@ -380,13 +402,12 @@ Vehicle 4 Information:
 =========== Finished ====================
 =========================================
 Grading Washington
-A circle has 1 sides | Area = 38.48 | Perimeter = 21.99
 A rectangle has 4 sides | Area = 9.43 | Perimeter = 12.8
 
 tests run: 20
 errors: 7
-failures: 4
-success: 9
+failures: 6
+success: 7
 skipped: 0
 Vehicle 1 Information:
     Vehicle Make: Vespa
@@ -408,9 +429,9 @@ Vehicle 4 Information:
 Grading Watlington
 
 tests run: 20
-errors: 18
-failures: 1
-success: 1
+errors: 0
+failures: 0
+success: 20
 skipped: 0
 =========== Finished ====================
 =========================================
@@ -418,8 +439,8 @@ Grading Weatherbee
 
 tests run: 20
 errors: 1
-failures: 4
-success: 15
+failures: 0
+success: 19
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
@@ -444,8 +465,8 @@ Grading West
 
 tests run: 20
 errors: 0
-failures: 2
-success: 18
+failures: 0
+success: 20
 skipped: 0
 Vehicle 1 Information:
 Vehicle Make: Vespa
