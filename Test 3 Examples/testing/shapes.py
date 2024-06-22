@@ -1,3 +1,4 @@
+import math
 class Shape:
 
     def __init__(self, sides):
@@ -32,13 +33,13 @@ class Rectangle(Shape):
     def set_width(self, width):
         self.width = width
 
-    def set_length(self, length):
+    def set_height(self, length):
         self.length = length
 
     def get_width(self):
         return self.width
 
-    def get_length(self):
+    def get_height(self):
         return self.length
 
     def __eq__(self, other):
@@ -54,10 +55,10 @@ class Circle(Shape):
         self.radius = radius
 
     def calculate_area(self):
-        return 3.14159265 * self.radius**2
+        return math.pi * self.radius**2
 
     def calculate_perimeter(self):
-        return 2 * 3.14159265 * self.radius
+        return 2 * math.pi * self.radius
 
     def set_radius(self, radius):
         self.radius = radius
@@ -69,7 +70,7 @@ class Circle(Shape):
         return self.radius==other.radius
 
     def __str__(self):
-        return f'A circle has {self.number_of_sides} side | Area = {self.calculate_area():.2f} | Perimeter = {self.calculate_perimeter():.2f}'
+        return f'A circle has {self.number_of_sides} sides | Area = {self.calculate_area()} | Perimeter = {self.calculate_perimeter()}'
 
 if __name__ == '__main__':
     rectangle = Rectangle(4, 4.1, 2.3)
@@ -91,10 +92,10 @@ if __name__ == '__main__':
     print()
 
     rectangle2 = Rectangle(4, 1, 1)
-    rectangle2.set_length(2)
+    rectangle2.set_height(2)
     rectangle2.set_width(4)
     print(rectangle2)  # 4 sides, area=8, perimeter=12
-    print(rectangle2.get_length())  # 2
+    print(rectangle2.get_height())  # 2
     print(rectangle2.get_width())  # 4
 
     circle2 = Circle(1, 1)
