@@ -4,6 +4,17 @@ from Circle import Circle
 import math
 
 class TestCircle(unittest.TestCase):
+
+    # We will write test cases for the following methods:
+    # 1. compute_area
+    # 2. compute_circumference
+    # 3. get_radius
+    # 4. set_radius
+    # 5. __str__
+    # 6. __eq__
+    #
+    # The test case functions MUST start with the word "test"
+
     def test_area(self):
         c = Circle(0.0)
         self.assertEqual(c.compute_area(), 0.0)
