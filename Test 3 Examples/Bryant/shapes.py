@@ -46,7 +46,7 @@ class Rectangle(Shape):
         return False
 
     def __str__(self):
-        return f"A rectangle has {self.get_number_of_sides()} sides | Area = {self.calculate_area():.2f} | Perimeter = {self.calculate_perimeter():.2f}"
+        return f"A rectangle has {self.get_number_of_sides()} sides | Area = {self.calculate_area()} | Perimeter = {self.calculate_perimeter()}"
 
 class Circle(Shape):
     def __init__(self, number_of_sides: int, radius: float):
@@ -71,7 +71,7 @@ class Circle(Shape):
         return False
 
     def __str__(self):
-        return f"A circle has {self.get_number_of_sides()} sides | Area = {self.calculate_area():.2f} | Perimeter = {self.calculate_perimeter():.2f}"
+        return f"A circle has {self.get_number_of_sides()} sides | Area = {self.calculate_area()} | Perimeter = {self.calculate_perimeter()}"
 
 if __name__ == '__main__':
     rectangle = Rectangle(4, 4.1, 2.3)

@@ -55,7 +55,7 @@ class Rectangle(Shape):
     def __str__(self):
         area = self.calculate_area() #chat gpt told me to do do this instead of just self.area
         perimeter = self.calculate_perimeter() #chat gpt told me to do do this instead of just self.perimeter
-        return f'A rectangle has {self.number_of_sides} sides | Area = {area:.2f} | Perimeter = {perimeter:.2f}'
+        return f'A rectangle has {self.number_of_sides} sides | Area = {area} | Perimeter = {perimeter}'
 
 
 class Circle(Shape):
@@ -87,7 +87,7 @@ class Circle(Shape):
     def __str__(self):
         area = self.calculate_area() #chat gpt
         perimeter = self.calculate_perimeter() #chat gpt
-        return f'A circle has {self.number_of_sides} sides | Area = {area:.2f} | Perimeter = {perimeter:.2f}'
+        return f'A circle has {self.number_of_sides} sides | Area = {area} | Perimeter = {perimeter}'
 
 #i made the floats output with 2 decimal places because it was in the given main statement
 

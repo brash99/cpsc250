@@ -19,10 +19,10 @@ class Shape:
 
 class Rectangle(Shape):
 
-    def __init__(self, sides, length, width):
+    def __init__(self, sides, width, length):
         super().__init__(sides)
-        self.length = length
         self.width = width
+        self.length = length
 
     def calculate_area(self):
         return self.length * self.width
@@ -33,13 +33,13 @@ class Rectangle(Shape):
     def set_width(self, width):
         self.width = width
 
-    def set_height(self, length):
+    def set_length(self, length):
         self.length = length
 
     def get_width(self):
         return self.width
 
-    def get_height(self):
+    def get_length(self):
         return self.length
 
     def __eq__(self, other):

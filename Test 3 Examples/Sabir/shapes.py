@@ -9,10 +9,10 @@ class Shape:
 
     def calculate_perimeter(self):
         pass
-    def setter_number_of_sides(self, number_of_sides):
+    def set_number_of_sides(self, number_of_sides):
         self.number_of_sides = number_of_sides
 
-    def getter_number_of_sides(self):
+    def get_number_of_sides(self):
         return self.number_of_sides
 
 
