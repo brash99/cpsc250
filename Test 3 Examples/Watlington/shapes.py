@@ -25,7 +25,7 @@ class Shape:
     #        return self.number_of_sides
         pass
     
-    # original: def get_num_sides(self):
+    #original: def get_num_sides(self):
     def get_number_of_sides(self):
         return self.number_of_sides
     
@@ -81,7 +81,7 @@ class Rectangle(Shape):
 
 
 class Circle(Shape):
-    # original: def __init__(self, radius, number_of_sides):
+    #original: def __init__(self, radius, number_of_sides):
     def __init__(self, number_of_sides, radius):
         super().__init__(number_of_sides)
         self.radius = radius
