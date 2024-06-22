@@ -4,20 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/shapesTest3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/vehicle_collectionTest3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Miller/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Miller/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/Shapes_Joseph_Simon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/vehicle_collection_Joseph_Simon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Smajic/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Smajic/vehicle_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Taggart/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Taggart/vehicle_collection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_14_24,_10_41 AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_14_24__10_41AM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Borbidge/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Borbidge/vehicle_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Capriotti/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Capriotti/vehicle_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Knowles/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Knowles/vehicle_colection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Lamantia/vehicle_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Simon/vehicle_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/VanGorder/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/VanGorder/vehiclecollection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Washington/Exam3, P2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Washington/Exam3,P1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Watlington/shapes (1)complete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test 3 Examples/Watlington/vehicle_collection_complete.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Lamantia/shapesTest3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Lamantia/vehicle_collectionTest3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Simon/Shapes_Joseph_Simon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 3 Examples/Simon/vehicle_collection_Joseph_Simon.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +116,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "test2",
-    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 3 Examples/Lamantia",
+    "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 3 Examples/Watlington",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,11 +128,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Lamantia" />
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Taggart" />
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Simon" />
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Smajic" />
-      <recent name="$PROJECT_DIR$/Test 3 Examples/Miller" />
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Watlington" />
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Knowles" />
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Washington" />
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Borbidge" />
+      <recent name="$PROJECT_DIR$/Test 3 Examples/Capriotti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week3_Examples" />
@@ -478,14 +486,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00060" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1717773390792</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1717773390792</updated>
-    </task>
     <task id="LOCAL-00061" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1718023714539</created>
@@ -534,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718365893997</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1719055041544</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719055041544</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,9 +557,9 @@
     <MESSAGE value="Updates after class 2" />
     <MESSAGE value="Add initial week 2 example codes" />
     <MESSAGE value="Week 2 updates" />
-    <MESSAGE value="Week 4 updates" />
     <MESSAGE value="Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+    <MESSAGE value="Week 4 updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 4 updates" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cpsc250$multiple.coverage" NAME="multiple Coverage Results" MODIFIED="1718897144035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
