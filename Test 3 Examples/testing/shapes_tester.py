@@ -62,6 +62,10 @@ class TestShapes(unittest.TestCase):
         rectangle = Rectangle(4, 4.1, 2.3)
         self.assertEqual(rectangle == Rectangle(4, 4.1, 2.3), True)
 
+    def test_r_noteq(self):
+        rectangle = Rectangle(4, 4.1, 2.3)
+        self.assertEqual(rectangle == Rectangle(4, 4.1, 2), False)
+
     def test_r_str(self):
         rectangle = Rectangle(4, 4.1, 2.3)
         self.assertEqual(str(rectangle), 'A rectangle has 4 sides | Area = 9.429999999999998 | Perimeter = 12.799999999999999')
@@ -87,9 +91,30 @@ class TestShapes(unittest.TestCase):
         circle = Circle(1, 3.5)
         self.assertEqual(circle == Circle(1, 3.5), True)
 
+    def test_c_noteq(self):
+        circle = Circle(1, 3.5)
+        self.assertEqual(circle == Circle(1, 2), False)
+
     def test_c_str(self):
         circle = Circle(1, 3.5)
         self.assertEqual(str(circle), 'A circle has 1 sides | Area = 38.48451000647496 | Perimeter = 21.991148575128552')
+
+    def test_set_number_of_sides(self):
+        shape = Shape(3)
+        shape.set_number_of_sides(4)
+        self.assertEqual(shape.number_of_sides, 4)
+
+    def test_get_number_of_sides(self):
+        shape = Shape(3)
+        self.assertEqual(shape.get_number_of_sides(), 3)
+
+    def test_s_calculate_area(self):
+        shape = Shape(3)
+        self.assertEqual(shape.calculate_area(), None)
+
+    def test_s_calculate_perimeter(self):
+        shape = Shape(3)
+        self.assertEqual(shape.calculate_perimeter(), None)
 
 if __name__ == '__main__':
     unittest.main()
