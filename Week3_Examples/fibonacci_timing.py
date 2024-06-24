@@ -11,15 +11,17 @@ if __name__ == "__main__":
 
     from timer import Timer
 
+    #get help on the Timer class
+    print(Timer.__doc__)
+    # can also use 'help(Timer)' to get the same information
+
     timer = Timer()
     timer.start()
 
     nth_term = 29
-
     print(f"The {nth_term}th term of the Fibonacci sequence is {fibonacci(nth_term)}")
 
-    timer.stop()
-
+    elapsed = timer.stop()
 
     n = []
     elapsed_time = []

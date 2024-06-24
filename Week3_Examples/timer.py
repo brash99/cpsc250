@@ -29,7 +29,6 @@ class Timer:
     .
 
     elapsed_time = timer1.stop()
-    print(f"Elapsed time: {elapsed_time} seconds")
     '''
 
     def __init__(self):
