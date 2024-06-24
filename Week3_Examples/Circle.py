@@ -1,12 +1,25 @@
 import math
 
 class Circle:
+    '''This class represents a circle object
+    The circle object has the following attributes:
+    radius: A floating point number that represents the radius of the circle
 
-    # When a circle object is created, we have two options:
-    # 1. We can create a circle object with a radius value (  e.g., circle1 = Circle(5.0)  )
-    # 2. We can create a circle object without a radius value (  e.g., circle2 = Circle()  )
-    #
-    # If we create a circle object without a radius value, the default value of the radius is 0.0
+    Instantiation:
+    When a circle object is created, we have two options:
+    1. We can create a circle object with a radius value (  e.g., circle1 = Circle(5.0)  )
+    2. We can create a circle object without a radius value (  e.g., circle2 = Circle()  )
+
+    If we create a circle object without a radius value, the default value of the radius is 0.0
+
+    The circle object has the following methods:
+    compute_area(): This method calculates the area of the circle
+    compute_circumference(): This method calculates the circumference of the circle
+    get_radius(): This method returns the radius of the circle
+    set_radius(value): This method sets the radius of the circle to the value that is passed in as a parameter
+    __str__: This method returns a string representation of the circle object
+    __eq__: This method compares two circle objects
+    '''
 
     def __init__(self, radius=0.0):
         self.radius = radius
@@ -67,3 +80,8 @@ class Circle:
     #          print("The radius values are the same")
     def __eq__(self, other):
         return self.radius == other.radius
+
+if __name__ == '__main__':
+
+    # print the docstring of the Circle class
+    print(Circle.__doc__)

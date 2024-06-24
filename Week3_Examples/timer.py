@@ -6,6 +6,32 @@ class TimerError(Exception):
     """A custom exception used to report errors in use of Timer class"""
 
 class Timer:
+
+    '''This class represents a timer object that can be used to
+    measure the elapsed time of a code snippet
+
+    Instantiation:
+    timer1 = Timer()
+
+    The timer object has the following methods:
+    start(): This method starts the timer
+    stop(): This method stops the timer and returns the elapsed time (in seconds, as a float)
+
+    Usage:
+
+    timer1 = Timer()
+    timer1.start()
+
+    .
+    .
+    . code snippet
+    .
+    .
+
+    elapsed_time = timer1.stop()
+    print(f"Elapsed time: {elapsed_time} seconds")
+    '''
+
     def __init__(self):
         self._start_time = None
 

@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_timing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_complexity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_formula.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_formula.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/Circle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/timer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,14 +477,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00063" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1718283599355</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1718283599355</updated>
-    </task>
     <task id="LOCAL-00064" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1718287565883</created>
@@ -538,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719228970754</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1719231336328</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719231336328</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
