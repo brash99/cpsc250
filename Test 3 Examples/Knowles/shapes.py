@@ -96,10 +96,10 @@ if __name__ == '__main__':
     print()
 
     rectangle2 = Rectangle(4, 1, 1)
-    rectangle2.set_length(2)
+    rectangle2.set_height(2)
     rectangle2.set_width(4)
     print(rectangle2)  # 4 sides, area=8, perimeter=12
-    print(rectangle2.get_length())  # 2
+    print(rectangle2.get_height())  # 2
     print(rectangle2.get_width())  # 4
 
     circle2 = Circle(1, 1)
