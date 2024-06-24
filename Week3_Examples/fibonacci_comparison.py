@@ -57,27 +57,16 @@ if __name__ == "__main__":
 
         nplot.append(nth_term)
 
-        if nth_term % 10 == 0:
-            ending = "th"
-        elif nth_term % 10 == 1:
-            ending = "st"
-        elif nth_term % 10 == 2:
-            ending = "nd"
-        elif nth_term % 10 == 3:
-            ending = "rd"
-        else:
-            ending = "th"
-
         time1 = Timer()
         time1.start()
-        print(f"The Actual    {nth_term}{ending} term of the Fibonacci sequence is {fibonacci(nth_term)}")
+        print(f"The Actual    {nth_term} term of the Fibonacci sequence is {fibonacci(nth_term)}")
         e1 = time1.stop()
         tactual.append(e1)
 
         print()
 
         time1.start()
-        print(f"The Decimal   {nth_term}{ending} term of the Fibonacci sequence is {fibonacci_phi(nth_term)}")
+        print(f"The Decimal   {nth_term} term of the Fibonacci sequence is {fibonacci_phi(nth_term)}")
         e2 = time1.stop()
         tformula.append(e2)
 
@@ -86,7 +75,7 @@ if __name__ == "__main__":
         if nth_term <= 30:
             nplotr.append(nth_term)
             time1.start()
-            print(f"The Recursive {nth_term}{ending} term of the Fibonacci sequence is {fibonacci_recursive(nth_term)}")
+            print(f"The Recursive {nth_term} term of the Fibonacci sequence is {fibonacci_recursive(nth_term)}")
             e3 = time1.stop()
             trecursion.append(e3)
 
