@@ -84,4 +84,5 @@ class Circle:
 if __name__ == '__main__':
 
     # print the docstring of the Circle class
-    print(Circle.__doc__)
+    # print(Circle.__doc__)
+    help(Circle)
