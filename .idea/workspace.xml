@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4_Examples/pandas_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/pandas_data_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "test2",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/brash/PycharmProjects/cpsc250/Test 3 Examples/Peterson",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -191,6 +186,7 @@
       <workItem from="1717789044905" duration="10611000" />
       <workItem from="1718366009170" duration="695000" />
       <workItem from="1719320626995" duration="6091000" />
+      <workItem from="1719329333119" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
