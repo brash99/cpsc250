@@ -1,0 +1,510 @@
+=========================================
+Grading Borbidge
+
+tests run: 20
+errors: 0
+failures: 2
+success: 18
+skipped: 0
+Vehicle 1: Information:
+   Vehicle Make: Vespa
+   Value: 7800
+Vehicle 2: Information:
+   Description: 1957 Chevrolet BelAir
+   Value: 27000
+Vehicle 3: Information:
+   Description: 1948 Fargo Pickup
+   Value: 22500
+   All Wheel Drive: false
+Vehicle 4: Information:
+   Vehicle Make: Scooter
+   Value: 200
+=========== Finished ====================
+=========================================
+Grading Bowman
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: false
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+=========== Finished ====================
+=========================================
+Grading Bryant
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Enter vehicle information (type 'done' to finish):
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Capriotti
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Enter vehicle type (vehicle, car, or truck), make, and value, separated by spaces.
+If the vehicle is a car or truck, also enter model and year, also separated by spaces.
+If the vehicle is a truck, also enter 'true' if the truck has all wheel drive and 'false' if it does not.
+Enter all of a single vehicle's information on one line, then press enter.
+Enter the next vehicle's information, or 'done' to finish.
+Enter the next vehicle's information, or 'done' to finish.
+Enter the next vehicle's information, or 'done' to finish.
+Enter the next vehicle's information, or 'done' to finish.
+Vehicle 1 Information:
+   Vehicle Make: Vespa
+   Value: 7800
+
+Vehicle 2 Information:
+   Description: 1957 Chevrolet BelAir
+   Value: 27000
+
+Vehicle 3 Information:
+   Description: 1948 Fargo Pickup
+   Value: 22500
+   All Wheel Drive: false
+
+Vehicle 4 Information:
+   Vehicle Make: Scooter
+   Value: 200
+
+=========== Finished ====================
+=========================================
+Grading DelCorso
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+=========== Finished ====================
+=========================================
+Grading Knowles
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+=========== Finished ====================
+=========================================
+Grading Lamantia
+
+tests run: 20
+errors: 1
+failures: 2
+success: 17
+skipped: 0
+Vehicle Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: false
+
+Vehicle Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Miller
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Morris
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Peterson
+
+tests run: 20
+errors: 4
+failures: 0
+success: 16
+skipped: 0
+=========== Finished ====================
+=========================================
+Grading Prado
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+=========== Finished ====================
+=========================================
+Grading Rockingham
+
+tests run: 20
+errors: 4
+failures: 0
+success: 16
+skipped: 0
+Enter the vehicle info, or 'done' to quit:
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Sabir
+
+tests run: 20
+errors: 2
+failures: 4
+success: 14
+skipped: 0
+Add InputAdd InputAdd InputAdd InputAdd InputVehicle 1 Information:
+    Vehicle Make: Vespa
+    Value: 7800
+
+Vehicle 2 Information:
+    Description: 1957 Chevrolet BelAir
+    Value: 27000
+
+Vehicle 3 Information:
+    Description: 1948 Fargo Pickup
+    Value: 22500
+    All Wheel Drive: false
+
+Vehicle 4 Information:
+    Vehicle Make: Scooter
+    Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Sen
+
+tests run: 20
+errors: 3
+failures: 0
+success: 17
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Vehicle Value: 7800
+
+Vehicle 2 Information:
+Vehicle Make: Chevrolet
+Vehicle Value: 27000
+Car Model: BelAir
+Car Year: 1957
+
+Vehicle 3 Information:
+Vehicle Make: Fargo
+Vehicle Value: 22500
+Truck Model: Pickup
+Truck Year: 1948
+Is All-Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Vehicle Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Simon
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Enter vehicle details (make, value, model, year, [allwd]) or 'done' to finish: Vehicle 1 Information:
+	Vehicle Make: Vespa
+	Value: 7800
+
+Vehicle 2 Information:
+	Description: 1957 Chevrolet BelAir
+	Value: 27000
+
+Vehicle 3 Information:
+	Description: 1948 Fargo Pickup
+	Value: 22500
+	All Wheel Drive: False
+
+Vehicle 4 Information:
+	Vehicle Make: Scooter
+	Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Smajic
+
+tests run: 20
+errors: 0
+failures: 0
+success: 20
+skipped: 0
+Vehicle 1 Information:
+ Vehicle Make: Vespa
+ Value: 7800
+Vehicle 2 Information:
+ Description: 1957 Chevrolet BelAir
+ Value: 27000
+Vehicle 3 Information:
+ Description: 1948 Fargo Pickup
+ Value: 22500
+ All Wheel Drive: False
+Vehicle 4 Information:
+ Vehicle Make: Scooter
+ Value: 200
+=========== Finished ====================
+=========================================
+Grading Taggart
+
+tests run: 20
+errors: 4
+failures: 0
+success: 16
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: false
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading VanGorder
+
+tests run: 20
+errors: 1
+failures: 3
+success: 16
+skipped: 0
+Vehicle 1 Information: 
+   Vehicle Make: Vespa
+   Value: 7800
+
+Vehicle 2 Information: 
+   Description: 1957 Chevrolet BelAir 
+   Value: 27000
+
+Vehicle 3 Information: 
+   Description: 1948 Fargo Pickup
+   Value: 22500
+   All Wheel Drive: false
+
+Vehicle 4 Information: 
+   Vehicle Make: Scooter
+   Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Washington
+A rectangle has 4 sides | Area = 9.43 | Perimeter = 12.8
+
+tests run: 20
+errors: 7
+failures: 6
+success: 7
+skipped: 0
+Vehicle 1 Information:
+    Vehicle Make: Vespa
+    Vehicle Value: 7800
+
+    Description:1957 Chevrolet BelAir 
+    Value: 27000
+
+    Description: Fargo Pickup 1948
+    Value: 22500
+    All-Wheel Drive: False
+
+Vehicle 4 Information:
+    Vehicle Make: Scooter
+    Vehicle Value: 200
+
+=========== Finished ====================
+=========================================
+Grading Watlington
+
+tests run: 20
+errors: 0
+failures: 0
+success: 20
+skipped: 0
+=========== Finished ====================
+=========================================
+Grading Weatherbee
+
+tests run: 20
+errors: 1
+failures: 0
+success: 19
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800
+
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000
+
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500
+All Wheel Drive: False
+
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200
+
+=========== Finished ====================
+=========================================
+Grading West
+
+tests run: 20
+errors: 0
+failures: 0
+success: 20
+skipped: 0
+Vehicle 1 Information:
+Vehicle Make: Vespa
+Value: 7800.0 
+Vehicle 2 Information:
+Description: 1957 Chevrolet BelAir
+Value: 27000.0 
+Vehicle 3 Information:
+Description: 1948 Fargo Pickup
+Value: 22500.0
+All Wheel Drive: False 
+Vehicle 4 Information:
+Vehicle Make: Scooter
+Value: 200.0 
+=========== Finished ====================
+=========================================
+Grading testing
+
+tests run: 20
+errors: 0
+failures: 0
+success: 20
+skipped: 0
+Vehicle 1 Information:
+   Vehicle Make: Vespa
+   Value: 7800
+
+Vehicle 2 Information:
+   Description: 1957 Chevrolet BelAir
+   Value: 27000
+
+Vehicle 3 Information:
+   Description: 1948 Fargo Pickup
+   Value: 22500
+   All Wheel Drive: false
+
+Vehicle 4 Information:
+   Vehicle Make: Scooter
+   Value: 200
+
+=========== Finished ====================

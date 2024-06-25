@@ -52,18 +52,7 @@ if __name__ == "__main__":
     print(phi)
     print(phin)
 
-    if nth_term % 10 == 0:
-        ending = "th"
-    elif nth_term % 10 == 1:
-        ending = "st"
-    elif nth_term % 10 == 2:
-        ending = "nd"
-    elif nth_term % 10 == 3:
-        ending = "rd"
-    else:
-        ending = "th"
-
-    print(f"The actual       {nth_term}{ending} term of the Fibonacci sequence is {fibonacci(nth_term)}")
-    print(f"The Python math  {nth_term}{ending} term of the Fibonacci sequence is {fibonacci_phi(nth_term)}")
+    print(f"The actual       {nth_term} term of the Fibonacci sequence is {fibonacci(nth_term)}")
+    print(f"The Python math  {nth_term} term of the Fibonacci sequence is {fibonacci_phi(nth_term)}")
     print()
-    print(f"The Decimal math {nth_term}{ending} term of the Fibonacci sequence is {fibonacci_phin(nth_term)}")
+    print(f"The Decimal math {nth_term} term of the Fibonacci sequence is {fibonacci_phin(nth_term)}")
