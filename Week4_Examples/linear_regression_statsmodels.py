@@ -19,7 +19,7 @@ print(df)
 
 y = df['y']
 X = df['x']
-# X = sm.add_constant(X)
+X = sm.add_constant(X)
 
 # Ordinary Least Squares model from statsmodels
 model = sm.OLS(y, X).fit()

@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_timing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_timing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_nonrecursive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/basic_data_plotting_exp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_statsmodels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4_Examples/pandas_data_plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4_Examples/pandas_data_plotting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
     "Python.alexis_example.executor": "Run",
     "Python.alexis_labs.executor": "Run",
     "Python.basic_data_plotting.executor": "Run",
+    "Python.basic_data_plotting_exp.executor": "Run",
     "Python.books.executor": "Run",
     "Python.convert_int_to_base.executor": "Run",
     "Python.convert_int_to_binary.executor": "Run",
@@ -85,8 +88,12 @@
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
+    "Python.linear_regression.executor": "Run",
+    "Python.linear_regression_statsmodels.executor": "Run",
+    "Python.linear_regression_statsmodels_multifactor.executor": "Run",
     "Python.list_properties.executor": "Run",
     "Python.loop_examples.executor": "Run",
+    "Python.pandas_data_plotting.executor": "Run",
     "Python.plotting_test.executor": "Run",
     "Python.primitive_sizes.executor": "Run",
     "Python.random_test.executor": "Run",
@@ -183,6 +190,7 @@
       <workItem from="1717788791480" duration="238000" />
       <workItem from="1717789044905" duration="10611000" />
       <workItem from="1718366009170" duration="695000" />
+      <workItem from="1719320626995" duration="6091000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lab 2 solutions">
       <created>1683488463800</created>
@@ -478,14 +486,6 @@
       <option name="project" value="LOCAL" />
       <updated>1688043635926</updated>
     </task>
-    <task id="LOCAL-00066" summary="Week 4 updates">
-      <option name="closed" value="true" />
-      <created>1718365893997</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1718365893997</updated>
-    </task>
     <task id="LOCAL-00067" summary="Week 4 updates">
       <option name="closed" value="true" />
       <created>1719055041544</created>
@@ -534,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719233341740</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Week 4 updates">
+      <option name="closed" value="true" />
+      <created>1719317446175</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719317446175</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

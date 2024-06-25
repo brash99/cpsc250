@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
 
     df = pd.read_csv("testdata.csv")
-    #print(df)
+    print(df)
 
     fig, ax = plt.subplots()
     sns.regplot(x='Temperature',y='Pollen Count', data=df, order=2, ci=68.0, ax=ax, label='Quadratic Fit')

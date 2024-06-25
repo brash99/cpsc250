@@ -110,8 +110,7 @@ if __name__ == '__main__':
         lower = np.percentile(ysample, 16.0, axis=0)
         upper = np.percentile(ysample, 84.0, axis=0)
         middle = (upper+lower)/2.0
-        plt.plot(xfit, upper, 'g--', label='One Sigma Error Band')
-        plt.plot(xfit, lower, 'g--')
+        plt.fill_between(xfit, lower, upper, color='gray', alpha=0.5, label='One Sigma Error Band')
         if fitchoice == 2:
             plt.plot(xfit, middle, 'r--', label=f"Exponential Fit: \ny = ({a:.4f} +/- {da:.4f})e^(({b:.3f} +/- {db:.3f})x) + \n({c:.2f} +/- {dc:.2f})")
 
