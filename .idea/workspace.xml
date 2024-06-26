@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d062df99-4e26-41a5-935e-1aece53ac647" name="Changes" comment="Week 4 updates">
+      <change afterPath="$PROJECT_DIR$/Week4_Examples/linear_regression_testdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/circle_unittest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_Examples/fibonacci_timing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_Examples/fibonacci_timing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,8 @@
     "Python.floatingpoint.executor": "Run",
     "Python.function_examples.executor": "Run",
     "Python.grade_calculator.executor": "Run",
+    "Python.linear_regression_statsmodels.executor": "Run",
+    "Python.linear_regression_testdata.executor": "Run",
     "Python.list_properties.executor": "Run",
     "Python.loop_examples.executor": "Run",
     "Python.plotting_test.executor": "Run",
@@ -556,8 +556,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cpsc250$multiple.coverage" NAME="multiple Coverage Results" MODIFIED="1718897144035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$derived_classes2.coverage" NAME="derived_classes2 Coverage Results" MODIFIED="1718631944074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
-    <SUITE FILE_PATH="coverage/cpsc250$matrix_multiplication_githubcopilot.coverage" NAME="matrix_multiplication_githubcopilot Coverage Results" MODIFIED="1718626395278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$probability.coverage" NAME="probability Coverage Results" MODIFIED="1688783186305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1_Examples" />
+    <SUITE FILE_PATH="coverage/cpsc250$matrix_multiplication_githubcopilot.coverage" NAME="matrix_multiplication_githubcopilot Coverage Results" MODIFIED="1718626395278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$polymorphism_example.coverage" NAME="polymorphism_example Coverage Results" MODIFIED="1718919206569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$VehicleInformation_Template.coverage" NAME="VehicleInformation_Template Coverage Results" MODIFIED="1718721506932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$shapes.coverage" NAME="shapes Coverage Results" MODIFIED="1718978355723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test 3 Examples/Weatherbee" />
@@ -570,6 +570,6 @@
     <SUITE FILE_PATH="coverage/cpsc250$PlantInformation.coverage" NAME="PlantInformation Coverage Results" MODIFIED="1718733341920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$multiple_mixin.coverage" NAME="multiple_mixin Coverage Results" MODIFIED="1718635796568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
     <SUITE FILE_PATH="coverage/cpsc250$fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1718899430933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
-    <SUITE FILE_PATH="coverage/cpsc250$.coverage" NAME=" Coverage Results" MODIFIED="1719236259246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test 3 Examples/testing" />
+    <SUITE FILE_PATH="coverage/cpsc250$.coverage" NAME=" Coverage Results" MODIFIED="1719093371881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Examples" />
   </component>
 </project>
