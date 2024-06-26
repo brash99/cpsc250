@@ -17,20 +17,25 @@ df = pd.DataFrame({'x': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 
 print(df)
 
+# Step 1:  Identify the dependent and independent variables
 y = df['y']
 X = df['x']
+
+# Step 2:  Add a constant to the independent variable
 X = sm.add_constant(X)
 
-# Ordinary Least Squares model from statsmodels
+# Step 3: Ordinary Least Squares model from statsmodels
+# model is a complex object returned by the fit() method
+# model contains all of the results of the regression fit
 model = sm.OLS(y, X).fit()
 
-# View model summary
+# Step 4: View model summary
 print(model.summary())
 
-# Create prediction
+# Step 5: Create prediction
 y_pred = model.predict(X)
 
-# Plotting!
+# Step 6: Plotting!
 
 plt.plot(df['x'], y, 'o', label='Data')
 plt.plot(df['x'], y_pred, 'r-', label="Linear Regression Fit")
