@@ -120,6 +120,23 @@ errors: 1
 failures: 0
 success: 19
 skipped: 0
+Vehicle 1 Information:
+   Vehicle Make: Vespa
+   Value: 7800
+
+Vehicle 2 Information:
+   Description: 1957 Chevrolet BelAir
+   Value: 27000
+
+Vehicle 3 Information:
+   Description: 1948 Fargo Pickup
+   Value: 22500
+   All Wheel Drive: False
+
+Vehicle 4 Information:
+   Vehicle Make: Scooter
+   Value: 200
+
 =========== Finished ====================
 =========================================
 Grading Lamantia
