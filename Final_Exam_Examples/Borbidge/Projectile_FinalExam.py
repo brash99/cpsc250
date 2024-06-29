@@ -29,13 +29,13 @@ def fitfunction(x, *param):
 if __name__ == '__main__':
 
     # Step 1:  Read the data into appropriate data structures
-    file_name = "testdata.csv"
+    file_name = "Projectile.csv"
     header_values, xi, yi, dxi, dyi = read_data(file_name)
 
     print(header_values)
     print(xi, yi, dxi, dyi)
 
-    plot_data = True
+    plot_data = True#
 
     if plot_data:
 
@@ -76,16 +76,16 @@ if __name__ == '__main__':
         print(f'Fit Result: y = ({a:.5f} +/- {da:.5f})x^2 + ({b:.5f} +/- {db:.5f})x + ({c:.5f} +/- {dc:.5f})')
 
         # Step 3d:  Plot the fit result
-        xlow = min(xi) - 30
-        xhigh = max(xi) + 10
+        xlow = min(xi) - 0.1#
+        xhigh = max(xi) + 0.1#
         xfit = np.linspace(xlow, xhigh, 100)
         yfit = fitfunction(xfit,*popt)
 
         plt.plot(xfit,yfit,'r--', label = f"Quadratic Fit: \ny = ({a:.4f} +/- {da:.4f})x^2 + \n({b:.2f} +/- {db:.2f})x + \n({c:.2f} +/- {dc:.2f})")
 
-    # Step 4:  Plot the error band
+        # Step 4:  Plot the error band
 
-    plot_error_band = False
+    plot_error_band = True
 
     if plot_error_band:
         ps = np.random.multivariate_normal(popt,pcov,10000)
@@ -94,7 +94,7 @@ if __name__ == '__main__':
         lower = np.percentile(ysample, 16.0, axis=0)
         upper = np.percentile(ysample, 84.0, axis=0)
 
-        plt.fill_between(xfit,lower,upper,color='gray',alpha=0.5, label='One Sigma Error Band')
+        plt.fill_between(xfit,lower,upper, color='green', label='One Sigma Error')
 
         # set x and y axis limits
         plt.xlim(0, xhigh)
@@ -114,3 +114,7 @@ if __name__ == '__main__':
         plt.legend()
 
         plt.show()
+
+
+
+print("Completed")
