@@ -8,7 +8,7 @@ def kinematic_model(t, y0, vy0, g):
     return y0 + vy0 * t - 0.5 * g * t**2
 
 # Prompt for the CSV file name
-file_name = input("Enter the CSV file name: ")
+file_name = 'Projectile.csv'
 
 time = []
 height = []

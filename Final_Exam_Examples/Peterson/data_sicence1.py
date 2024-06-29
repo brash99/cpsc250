@@ -2,9 +2,10 @@ import csv
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 import numpy as np
+import pandas as pd
 def kinemactic_eq(t, y0, vy0, g):
     return y0 + vy0 * t - 0.5 * g * t**2
-data = pd.read_csv('experiment_data.csv')
+data = pd.read_csv('Projectile.csv')
 time = data['time'].values
 height = data['height'].values
 time_uncertanity = data['time_uncertainity'].values

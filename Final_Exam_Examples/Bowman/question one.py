@@ -11,7 +11,7 @@ def height_model(t, y0, vy0, g):
     return y0 + vy0 * t - 0.5 * g * t**2
 
 # CSV file and extract data
-filename = input().strip()
+filename = 'Projectile.csv'
 
 t_data = []
 height_data = []

@@ -8,7 +8,7 @@ def kinematic_function(t, y0, vy0, g):
     return y0 + vy0 * t - 0.5 * g * t**2
 
 # File path
-file_path = r'C:\Users\blake\PycharmProjects\cpsc250\Tests\Projectile.csv'
+file_path = 'Projectile.csv'
 
 time = []
 height = []

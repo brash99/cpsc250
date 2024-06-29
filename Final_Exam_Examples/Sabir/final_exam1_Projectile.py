@@ -7,7 +7,7 @@ def read_file(file_name):
     df = pd.read_csv(file_name)
     return df
 #for some reason it would not let me import csv so I copyed its direct path
-file_name = "/Users/brentsabir/Downloads/Projectile.csv"
+file_name = "Projectile.csv"
 df = read_file(file_name)
 print(df)
 

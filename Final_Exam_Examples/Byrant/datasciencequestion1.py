@@ -20,17 +20,17 @@ except Exception as e:
     exit(1)
 
 # Check if expected columns exist
-expected_columns = ['time', 'height', 'time_uncertainty', 'height_uncertainty']
+expected_columns = ['Time', 'Height', 'dTime', 'dHeight']
 missing_columns = [col for col in expected_columns if col not in data.columns]
 if missing_columns:
     print(f"Error: Missing columns in CSV file: {', '.join(missing_columns)}")
     exit(1)
 
 # Extract data columns
-time = data['time'].values
-height = data['height'].values
-time_uncertainty = data['time_uncertainty'].values
-height_uncertainty = data['height_uncertainty'].values
+time = data['Time'].values
+height = data['Height'].values
+time_uncertainty = data['dTime'].values
+height_uncertainty = data['dHeight'].values
 
 # Define the fitting function
 def height_function(t, y0, vy0, g):

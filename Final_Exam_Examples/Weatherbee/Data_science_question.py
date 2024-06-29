@@ -10,7 +10,7 @@ def kinematic_equation(t, y0, vy0, g):
 
 
 # Attempt to read the CSV file
-data_file = 'data.csv'  # Replace with the correct path or filename
+data_file = 'Projectile.csv'  # Replace with the correct path or filename
 
 try:
     with open(data_file, 'r') as file:

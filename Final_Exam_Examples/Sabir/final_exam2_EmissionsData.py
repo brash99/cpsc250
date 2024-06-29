@@ -6,7 +6,7 @@ def read_file(file_name):
     df = pd.read_csv(file_name)
     return df
 # I copyed its direct path
-file_name = "/Users/brentsabir/Downloads/EmissionsData.csv"
+file_name = "EmissionsData.csv"
 df = read_file(file_name)
 print(df)
 

@@ -50,7 +50,7 @@ axs[1, 0].set_title('CO2 Emissions vs. Volume with Fit')
 
 # Plot CO2_Volume_Residuals vs. Weight
 axs[1, 1].scatter(advert['Weight'], advert['CO2_Volume_Residuals'], label='Data')
-axs[1, 1].plot(df['Weight'], advert['CO2_Volume_Residuals_Predicted'], color='red', label='Linear Fit')
+axs[1, 1].plot(advert['Weight'], advert['CO2_Volume_Residuals_Predicted'], color='red', label='Linear Fit')
 axs[1, 1].set_xlabel('Weight (kg)')
 axs[1, 1].set_ylabel('CO2 Emissions Residuals')
 axs[1, 1].set_title('CO2 Emissions Residuals vs. Weight')

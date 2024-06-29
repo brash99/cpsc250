@@ -22,7 +22,7 @@ def read_data(filename):
     return headers, height, time, dheight, dtime
 
 
-def fit(x, *param):
+def fitfunction(x, *param):
     return param[0] * x * x + param[1] * x + param[2]
 
 

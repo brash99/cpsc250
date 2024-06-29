@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
 # Read the CSV file into a pandas DataFrame
-filename = input().strip()
+filename = 'EmissionsData.csv'
 df = pd.read_csv(filename)
 
 # Make a 2x2 set of plots in a figure

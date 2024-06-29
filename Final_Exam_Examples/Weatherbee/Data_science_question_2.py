@@ -3,7 +3,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('car_emissions.csv')
+df = pd.read_csv('EmissionsData.csv')
 
 # Perform linear regression of CO2 vs. Volume using statsmodels
 model_volume = smf.ols(formula='CO2 ~ Volume', data=df).fit()
