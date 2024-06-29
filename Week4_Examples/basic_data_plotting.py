@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
         plt.plot(xfit,yfit,'r--', label = f"Quadratic Fit: \ny = ({a:.4f} +/- {da:.4f})x^2 + \n({b:.2f} +/- {db:.2f})x + \n({c:.2f} +/- {dc:.2f})")
 
-        # Step 4:  Plot the error band
+    # Step 4:  Plot the error band
 
     plot_error_band = True
 
