@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CPSC 250 – Python for Data Manipulation – Summer 2025 Test 1 – Solutions}
+\lhead{Name:\underline{\hspace{6cm}}}
+\rfoot{Page \thepage}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{CPSC 250 – Python for Data Manipulation – Summer 2025 Test 1} \\
+    \large \textbf{Solution Set} \\
+    \normalsize Topics: Primitive Data Types, Lists \& Tuples, Branching, Loops
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Part I – Multiple Choice (10 points)}
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{B} \quad Integer division truncates the decimal, so \texttt{10 // 3} is 3.
+
+    \item \textbf{A} \quad Lists use square brackets; tuples use parentheses, sets use curly braces, strings use quotes.
+
+    \item \textbf{A} \quad \texttt{int("5")} converts string "5" to integer 5, so 5 + 3 = 8.
+
+    \item \textbf{C} \quad Both \texttt{x >= 10 and x <= 20} and \texttt{10 <= x <= 20} correctly check the range.
+
+    \item \textbf{C} \quad Tuples are zero-indexed; \texttt{t[2]} gives the 3rd element, which is 3.
+\end{enumerate}
+
+\section*{Part II – Find the Error (15 points)}
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item Error: Index out of range (list has indices 0 to 3). Correction:
+\begin{lstlisting}
+numbers = [10, 20, 30, 40]
+print(numbers[3])  # Change 4 to 3
+\end{lstlisting}
+
+    \item Error: Missing colon after \texttt{for} statement. Correction:
+\begin{lstlisting}
+for i in range(1, 5):
+    print(i * 2)
+\end{lstlisting}
+
+    \item Error: Missing indentation inside \texttt{while} loop. Correction:
+\begin{lstlisting}
+count = 5
+while count > 0:
+    print(count)
+    count = count - 1
+\end{lstlisting}
+\end{enumerate}
+
+\section*{Part III – Code Writing (20 points)}
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item Sample solution:
+
+\begin{lstlisting}
+total = 0
+for _ in range(10):
+    num = int(input("Enter an integer: "))
+    if num % 3 == 0:
+        total += num
+print("Sum of numbers divisible by 3:", total)
+\end{lstlisting}
+
+    \item Sample solution:
+
+\begin{lstlisting}
+for i in range(1, 11):
+    print(i**2)
+\end{lstlisting}
+\end{enumerate}
+
+\section*{Part IV – Code Comprehension and Commenting (15 points)}
+
+\begin{lstlisting}
+values = [2, 5, 9, 12, 3]      # List of numbers
+product = 1                    # Initialize product accumulator
+for v in values:               # Loop through each number in list
+    if v > 4:                  # Check if current number is greater than 4
+        product *= v           # Multiply product by current number if condition is true
+print("Product of values greater than 4 is", product)  # Output the final product
+\end{lstlisting}
+
+\section*{Part V – Short Answer (10 points)}
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item Accessing index 5 of a list with only 3 elements causes an \texttt{IndexError} because valid indices are 0, 1, 2. For example:
+\begin{lstlisting}
+lst = [10, 20, 30]
+print(lst[5])  # IndexError: list index out of range
+\end{lstlisting}
+
+    \item Tuples should be used instead of lists when the data should be immutable (not changeable). For example, storing fixed configuration values:
+\begin{lstlisting}
+coordinates = (10.0, 20.5)  # Tuple representing fixed (x, y) coordinates
+\end{lstlisting}
+\end{enumerate}
+
+\section*{Total: \underline{\hspace{2cm}} / 70}
+
+\end{document}
+

@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage{courier}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CPSC 250 – Python for Data Manipulation – Summer 2025 Test 1}
+\lhead{Name:\underline{\hspace{6cm}}}
+\rfoot{Page \thepage}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{CPSC 250 – Python for Data Manipulation – Summer 2025 Test 1} \\
+    \normalsize Topics: Primitive Data Types, Lists \& Tuples, Branching, Loops
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Part I – Multiple Choice (10 points)}
+
+Circle the best answer. Each question is worth 2 points.
+
+\begin{enumerate}[label=\arabic*.]
+    \item What is the result of \texttt{10 // 3}?
+    \begin{enumerate}[label=\Alph*.]
+        \item 3.33
+        \item 3
+        \item 4
+        \item 1
+    \end{enumerate}
+
+    \item Which of the following is a valid Python list?
+    \begin{enumerate}[label=\Alph*.]
+        \item \texttt{\char`\[1, 2, 3\char`\]}
+    \item \texttt{(1, 2, 3)}
+    \item \texttt{\{1, 2, 3\}}
+    \item \texttt{"1, 2, 3"}
+
+    \end{enumerate}
+
+    \item What is the result of \texttt{int("5") + 3}?
+    \begin{enumerate}[label=\Alph*.]
+        \item 8
+        \item "53"
+        \item Error
+        \item 5
+    \end{enumerate}
+
+    \item Which of the following correctly checks if \texttt{x} is between 10 and 20 (inclusive)?
+    \begin{enumerate}[label=\Alph*.]
+        \item \texttt{x >= 10 and x <= 20}
+        \item \texttt{10 <= x <= 20}
+        \item Both A and B
+        \item Neither A nor B
+    \end{enumerate}
+
+    \item What is the output of the following code? \texttt{t = (1, 2, 3, 4); print(t[2])}
+    \begin{enumerate}[label=\Alph*.]
+        \item 1
+        \item 2
+        \item 3
+        \item 4
+    \end{enumerate}
+\end{enumerate}
+
+\section*{Part II – Find the Error (15 points)}
+
+Each of the following code snippets contains one or more errors. Identify and correct them.
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item
+\begin{lstlisting}
+numbers = [10, 20, 30, 40]
+print(numbers[4])
+\end{lstlisting}
+
+    \item
+\begin{lstlisting}
+for i in range(1, 5)
+print(i * 2)
+\end{lstlisting}
+
+    \item
+\begin{lstlisting}
+count = 5
+while count > 0:
+print(count)
+count = count - 1
+\end{lstlisting}
+\end{enumerate}
+
+\section*{Part III – Code Writing (20 points)}
+
+Write Python code for each of the following tasks.
+
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item Write Python code that asks the user to enter 10 integers, then calculates and prints the sum of all numbers divisible by 3.
+
+    \vspace{12cm}
+
+    \item Write Python code that uses a loop to print the squares of the numbers from 1 to 10 inclusive, each on its own line.
+
+    \vspace{9cm}
+\end{enumerate}
+
+
+
+\section*{Part IV – Code Comprehension and Commenting (15 points)}
+
+The following program is complete but has no comments. Write comments to explain what each line does.
+
+\begin{lstlisting}
+values = [2, 5, 9, 12, 3]
+product = 1
+for v in values:
+    if v > 4:
+        product *= v
+print("Product of values greater than 4 is", product)
+\end{lstlisting}
+
+\vspace{5cm}
+
+\section*{Part V – Short Answer (10 points)}
+
+\begin{enumerate}[resume,label=\arabic*.]
+    \item What happens if you try to access index 5 of a list with only 3 elements? Give an example and explain.
+
+    \vspace{3cm}
+
+    \item When should you use a tuple instead of a list in Python? Give an example.
+
+    \vspace{3cm}
+\end{enumerate}
+
+\section*{Total: \underline{\hspace{2cm}} / 70}
+
+\end{document}
+
