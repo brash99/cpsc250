@@ -20,7 +20,7 @@ initial_credits = int(input())
 die1 = gv_die.GVDie()
 die2 = gv_die.GVDie()
 
-num_sims = 1000
+num_sims = 10
 round_result = []  # list of result_round[] lists
 credit_result = []  # list of credit_round[] lists
 result_number = []  # list of rounds (for each simulation)
@@ -53,7 +53,7 @@ for i in range(num_sims):
             result_count += 1
             result_round.append(result_count)
 
-        elif total <= 3 or total == 12:
+        elif total == 3 or total == 12:
             credits -= 1
             credit_round.append(credits)
             result_count += 1

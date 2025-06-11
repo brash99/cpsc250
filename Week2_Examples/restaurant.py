@@ -2,7 +2,6 @@ class Restaurant:
     # This is the constructor method -> it gets called by default
     # whenever one creates a new object of this class
     def __init__(self):
-        print("Here I am in the constructor method of the Restaurant class")
         self.myname = "none"
         self.rating = -1
         self.price = "none"

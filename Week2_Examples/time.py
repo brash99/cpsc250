@@ -65,6 +65,6 @@ if __name__ == "__main__":
     # __gt__ method is not defined, so this will not work
     # __ge__ method is not defined, so this will not work
     # __le__ method is not defined, so this will not work
-    # __ne__ method is not defined, so this will not work
+    # __ne__ method is not defined, but will still work (default)
     # __mult__ method is not defined, so this will not work
     # __div__ method is not defined, so this will not work

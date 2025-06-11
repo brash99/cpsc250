@@ -1,0 +1,170 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CPSC 250 – Test 2}
+\lhead{Programming for Data Manipulation}
+\cfoot{\thepage}
+
+\title{\vspace{-1cm}CPSC 250 – Programming for Data Manipulation – Test 2}
+\date{}
+\begin{document}
+\maketitle
+
+\noindent\textbf{Time:} 75 minutes \\
+\textbf{Instructions:} Answer all questions on this test paper. No electronic devices or notes are permitted. Be sure to write clearly.
+
+\vspace{0.5cm}
+\section*{Part A: Multiple Choice (10 points, 2 points each)}
+\noindent Circle the one correct answer.
+
+\begin{enumerate}[label=\arabic*.]
+    \item What happens when you pass a mutable object like a list to a Python function? \\
+    \begin{tabular}{ll}
+        A. & A new copy is created \\
+        B. & It behaves like pass by value \\
+        C. & The function can modify the original list \\
+        D. & The function cannot access the list
+    \end{tabular}
+
+    \item Which of the following best describes what \verb|__str__()| is used for? \\
+    \begin{tabular}{ll}
+        A. & Converts all strings in a class to uppercase \\
+        B. & Returns a string representation of an object \\
+        C. & Initializes an object \\
+        D. & Deletes a string from memory
+    \end{tabular}
+
+    \item In Python, when does garbage collection typically occur? \\
+    \begin{tabular}{ll}
+        A. & When the CPU is idle \\
+        B. & When a variable is reassigned \\
+        C. & When an object's reference count reaches zero \\
+        D. & At the end of a function call
+    \end{tabular}
+
+    \item What is the purpose of a setter method? \\
+    \begin{tabular}{ll}
+        A. & To display object attributes \\
+        B. & To initialize instance variables \\
+        C. & To allow controlled access to modify private variables \\
+        D. & To overload arithmetic operators
+    \end{tabular}
+
+    \item Which statement about operator overloading is true? \\
+    \begin{tabular}{ll}
+        A. & You cannot redefine \verb|+| in Python \\
+        B. & Operator overloading is only for strings \\
+        C. & You use special methods like \verb|__add__()| to define operator behavior \\
+        D. & Operator overloading requires C++
+    \end{tabular}
+\end{enumerate}
+
+\newpage
+
+\section*{Part B: Find the Error (15 points, 3 points each)}
+Each of the following code snippets has one or more errors. Identify and explain them.
+
+\begin{enumerate}[label=\arabic*.]
+    \item \begin{lstlisting}[language=Python]
+def change_value(x):
+    x = x + 1
+
+y = 10
+change_value(y)
+print(y)  # Expected output: 11
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Circle:
+    def __init__(radius):
+        self.radius = radius
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+def append_item(mylist=[]):
+    mylist.append(1)
+    return mylist
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def __str__(self):
+        return self.name
+
+buddy = Dog("Buddy")
+print(buddy.__str__)
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(other):
+        return Point(self.x + other.x, self.y + other.y)
+    \end{lstlisting}
+\end{enumerate}
+
+\newpage
+
+\section*{Part C: Code Writing (30 points)}
+
+\begin{enumerate}[label=\arabic*.]
+    \item (10 points) Write a function \verb|swap_values(a, b)| that attempts to swap two variables. Then write a short explanation as to \textbf{why or why not} the values change outside the function.
+    
+    \vspace{10cm}
+
+    \item (10 points) Write a class called \verb|Rectangle| that has:
+    \begin{itemize}
+        \item Two instance variables: \verb|width| and \verb|height|
+        \item A constructor
+        \item Getters and setters for both variables
+        \item A method \verb|area()| that returns the area
+        \item A \verb|__str__()| method that returns a string like \verb|"Rectangle(width=3, height=4)"|
+    \end{itemize}
+    
+    \vspace{6cm}
+    
+    \newpage
+
+    \item (10 points) Extend your \verb|Rectangle| class to allow adding two rectangles using \verb|+| so that \verb|r3 = r1 + r2| creates a new rectangle with combined width and height.
+
+    \vspace{10cm}
+\end{enumerate}
+
+\section*{Part D: Code Commentary (20 points)}  
+The following program creates a class representing a simple bank account. \textbf{Write comments next to each line} explaining what it does.
+
+\begin{lstlisting}[language=Python]
+class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Insufficient funds")
+
+    def __str__(self):
+        return f"{self.owner}'s account balance: ${self.balance}"
+\end{lstlisting}
+
+\end{document}
