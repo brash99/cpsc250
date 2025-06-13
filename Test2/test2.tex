@@ -1,0 +1,177 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CPSC 250 – Test 2}
+\lhead{Programming for Data Manipulation}
+\cfoot{\thepage}
+
+\title{\vspace{-1cm}CPSC 250 – Programming for Data Manipulation – Test 2}
+\date{}
+\begin{document}
+\maketitle
+
+\noindent\textbf{Time:} 75 minutes \\
+\textbf{Instructions:} Answer all questions on this test paper. No electronic devices or notes are permitted. Be sure to write clearly.
+
+\vspace{0.5cm}
+\section*{Part A: Multiple Choice (10 points, 2 points each)}
+\noindent Circle the one correct answer.
+
+\begin{enumerate}[label=\arabic*.]
+    \item What is the result of modifying an element of a list passed to a function? \\
+    \begin{tabular}{ll}
+        A. & It raises a TypeError. \\
+        B. & Only a local copy is changed. \\
+        C. & The original list is changed. \\
+        D. & The function cannot access the list.
+    \end{tabular}
+
+    \item What is the purpose of the \verb|__init__| method in a Python class? \\
+    \begin{tabular}{ll}
+        A. & It defines a string representation of the object. \\
+        B. & It is used to compare objects. \\
+        C. & It initializes the object’s state. \\
+        D. & It deletes the object.
+    \end{tabular}
+
+    \item What does Python’s garbage collector do? \\
+    \begin{tabular}{ll}
+        A. & Prevents memory leaks by closing files. \\
+        B. & Automatically deletes unused variables after each loop. \\
+        C. & Frees memory by deleting objects with zero references. \\
+        D. & Ensures all objects are copied when passed to functions.
+    \end{tabular}
+
+    \item What is one advantage of using setter methods instead of direct attribute access? \\
+    \begin{tabular}{ll}
+        A. & Setter methods reduce the number of attributes in a class. \\
+        B. & Setter methods automatically call \verb|__str__()| when an attribute changes. \\
+        C. & Setter methods can include validation logic before updating a value. \\
+        D. & Setter methods are faster than direct access.
+    \end{tabular}
+
+    \item Which of the following correctly overloads the equality (\verb|==|) operator in a class? \\
+    \begin{tabular}{ll}
+        A. & \verb|def __eq__(x, y):| \\
+        B. & \verb|def __equal__(self, other):| \\
+        C. & \verb|def __compare__(self, other):| \\
+        D. & \verb|def __eq__(self, other):|
+    \end{tabular}
+\end{enumerate}
+
+\newpage
+
+\section*{Part B: Find the Error (15 points, 3 points each)}
+Each of the following code snippets has one or more errors. Identify and explain them.
+
+\begin{enumerate}[label=\arabic*.]
+    \item \begin{lstlisting}[language=Python]
+def double(n):
+    n *= 2
+
+value = 7
+result = double(value)
+print(result)
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Student:
+    def __init__(self, name, grade):
+        name = name
+        grade = grade
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+def add_name(names=None):
+    names.append("Alice")
+    return names
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Counter:
+    def __init__(self):
+        self.count = 0
+
+    def __str__():
+        return f"Count is {self.count}"
+    \end{lstlisting}
+
+    \item \begin{lstlisting}[language=Python]
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(self, v):
+        return (self.x + v.x, self.y + v.y)
+    \end{lstlisting}
+\end{enumerate}
+
+\newpage
+
+\section*{Part C: Code Writing (30 points)}
+
+\begin{enumerate}[label=\arabic*.]
+    \item (10 points) Write a function \verb|modify_list(mylist)| that appends the value \verb|42| to the list. Call the function on a list from main code, and explain why the original list is or is not changed.
+
+    \vspace{20cm}
+
+    \item (10 points) Write a class called \verb|Book| that has:
+    \begin{itemize}
+        \item Three instance variables: \verb|title|, \verb|author|, and \verb|pages|
+        \item A constructor
+        \item Getters and setters for all variables
+        \item A method \verb|summary()| that returns a description string
+        \item A \verb|__str__()| method that returns something like \verb|"Book: Title by Author (300 pages)"|
+    \end{itemize}
+
+    \vspace{20cm}
+
+    \item (10 points) Modify your \verb|Book| class to support the \verb|+| operator to combine two books into a new book:
+    \begin{itemize}
+        \item Title = "Collection"
+        \item Author = "Various"
+        \item Pages = sum of both
+    \end{itemize}
+
+    \vspace{8cm}
+\end{enumerate}
+
+\newpage
+
+\section*{Part D: Code Commentary (20 points)}  
+The following program creates a class representing an inventory item. \textbf{Write comments next to each line} explaining what it does.
+
+\begin{lstlisting}[language=Python]
+class InventoryItem:
+
+    def __init__(self, name, quantity):
+        self.name = name
+        self.quantity = quantity
+
+
+    def restock(self, amount):
+        self.quantity += amount
+
+
+    def sell(self, amount):
+        if amount > self.quantity:
+            print("Not enough in stock")
+        else:
+            self.quantity -= amount
+
+
+    def __str__(self):
+        return f"{self.name}: {self.quantity} in stock"
+\end{lstlisting}
+
+\end{document}
