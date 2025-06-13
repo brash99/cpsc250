@@ -1,0 +1,108 @@
+
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+
+\title{CPSC 250 – Programming for Data Manipulation – Test 2\\Solution Key}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Part A: Multiple Choice (10 points)}
+\begin{enumerate}[label=\arabic*.]
+    \item C. The original list is changed.
+    \item C. It initializes the object’s state.
+    \item C. Frees memory by deleting objects with zero references.
+    \item C. Setter methods can include validation logic before updating a value.
+    \item D. \verb|def __eq__(self, other):|
+\end{enumerate}
+
+\section*{Part B: Find the Error (15 points)}
+
+\begin{enumerate}[label=\arabic*.]
+    \item The function \verb|double| returns nothing. \textbf{Fix:} Add \verb|return n| to return the result.
+    \item The constructor is not assigning values to \verb|self.name| and \verb|self.grade|. \textbf{Fix:} Use \verb|self.name = name|, etc.
+    \item Default mutable argument is unsafe. \textbf{Fix:} Use \verb|if names is None: names = []|.
+    \item Missing \verb|self| in \verb|__str__| method. \textbf{Fix:} \verb|def __str__(self):|
+    \item The method returns a tuple, not a Vector. \textbf{Fix:} Return \verb|Vector(self.x + v.x, self.y + v.y)|.
+\end{enumerate}
+
+\section*{Part C: Code Writing (30 points)}
+
+\textbf{1.}
+\begin{lstlisting}[language=Python]
+def modify_list(mylist):
+    mylist.append(42)
+
+nums = [1, 2, 3]
+modify_list(nums)
+print(nums)  # Output: [1, 2, 3, 42]
+\end{lstlisting}
+\textit{Explanation: Lists are mutable and passed by reference. Changes inside the function affect the original.}
+
+\vspace{0.5cm}
+\textbf{2.}
+\begin{lstlisting}[language=Python]
+class Book:
+    def __init__(self, title, author, pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def get_title(self):
+        return self.title
+
+    def set_title(self, title):
+        self.title = title
+
+    def get_author(self):
+        return self.author
+
+    def set_author(self, author):
+        self.author = author
+
+    def get_pages(self):
+        return self.pages
+
+    def set_pages(self, pages):
+        self.pages = pages
+
+    def summary(self):
+        return f"{self.title} by {self.author}, {self.pages} pages"
+
+    def __str__(self):
+        return f"Book: {self.title} by {self.author} ({self.pages} pages)"
+\end{lstlisting}
+
+\vspace{0.5cm}
+\textbf{3.}
+\begin{lstlisting}[language=Python]
+    def __add__(self, other):
+        return Book("Collection", "Various", self.pages + other.pages)
+\end{lstlisting}
+
+\section*{Part D: Code Commentary (20 points)}
+
+\begin{lstlisting}[language=Python]
+class InventoryItem:                      # Defines a new class named InventoryItem
+    def __init__(self, name, quantity):   # Constructor to initialize name and quantity
+        self.name = name                  # Sets the item's name
+        self.quantity = quantity          # Sets the initial quantity
+
+    def restock(self, amount):            # Adds stock to the inventory
+        self.quantity += amount           # Increases quantity by given amount
+
+    def sell(self, amount):               # Sells items if enough in stock
+        if amount > self.quantity:        # Checks for sufficient inventory
+            print("Not enough in stock")  # Warns if not enough
+        else:
+            self.quantity -= amount       # Subtracts amount from inventory
+
+    def __str__(self):                    # Returns a string representation
+        return f"{self.name}: {self.quantity} in stock"  # Displays current stock info
+\end{lstlisting}
+
+\end{document}
