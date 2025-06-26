@@ -9,11 +9,6 @@
 \usepackage{float}
 \usepackage{hyperref}
 
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{CPSC 250 - Final Exam}
-\lhead{Programming for Data Manipulation}
-\rfoot{Page \thepage}
 
 \title{CPSC 250 - Programming for Data Manipulation\\Final Exam}
 \date{}
@@ -22,6 +17,8 @@
 
 \section*{Instructions}
 You have 150 minutes. This is a closed-book, in-class exam. No access to the internet or external software is allowed. Show all work clearly and legibly.
+
+\newpage
 
 \section*{Part I: Multiple Choice (30 points, 2 points each)}
 Circle the best answer.
@@ -120,6 +117,8 @@ print(a)}
 \item A DataFrame
 \end{enumerate}
 
+\newpage
+
 \item What does operator overloading allow in Python?  
 \begin{enumerate}[label=\Alph*.]
 \item Redefining loops  
@@ -176,21 +175,25 @@ def reverse_list(lst):
 Write a function \texttt{is\_palindrome(s)} that returns \texttt{True} if the string \texttt{s} is a palindrome, and \texttt{False} otherwise.
 
 \vspace{2in}
+\newpage
 
 \textbf{Q2. (8 points)}  
 Write a class \texttt{Student} with fields for \texttt{name} and \texttt{gpa}, and a \texttt{\_\_str\_\_} method that prints the student’s name and GPA. Also include an \texttt{\_\_lt\_\_} method that compares students by GPA.
 
 \vspace{2.5in}
+\newpage
 
 \textbf{Q3. (8 points)}  
 Write a function \texttt{load\_and\_filter(filename)} that reads a CSV file into a pandas DataFrame, and returns only the rows where the value in the column \texttt{"score"} is greater than 80.
 
 \vspace{2.5in}
+\newpage
 
 \textbf{Q4. (8 points)}  
 Write a base class \texttt{Animal} with a method \texttt{make\_sound()} that returns the string \texttt{"..."}. Create two derived classes \texttt{Dog} and \texttt{Cat} that override \texttt{make\_sound()} to return \texttt{"woof"} and \texttt{"meow"}, respectively. Show how polymorphism allows you to loop over a list of animals and call \texttt{make\_sound()} on each.
 
 \vspace{3in}
+\newpage
 
 \newpage
 \section*{Part IV: Code Comprehension and Commenting (25 points)}
