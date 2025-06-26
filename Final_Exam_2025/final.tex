@@ -1,0 +1,219 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{courier}
+\usepackage{float}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{CPSC 250 - Final Exam}
+\lhead{Programming for Data Manipulation}
+\rfoot{Page \thepage}
+
+\title{CPSC 250 - Programming for Data Manipulation\\Final Exam}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Instructions}
+You have 150 minutes. This is a closed-book, in-class exam. No access to the internet or external software is allowed. Show all work clearly and legibly.
+
+\section*{Part I: Multiple Choice (30 points, 2 points each)}
+Circle the best answer.
+
+\begin{enumerate}[label=\arabic*.]
+
+\item What is the output of the following code?  
+\texttt{a = [1, 2, 3] \\
+b = a \\
+b[0] = 99 \\
+print(a)}  
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{[1, 2, 3]}  
+\item \texttt{[99, 2, 3]}  
+\item \texttt{[1, 99, 3]}  
+\item Error
+\end{enumerate}
+
+\item What does \texttt{df.dropna()} do in pandas?  
+\begin{enumerate}[label=\Alph*.]
+\item Fills in missing values  
+\item Drops rows or columns with missing values  
+\item Drops duplicate rows  
+\item Drops specified columns
+\end{enumerate}
+
+\item What is the purpose of the \texttt{\_\_str\_\_} method in a class?  
+\begin{enumerate}[label=\Alph*.]
+\item Initialize the object  
+\item Represent the object as a string  
+\item Destroy the object  
+\item Compare two objects
+\end{enumerate}
+
+\item What is the primary benefit of inheritance in object-oriented programming?  
+\begin{enumerate}[label=\Alph*.]
+\item Improved speed  
+\item Data hiding  
+\item Code reuse  
+\item Loop simplification
+\end{enumerate}
+
+\item In a recursive function, what is the base case?  
+\begin{enumerate}[label=\Alph*.]
+\item The case where an exception is raised  
+\item The function that calls itself  
+\item The condition where recursion stops  
+\item The loop inside the function
+\end{enumerate}
+
+\item Which of the following is true about lists and tuples?  
+\begin{enumerate}[label=\Alph*.]
+\item Lists are immutable, tuples are mutable  
+\item Both are mutable  
+\item Both are immutable  
+\item Lists are mutable, tuples are immutable
+\end{enumerate}
+
+\item What does the \texttt{curve\_fit} function from \texttt{scipy.optimize} do?  
+\begin{enumerate}[label=\Alph*.]
+\item Plots data using a curve  
+\item Fits data to a specified function  
+\item Fits a line to data using OLS  
+\item Returns the correlation coefficient
+\end{enumerate}
+
+\item What is the time complexity of searching in a balanced binary search tree?  
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{O(1)}  
+\item \texttt{O(n)}  
+\item \texttt{O(log n)}  
+\item \texttt{O(n log n)}
+\end{enumerate}
+
+\item Which of the following statements creates a dictionary?  
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{d = \{\}}  
+\item \texttt{d = []}  
+\item \texttt{d = ()}  
+\item \texttt{d = set()}
+\end{enumerate}
+
+\item What happens when you override the \texttt{\_\_eq\_\_} method in a class?  
+\begin{enumerate}[label=\Alph*.]
+\item You redefine how two instances are compared with \texttt{==}  
+\item You make your class hashable  
+\item You initialize the object  
+\item You compare types of objects
+\end{enumerate}
+
+\item What does the pandas method \texttt{read\_csv()} return?  
+\begin{enumerate}[label=\Alph*.]
+\item A list of strings  
+\item A NumPy array  
+\item A Series  
+\item A DataFrame
+\end{enumerate}
+
+\item What does operator overloading allow in Python?  
+\begin{enumerate}[label=\Alph*.]
+\item Redefining loops  
+\item Creating multiple classes in one file  
+\item Using operators like + with user-defined types  
+\item Automatically generating documentation
+\end{enumerate}
+
+\item In pandas, what does \texttt{df['column'].mean()} compute?  
+\begin{enumerate}[label=\Alph*.]
+\item The median  
+\item The total  
+\item The standard deviation  
+\item The average
+\end{enumerate}
+
+\item What is polymorphism in OOP?  
+\begin{enumerate}[label=\Alph*.]
+\item The ability of different classes to share the same attributes  
+\item The ability of objects to take on multiple forms via shared methods  
+\item Hiding data inside an object  
+\item Changing variable types at runtime
+\end{enumerate}
+
+\item What is the correct way to inherit from a class in Python?  
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{class A inherits B:}  
+\item \texttt{class A: inherits B}  
+\item \texttt{class A(B):}  
+\item \texttt{class A<B>:}
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+\section*{Part II: Error Identification (15 points)}
+
+The following code is meant to reverse a list recursively. Identify and correct all errors.
+
+\begin{lstlisting}[language=Python]
+def reverse_list(lst):
+    if len(lst) = 0:
+        return []
+    else:
+        return reverse_list(lst[1:]) + lst[0]
+\end{lstlisting}
+
+\vspace{3in}
+
+\newpage
+\section*{Part III: Code Writing (30 points)}
+
+\textbf{Q1. (6 points)}  
+Write a function \texttt{is\_palindrome(s)} that returns \texttt{True} if the string \texttt{s} is a palindrome, and \texttt{False} otherwise.
+
+\vspace{2in}
+
+\textbf{Q2. (8 points)}  
+Write a class \texttt{Student} with fields for \texttt{name} and \texttt{gpa}, and a \texttt{\_\_str\_\_} method that prints the student’s name and GPA. Also include an \texttt{\_\_lt\_\_} method that compares students by GPA.
+
+\vspace{2.5in}
+
+\textbf{Q3. (8 points)}  
+Write a function \texttt{load\_and\_filter(filename)} that reads a CSV file into a pandas DataFrame, and returns only the rows where the value in the column \texttt{"score"} is greater than 80.
+
+\vspace{2.5in}
+
+\textbf{Q4. (8 points)}  
+Write a base class \texttt{Animal} with a method \texttt{make\_sound()} that returns the string \texttt{"..."}. Create two derived classes \texttt{Dog} and \texttt{Cat} that override \texttt{make\_sound()} to return \texttt{"woof"} and \texttt{"meow"}, respectively. Show how polymorphism allows you to loop over a list of animals and call \texttt{make\_sound()} on each.
+
+\vspace{3in}
+
+\newpage
+\section*{Part IV: Code Comprehension and Commenting (25 points)}
+
+This function is designed to perform curve fitting using \texttt{curve\_fit}. Comment each line and explain what the code is doing overall.
+
+\begin{lstlisting}[language=Python]
+import numpy as np
+from scipy.optimize import curve_fit
+
+def model(x, a, b):
+    return a * np.exp(b * x)
+
+def fit_data(x, y):
+    popt, pcov = curve_fit(model, x, y)
+    print("a =", popt[0])
+    print("b =", popt[1])
+\end{lstlisting}
+
+\vspace{3in}
+
+\textbf{What do \texttt{popt} and \texttt{pcov} represent in this context?}
+
+\vspace{2in}
+
+\end{document}

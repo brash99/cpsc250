@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{courier}
+\usepackage{float}
+\usepackage{color}
+
+
+\title{CPSC 250 - Programming for Data Manipulation \\ Final Exam – Solution Set}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Part I: Multiple Choice (30 points)}
+
+\textbf{Correct Answers:}
+
+\begin{enumerate}[label=\arabic*.]
+\item \textbf{B} – Lists are mutable, and \texttt{b} and \texttt{a} point to the same object.
+\item \textbf{B} – \texttt{dropna()} removes missing data rows or columns.
+\item \textbf{B} – \texttt{\_\_str\_\_} defines the string representation.
+\item \textbf{C} – Inheritance promotes code reuse.
+\item \textbf{C} – The base case defines when recursion stops.
+\item \textbf{D} – Lists are mutable; tuples are immutable.
+\item \textbf{B} – \texttt{curve\_fit} finds parameters that best fit a function.
+\item \textbf{C} – Balanced BSTs allow \texttt{O(log n)} searches.
+\item \textbf{A} – \texttt{\{\}} defines an empty dictionary.
+\item \textbf{A} – \texttt{\_\_eq\_\_} customizes \texttt{==} behavior.
+\item \textbf{D} – \texttt{read\_csv()} returns a DataFrame.
+\item \textbf{C} – Operator overloading allows operators to work with user types.
+\item \textbf{D} – \texttt{.mean()} returns the average.
+\item \textbf{B} – Polymorphism means shared interface, different behavior.
+\item \textbf{C} – Inheritance uses syntax \texttt{class A(B):}
+\end{enumerate}
+
+\newpage
+\section*{Part II: Error Identification (15 points)}
+
+\textbf{Original Code:}
+\begin{lstlisting}[language=Python]
+def reverse_list(lst):
+    if len(lst) = 0:
+        return []
+    else:
+        return reverse_list(lst[1:]) + lst[0]
+\end{lstlisting}
+
+\textbf{Corrected Code:}
+\begin{lstlisting}[language=Python]
+def reverse_list(lst):
+    if len(lst) == 0:
+        return []
+    else:
+        return reverse_list(lst[1:]) + [lst[0]]
+\end{lstlisting}
+
+\textbf{Explanation:}
+\begin{itemize}
+\item The condition should use \texttt{==}, not \texttt{=}.
+\item You must concatenate lists, not a list and a single value. So use \texttt{[lst[0]]}.
+\end{itemize}
+
+\newpage
+\section*{Part III: Code Writing (30 points)}
+
+\textbf{Q1. Palindrome Checker (6 points)}
+\begin{lstlisting}[language=Python]
+def is_palindrome(s):
+    return s == s[::-1]
+\end{lstlisting}
+
+---
+
+\textbf{Q2. Student class with \_\_str\_\_ and \_\_lt\_\_ (8 points)}
+\begin{lstlisting}[language=Python]
+class Student:
+    def __init__(self, name, gpa):
+        self.name = name
+        self.gpa = gpa
+
+    def __str__(self):
+        return f"{self.name}, GPA: {self.gpa}"
+
+    def __lt__(self, other):
+        return self.gpa < other.gpa
+\end{lstlisting}
+
+---
+
+\textbf{Q3. Load and filter DataFrame (8 points)}
+\begin{lstlisting}[language=Python]
+import pandas as pd
+
+def load_and_filter(filename):
+    df = pd.read_csv(filename)
+    return df[df['score'] > 80]
+\end{lstlisting}
+
+---
+
+\textbf{Q4. Animal classes with polymorphism (8 points)}
+\begin{lstlisting}[language=Python]
+class Animal:
+    def make_sound(self):
+        return "..."
+
+class Dog(Animal):
+    def make_sound(self):
+        return "woof"
+
+class Cat(Animal):
+    def make_sound(self):
+        return "meow"
+
+# Demonstrate polymorphism
+animals = [Dog(), Cat(), Dog()]
+for animal in animals:
+    print(animal.make_sound())
+\end{lstlisting}
+
+\newpage
+\section*{Part IV: Code Comprehension (25 points)}
+
+\textbf{Original Code:}
+\begin{lstlisting}[language=Python]
+import numpy as np
+from scipy.optimize import curve_fit
+
+def model(x, a, b):
+    return a * np.exp(b * x)
+
+def fit_data(x, y):
+    popt, pcov = curve_fit(model, x, y)
+    print("a =", popt[0])
+    print("b =", popt[1])
+\end{lstlisting}
+
+\textbf{Line-by-line Comments:}
+\begin{itemize}
+\item \texttt{import numpy as np} Load NumPy for numeric operations.
+\item \texttt{from scipy.optimize import curvefit} Import curve fitting function.
+\item \texttt{def model(x, a, b):} Define a model function with two parameters.
+\item \texttt{return a * np.exp(b * x)} Return exponential function output.
+\item \texttt{def fitdata(x, y):} Define function that fits data to the model.
+\item \texttt{popt, pcov = curvefit(...)} Fit model to data, returning parameters and covariances.
+\item \texttt{print("a =", popt[0])} Print the best-fit value for \texttt{a}.
+\item \texttt{print("b =", popt[1])} Print the best-fit value for \texttt{b}.
+\end{itemize}
+
+\textbf{What do \texttt{popt} and \texttt{pcov} represent?}
+\begin{itemize}
+\item \texttt{popt}: A list of optimal values for the parameters (\texttt{a}, \texttt{b}).
+\item \texttt{pcov}: The estimated covariance matrix of the parameter estimates.
+\end{itemize}
+
+\end{document}
