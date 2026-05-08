@@ -1,0 +1,530 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{titlesec}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\definecolor{lightgray}{gray}{0.94}
+\definecolor{darkgray}{gray}{0.25}
+
+\lstdefinestyle{terminal}{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{lightgray},
+    frame=single,
+    rulecolor=\color{darkgray},
+    columns=fullflexible,
+    keepspaces=true,
+    breaklines=true,
+    showstringspaces=false
+}
+
+\lstdefinestyle{python}{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{lightgray},
+    frame=single,
+    rulecolor=\color{darkgray},
+    columns=fullflexible,
+    keepspaces=true,
+    breaklines=true,
+    showstringspaces=false
+}
+
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{CPSC 250}
+\rhead{Development Environment Setup}
+\cfoot{\thepage}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\setlist[itemize]{topsep=0.3em,itemsep=0.2em,parsep=0.1em}
+\setlist[enumerate]{topsep=0.3em,itemsep=0.25em,parsep=0.1em}
+
+\title{\textbf{CPSC 250 Development Environment Setup}}
+\author{Programming for Data Manipulation}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Overview}
+
+This document will help you set up the software development environment that we will use in CPSC 250. The goal is to make sure that you can:
+
+\begin{itemize}
+    \item run Python programs on your own laptop,
+    \item use PyCharm as your programming environment,
+    \item access course materials from GitHub,
+    \item use git to keep your copy of the course repository up to date, and
+    \item install the Python packages used throughout the course.
+\end{itemize}
+
+This setup is important. If your environment is working correctly, the programming work in the course will be much smoother.
+
+\section*{Important Concepts}
+
+Before starting, it is useful to distinguish among the main tools.
+
+\begin{center}
+\begin{tabular}{>{\bfseries}p{1.5in}p{4.6in}}
+\toprule
+Tool & Purpose \\
+\midrule
+Python & The programming language that executes your programs. \\
+PyCharm & The development environment used to write, run, and manage Python programs. \\
+Git & The version control system used to track changes in code. \\
+GitHub & A website that stores git repositories online. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+PyCharm helps you write and manage code, but Python is what actually runs the code.
+
+\section{Install Python}
+
+If you already have Python 3.9 or newer installed, you may skip this section. Otherwise, install Python using the instructions below.
+
+\subsection*{Windows Instructions}
+
+\begin{enumerate}
+    \item Go to \url{https://www.python.org/downloads/}.
+    \item Download the latest stable Python 3 release for Windows.
+    \item Run the installer.
+    \item \textbf{Important:} before clicking Install, make sure you check the box labeled:
+\end{enumerate}
+
+\begin{lstlisting}[style=terminal]
+Add Python to PATH
+\end{lstlisting}
+
+\begin{enumerate}[resume]
+    \item Complete the installation.
+\end{enumerate}
+
+\subsection*{Verify Python on Windows}
+
+Open \textbf{Command Prompt} and run:
+
+\begin{lstlisting}[style=terminal]
+python --version
+\end{lstlisting}
+
+You should see output similar to:
+
+\begin{lstlisting}[style=terminal]
+Python 3.12.2
+\end{lstlisting}
+
+The exact version number may be different. Any Python version 3.9 or newer is fine.
+
+\subsection*{macOS Instructions}
+
+\begin{enumerate}
+    \item Go to \url{https://www.python.org/downloads/}.
+    \item Download the latest stable Python 3 release for macOS.
+    \item Run the installer.
+    \item Complete the installation.
+\end{enumerate}
+
+\subsection*{Verify Python on macOS}
+
+Open \textbf{Terminal} and run:
+
+\begin{lstlisting}[style=terminal]
+python3 --version
+\end{lstlisting}
+
+You should see output similar to:
+
+\begin{lstlisting}[style=terminal]
+Python 3.12.2
+\end{lstlisting}
+
+The exact version number may be different. Any Python version 3.9 or newer is fine.
+
+\section{Install Git}
+
+Git is the version control system that allows you to download repositories, track changes, and synchronize your work with GitHub.
+
+\subsection*{Windows Instructions}
+
+\begin{enumerate}
+    \item Go to \url{https://git-scm.com/download/win}.
+    \item Download Git for Windows.
+    \item Run the installer.
+    \item Follow the default installation choices unless instructed otherwise.
+\end{enumerate}
+
+After installation, open \textbf{Command Prompt} and run:
+
+\begin{lstlisting}[style=terminal]
+git --version
+\end{lstlisting}
+
+\subsection*{macOS Instructions}
+
+On macOS, git may already be available. Open \textbf{Terminal} and run:
+
+\begin{lstlisting}[style=terminal]
+git --version
+\end{lstlisting}
+
+If git is not installed, macOS may prompt you to install the Apple command line developer tools. Follow the prompt. You may also install Git from \url{https://git-scm.com/download/mac}.
+
+\section{Install PyCharm Community Edition}
+
+\begin{enumerate}
+    \item Go to \url{https://www.jetbrains.com/pycharm/download/}.
+    \item Download \textbf{PyCharm Community Edition} for your operating system.
+    \item Install PyCharm using the default options.
+    \item Launch PyCharm.
+\end{enumerate}
+
+PyCharm Community Edition is sufficient for this course. You do not need PyCharm Professional.
+
+\section{Create a GitHub Account}
+
+If you do not already have a GitHub account:
+
+\begin{enumerate}
+    \item Go to \url{https://github.com}.
+    \item Click \textbf{Sign up}.
+    \item Create a free account using your CNU email address.
+    \item Verify your email address if required.
+\end{enumerate}
+
+Please choose a professional and identifiable username if possible.
+
+\section{Access the CPSC 250 Course Repository}
+
+The CPSC 250 course repository is located at:
+
+\begin{lstlisting}[style=terminal]
+https://github.com/brash99/cpsc250
+\end{lstlisting}
+
+This repository contains course materials such as lecture notes, example code, and other files used in the regular CPSC 250 course.
+
+\subsection*{Important Distinction}
+
+\begin{center}
+\begin{tabular}{>{\ttfamily}p{1.3in}p{4.8in}}
+\toprule
+Repository & Purpose \\
+\midrule
+cpsc250 & Course notes, examples, and reference materials. \\
+cpsc250L & Lab exercises and student lab work. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+For the regular CPSC 250 course repository, you may clone the instructor repository directly. If your instructor asks you to maintain your own copy, you may instead fork the repository first and clone your fork.
+
+For CPSC 250L lab work, you should fork the lab repository and clone your own fork.
+
+\section{Clone the CPSC 250 Repository Using PyCharm}
+
+\subsection*{Step 1: Open PyCharm}
+
+Launch PyCharm. From the welcome screen, choose:
+
+\begin{lstlisting}[style=terminal]
+Get from VCS
+\end{lstlisting}
+
+If a project is already open, choose:
+
+\begin{lstlisting}[style=terminal]
+Git -> Clone...
+\end{lstlisting}
+
+\subsection*{Step 2: Log Into GitHub Through PyCharm}
+
+PyCharm may ask you to authenticate with GitHub.
+
+\begin{enumerate}
+    \item Click \textbf{Log In via GitHub} or the equivalent login option.
+    \item Complete the GitHub login process in your browser.
+    \item Authorize PyCharm or JetBrains if requested.
+\end{enumerate}
+
+Once this is done, PyCharm can communicate with GitHub directly.
+
+\textbf{Do not create or paste a personal access token into the repository URL.} PyCharm's GitHub login is the preferred method for this course.
+
+\subsection*{Step 3: Clone the Repository}
+
+To clone the instructor's CPSC 250 repository directly, enter:
+
+\begin{lstlisting}[style=terminal]
+https://github.com/brash99/cpsc250
+\end{lstlisting}
+
+Choose a local directory where the repository should be stored. PyCharm may suggest a directory such as \texttt{PyCharmProjects}. That is fine.
+
+Click \textbf{Clone}.
+
+If PyCharm asks whether you trust the project, choose \textbf{Trust Project}.
+
+\section{Configure the Python Interpreter in PyCharm}
+
+PyCharm needs to know which Python installation to use for this project.
+
+\subsection*{Windows}
+
+In PyCharm, go to:
+
+\begin{lstlisting}[style=terminal]
+File -> Settings -> Project -> Python Interpreter
+\end{lstlisting}
+
+\subsection*{macOS}
+
+In PyCharm, go to:
+
+\begin{lstlisting}[style=terminal]
+PyCharm -> Settings -> Project -> Python Interpreter
+\end{lstlisting}
+
+A Python interpreter may already appear. If not:
+
+\begin{enumerate}
+    \item Click \textbf{Add Interpreter}.
+    \item Choose a local Python installation.
+    \item Select Python 3.9 or newer.
+\end{enumerate}
+
+\section{Use the Terminal}
+
+Professional programmers frequently use the terminal. PyCharm includes a built-in terminal window.
+
+In PyCharm, open the terminal using:
+
+\begin{lstlisting}[style=terminal]
+View -> Tool Windows -> Terminal
+\end{lstlisting}
+
+\subsection*{Windows Commands}
+
+Try the following commands:
+
+\begin{lstlisting}[style=terminal]
+dir
+python --version
+pip list
+git --version
+\end{lstlisting}
+
+\subsection*{macOS Commands}
+
+Try the following commands:
+
+\begin{lstlisting}[style=terminal]
+ls
+python3 --version
+pip3 list
+git --version
+\end{lstlisting}
+
+\section{Install Useful Python Packages}
+
+We will use several Python packages throughout the course, including:
+
+\begin{itemize}
+    \item \texttt{numpy}
+    \item \texttt{pandas}
+    \item \texttt{matplotlib}
+    \item \texttt{scipy}
+\end{itemize}
+
+You may install packages through PyCharm's package manager or through the terminal.
+
+\subsection*{Terminal Installation on Windows}
+
+In the PyCharm terminal, run:
+
+\begin{lstlisting}[style=terminal]
+pip install numpy pandas matplotlib scipy
+\end{lstlisting}
+
+\subsection*{Terminal Installation on macOS}
+
+In the PyCharm terminal, run:
+
+\begin{lstlisting}[style=terminal]
+pip3 install numpy pandas matplotlib scipy
+\end{lstlisting}
+
+This process may take several minutes.
+
+\section{Create and Run a Test Program}
+
+In PyCharm, create a new file called:
+
+\begin{lstlisting}[style=terminal]
+helloworld.py
+\end{lstlisting}
+
+Add the following code:
+
+\begin{lstlisting}[style=python]
+print("Hello CPSC 250!")
+print("My Python environment is working.")
+\end{lstlisting}
+
+Run the file in PyCharm. You should see:
+
+\begin{lstlisting}[style=terminal]
+Hello CPSC 250!
+My Python environment is working.
+\end{lstlisting}
+
+\section{Basic Git Workflow in PyCharm}
+
+The basic git workflow is:
+
+\begin{center}
+\fbox{Edit files $\rightarrow$ Commit changes $\rightarrow$ Push changes}
+\end{center}
+
+Even when PyCharm provides buttons and menus, the underlying tool is git.
+
+\subsection*{Commit Changes}
+
+After editing a file, choose:
+
+\begin{lstlisting}[style=terminal]
+Git -> Commit...
+\end{lstlisting}
+
+Select the files you want to include, write a meaningful commit message, and click \textbf{Commit}.
+
+Example commit message:
+
+\begin{lstlisting}[style=terminal]
+Add hello world test program
+\end{lstlisting}
+
+\subsection*{Push Changes}
+
+To send committed changes to GitHub, choose:
+
+\begin{lstlisting}[style=terminal]
+Git -> Push...
+\end{lstlisting}
+
+\section{Keeping the Repository Up to Date}
+
+Your instructor may add new examples, notes, or other materials to the CPSC 250 repository during the course.
+
+If you cloned the instructor repository directly, update your local copy using:
+
+\begin{lstlisting}[style=terminal]
+Git -> Pull
+\end{lstlisting}
+
+If you forked the repository, update your fork using:
+
+\begin{lstlisting}[style=terminal]
+Git -> GitHub -> Sync Fork
+\end{lstlisting}
+
+The first time you do this, PyCharm may ask you to authorize JetBrains to access your GitHub account. Follow the prompts.
+
+\section{Important Warnings}
+
+\begin{itemize}
+    \item Do not paste personal access tokens into repository URLs.
+    \item Do not upload ZIP files manually to GitHub.
+    \item Do not drag and drop random files into GitHub as a substitute for git.
+    \item Use git commit and git push to save and synchronize work.
+    \item Keep your GitHub username and password private.
+\end{itemize}
+
+\section{Troubleshooting}
+
+\subsection*{Problem: \texttt{python} command not found}
+
+On Windows, make sure Python was added to PATH during installation. You may need to reinstall Python and check the \textbf{Add Python to PATH} box.
+
+On macOS, try:
+
+\begin{lstlisting}[style=terminal]
+python3 --version
+\end{lstlisting}
+
+\subsection*{Problem: \texttt{pip} command not found}
+
+Try:
+
+\begin{lstlisting}[style=terminal]
+python -m pip install numpy
+\end{lstlisting}
+
+On macOS, try:
+
+\begin{lstlisting}[style=terminal]
+python3 -m pip install numpy
+\end{lstlisting}
+
+\subsection*{Problem: PyCharm says no interpreter is configured}
+
+Go to:
+
+\begin{lstlisting}[style=terminal]
+Settings -> Project -> Python Interpreter
+\end{lstlisting}
+
+and select your installed Python version.
+
+\subsection*{Problem: PyCharm cannot log into GitHub}
+
+Make sure you can log into \url{https://github.com} in a browser. Then return to PyCharm and try the GitHub login again.
+
+\subsection*{Problem: Program will not run}
+
+Check that:
+
+\begin{itemize}
+    \item the Python interpreter is configured,
+    \item the file is saved,
+    \item there are no typing mistakes in the code, and
+    \item required packages are installed.
+\end{itemize}
+
+\section*{Final Checklist}
+
+Before you are finished, confirm that you can do the following:
+
+\begin{itemize}
+    \item Open PyCharm.
+    \item Open the CPSC 250 project.
+    \item Run a Python file.
+    \item Open the PyCharm terminal.
+    \item Check your Python version.
+    \item Check your git version.
+    \item Install Python packages.
+    \item Pull updates from GitHub.
+\end{itemize}
+
+Once these steps work, your CPSC 250 development environment is ready.
+
+\end{document}
