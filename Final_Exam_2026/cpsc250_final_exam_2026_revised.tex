@@ -1,0 +1,359 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{courier}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    showstringspaces=false,
+    columns=fullflexible,
+    frame=single,
+    xleftmargin=0.1in,
+    xrightmargin=0.1in
+}
+
+\title{CPSC 250 - Programming for Data Manipulation\\Final Exam}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Instructions}
+You have 150 minutes. This is a closed-book, in-class exam. No access to the internet, external software, or AI tools is allowed. Show all work clearly and legibly. Unless otherwise stated, you may assume that any necessary Python packages have already been installed.
+
+\vspace{0.25in}
+\noindent\textbf{Topics emphasized on this exam:} Python control flow and functions, references and mutability, classes and objects, inheritance and polymorphism, collections of objects, pandas data manipulation, plotting, and basic model fitting / regression.
+
+\newpage
+
+\section*{Part I: Multiple Choice (30 points, 2 points each)}
+Circle the best answer.
+
+\begin{enumerate}[label=\arabic*.]
+
+\item What is printed by the following code?
+\begin{lstlisting}[language=Python]
+a = [10, 20, 30]
+b = a
+c = a.copy()
+b[1] = 99
+print(a, c)
+\end{lstlisting}
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{[10, 20, 30] [10, 20, 30]}
+\item \texttt{[10, 99, 30] [10, 99, 30]}
+\item \texttt{[10, 99, 30] [10, 20, 30]}
+\item \texttt{[10, 20, 30] [10, 99, 30]}
+\end{enumerate}
+
+\item Which statement best describes the relationship between a Python variable and an object?
+\begin{enumerate}[label=\Alph*.]
+\item A variable is always a fixed memory box containing the object itself.
+\item A variable is a name/reference that can point to an object.
+\item A variable and an object are always exactly the same thing.
+\item Python variables can only refer to primitive data types.
+\end{enumerate}
+
+\item What is the purpose of the \texttt{\_\_init\_\_} method in a class?
+\begin{enumerate}[label=\Alph*.]
+\item To create a string representation of the object.
+\item To compare two objects using \texttt{==}.
+\item To initialize the object's instance attributes.
+\item To delete the object from memory.
+\end{enumerate}
+
+\item What does \texttt{self} represent inside an instance method?
+\begin{enumerate}[label=\Alph*.]
+\item The class object itself.
+\item The module containing the class.
+\item The particular object whose method is being called.
+\item A copy of every object of that class.
+\end{enumerate}
+
+\item What is the main reason to define \texttt{\_\_str\_\_} in a class?
+\begin{enumerate}[label=\Alph*.]
+\item To control how the object is converted to a readable string.
+\item To control how the object is sorted.
+\item To make the object immutable.
+\item To allow the class to inherit from another class.
+\end{enumerate}
+
+\item What does operator overloading allow you to do?
+\begin{enumerate}[label=\Alph*.]
+\item Redefine Python keywords such as \texttt{if} and \texttt{while}.
+\item Define how operators such as \texttt{+}, \texttt{<}, or \texttt{==} behave for user-defined objects.
+\item Automatically make all objects sortable.
+\item Convert every class into a pandas DataFrame.
+\end{enumerate}
+
+\item What is the best description of inheritance?
+\begin{enumerate}[label=\Alph*.]
+\item A way for a class to reuse and specialize behavior from another class.
+\item A way to prevent objects from having attributes.
+\item A way to make loops run faster.
+\item A way to turn a list into a dictionary.
+\end{enumerate}
+
+\item Which line correctly defines a class \texttt{Dog} that inherits from \texttt{Animal}?
+\begin{enumerate}[label=\Alph*.]
+\item \texttt{class Dog inherits Animal:}
+\item \texttt{class Dog(Animal):}
+\item \texttt{class Dog -> Animal:}
+\item \texttt{class Dog: Animal}
+\end{enumerate}
+
+\item What is polymorphism in object-oriented programming?
+\begin{enumerate}[label=\Alph*.]
+\item Using one variable name for many unrelated values in the same scope.
+\item Writing code that can call the same method name on objects of different related types.
+\item Storing multiple objects in separate files.
+\item Making all subclasses have exactly the same attributes.
+\end{enumerate}
+
+\item What does \texttt{pd.read\_csv("data.csv")} return?
+\begin{enumerate}[label=\Alph*.]
+\item A list of strings.
+\item A dictionary.
+\item A pandas DataFrame.
+\item A matplotlib figure.
+\end{enumerate}
+
+\newpage
+
+\item What does the following pandas expression produce?
+\begin{lstlisting}[language=Python]
+df[df["score"] >= 80]
+\end{lstlisting}
+\begin{enumerate}[label=\Alph*.]
+\item A DataFrame containing only rows whose \texttt{score} is at least 80.
+\item A DataFrame containing only columns whose name is \texttt{score}.
+\item A single Boolean value.
+\item A list of all column names.
+\end{enumerate}
+
+\item If \texttt{df} is a pandas DataFrame, what does \texttt{df.groupby("team")["points"].mean()} compute?
+\begin{enumerate}[label=\Alph*.]
+\item The total points for the entire DataFrame.
+\item The average points for each team.
+\item The number of teams in the DataFrame.
+\item The median value in every numeric column.
+\end{enumerate}
+
+\item In matplotlib, what is the purpose of \texttt{plt.scatter(x, y)}?
+\begin{enumerate}[label=\Alph*.]
+\item To create a bar chart.
+\item To create a scatter plot of paired data values.
+\item To fit a regression model.
+\item To remove missing values from a DataFrame.
+\end{enumerate}
+
+\item What is the role of the model function passed to \texttt{scipy.optimize.curve\_fit}?
+\begin{enumerate}[label=\Alph*.]
+\item It defines the mathematical form being fitted to the data.
+\item It automatically removes outliers from the data.
+\item It computes only the correlation coefficient.
+\item It converts all columns to strings.
+\end{enumerate}
+
+\item In a simple linear model \texttt{y = m*x + b}, what do \texttt{m} and \texttt{b} represent?
+\begin{enumerate}[label=\Alph*.]
+\item The mean and median.
+\item The slope and intercept.
+\item The minimum and maximum.
+\item The model error and sample size.
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+\section*{Part II: Error Identification and Correction (15 points)}
+
+The following program is intended to store several measurements, compute their average, and print the measurements that are above average. Identify and correct all errors. You may rewrite the code below or list the corrected lines clearly.
+
+\begin{lstlisting}[language=Python]
+def above_average(values):
+    total = 0
+    for i in range(len(values)):
+        total = values[i]
+
+    average = total / len(values)
+    result = []
+    for value in values:
+        if value > average
+            result.append[value]
+
+    return result
+
+measurements = [4.2, 5.1, 3.8, 6.0, 4.9]
+print(above_average(measurement))
+\end{lstlisting}
+
+\vspace{3.8in}
+
+\newpage
+\section*{Part III: Code Writing (30 points)}
+
+\textbf{Q1. Functions and collections of objects. (7 points)}
+
+Assume that a class \texttt{Plant} has already been written. Each \texttt{Plant} object has instance attributes \texttt{name}, \texttt{height}, and \texttt{sunlight}.
+
+Write a function \texttt{average\_height\_with\_sunlight(plants, min\_sunlight)} that accepts a list of \texttt{Plant} objects and a minimum sunlight value. The function should return the average height of all plants whose \texttt{sunlight} value is greater than or equal to \texttt{min\_sunlight}. If no plants meet the condition, return \texttt{0}.
+
+\vspace{3.0in}
+\newpage
+
+\textbf{Q2. Classes and collections of objects. (9 points)}
+
+Write a class \texttt{Book} with instance attributes \texttt{title}, \texttt{author}, and \texttt{pages}. Include:
+
+\begin{itemize}
+\item an \texttt{\_\_init\_\_} method,
+\item a \texttt{\_\_str\_\_} method that returns a readable description of the book,
+\item a method \texttt{is\_long()} that returns \texttt{True} if the book has more than 300 pages and \texttt{False} otherwise.
+\end{itemize}
+
+Then write a short loop that prints only the long books from a list named \texttt{library}.
+
+\vspace{3.4in}
+\newpage
+
+\textbf{Q3. Inheritance and polymorphism. (8 points)}
+
+Write a base class \texttt{Account} with attributes \texttt{owner} and \texttt{balance}. It should have a method \texttt{monthly\_update()} that returns the current balance unchanged.
+
+Then write a derived class \texttt{SavingsAccount} that adds an attribute \texttt{rate} and overrides \texttt{monthly\_update()} so that it adds one month of interest to the balance and returns the updated balance. You may use \texttt{balance = balance * (1 + rate)}.
+
+Finally, show how a loop over a list of accounts can call \texttt{monthly\_update()} without needing to know which specific type of account each object is.
+
+\vspace{3.7in}
+\newpage
+
+\textbf{Q4. pandas, plotting, and model functions. (6 points)}
+
+Write code that does the following:
+
+\begin{enumerate}[label=\alph*.]
+\item Reads a file named \texttt{experiment.csv} into a pandas DataFrame.
+\item Creates a new DataFrame containing only rows where the column \texttt{"valid"} is equal to \texttt{True}.
+\item Makes a scatter plot of \texttt{"time"} on the horizontal axis and \texttt{"position"} on the vertical axis.
+\item Labels the horizontal and vertical axes.
+\item Defines a linear model function \texttt{linear(x, m, b)} that returns \texttt{m*x + b}.
+\end{enumerate}
+
+You do not need to fit the model or format the graph perfectly, but your code should show the essential steps.
+
+\vspace{3.6in}
+\newpage
+
+\section*{Part IV: Code Comprehension and Commenting (25 points)}
+
+The following program has had all of its comments removed.  At each location
+containing a blank comment line, write a meaningful comment describing the
+purpose of the following block of code or function.  Your comments should
+describe \emph{what} the code is accomplishing, not simply restate individual
+Python statements.
+
+\vspace{0.2cm}
+
+\begin{lstlisting}[language=Python]
+# ______________________________________________________
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# ______________________________________________________
+
+class Plant:
+
+    # ___________________________________________________
+    def __init__(self, name, height, sunlight):
+        self.name = name
+        self.height = height
+        self.sunlight = sunlight
+
+    # ___________________________________________________
+    def __str__(self):
+        return f"{self.name}: {self.height} cm, {self.sunlight} hours"
+
+    # ___________________________________________________
+    def needs_attention(self):
+        return self.height < 10 or self.sunlight < 4
+
+
+# ______________________________________________________
+
+plants = []
+
+df = pd.read_csv("plants.csv")
+
+for _, row in df.iterrows():
+    plants.append(
+        Plant(row["Name"], row["Height"], row["Sunlight"])
+    )
+
+
+# _______________________________________________________
+
+attention = [p for p in plants if p.needs_attention()]
+
+for p in attention:
+    print(p)
+
+
+# _______________________________________________________
+
+plot_df = pd.DataFrame({
+    "Name": [p.name for p in plants],
+    "Height": [p.height for p in plants]
+})
+
+plt.bar(plot_df["Name"], plot_df["Height"])
+plt.xlabel("Plant")
+plt.ylabel("Height (cm)")
+plt.title("Plant Heights")
+plt.show()
+\end{lstlisting}
+
+\noindent\textbf{Questions:}
+
+\begin{enumerate}[label=\arabic*.]
+\item What type of values are stored in the \texttt{plants} list after the \texttt{for} loop completes?
+\vspace{0.6in}
+
+\item Why is this program an example of using a collection of objects?
+\vspace{0.6in}
+
+\item What condition causes a plant to be added to the \texttt{attention} list?
+\vspace{0.6in}
+
+\item What is the purpose of the two list comprehensions near the end of the program?
+\vspace{0.6in}
+
+\item Suppose a new subclass \texttt{Flower} inherited from \texttt{Plant} and overrode \texttt{needs\_attention}. Why could the main loop still work without major changes?
+\vspace{1.0in}
+\end{enumerate}
+
+\newpage
+
+\section*{Part V: Short Answer / Conceptual Design (10 points)}
+
+Answer both questions briefly but clearly.
+
+\begin{enumerate}[label=\arabic*.]
+\item In this course we repeatedly moved between raw data, data structures, objects, and visual/model-based summaries. Explain why choosing the right representation for data is an important part of algorithm design.
+
+\vspace{2.2in}
+
+\item A student writes a long program in one file with no functions and repeated blocks of similar code. Explain two reasons why refactoring the program into functions and/or classes would make it easier to test, debug, or extend.
+
+\vspace{2.2in}
+\end{enumerate}
+
+\end{document}
